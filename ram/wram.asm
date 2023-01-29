@@ -1476,11 +1476,11 @@ wAnnonID:: ds 1
 wd875:: ds 1
 wd876:: ds 1
 
-	ds 5
+	ds 0
 
 wd87c:: ds 1
 
-	ds 5
+	ds 0
 
 wd882:: ds 1
 wd883:: ds 1
@@ -1488,20 +1488,20 @@ wd884:: ds 1
 
 SECTION "D8A2", WRAM0[$D8A2]
 
-wd8a2:: ds 1
-wd8a3:: ds 1
-wd8a4:: ds 1
-wd8a5:: ds 1
+wd8a2:: ds 3
+wd8a3:: ds 3
+wd8a4:: ds 3
+wd8a5:: ds 3
 
-	ds 5
+	ds 0
 
 wd8ab:: ds 1
 
 SECTION "wd8b1", WRAM0[$D8B1]
 
-wd8b1:: ds 1
+wd8b1:: ds 18
 
-	ds 5
+	ds 0
 
 wd8b7:: ds 1
 wd8b8:: ds 1
@@ -1510,7 +1510,7 @@ SECTION "D8D1", WRAM0[$D8D1]
 
 wd8d1:: ds 1
 
-	ds 5
+	ds 0
 
 wd8d7:: ds 1
 

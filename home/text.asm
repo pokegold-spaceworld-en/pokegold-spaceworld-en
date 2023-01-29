@@ -4,7 +4,7 @@ SECTION "home/text.asm", ROM0
 
 ClearBox::
 ; Fill a c*b box at hl with blank tiles.
-	ld a, "　"
+	ld a, " "
 	; fallthrough
 
 FillBoxWithByte::
@@ -28,7 +28,7 @@ ClearTileMap::
 
 	hlcoord 0, 0
 	ld bc, SCREEN_HEIGHT * SCREEN_WIDTH
-	ld a, "　"
+	ld a, " "
 	call ByteFill
 	ldh a, [rLCDC]
 	bit 7, a
@@ -54,7 +54,7 @@ DrawTextBox::
 	push hl
 	ld a, "│"
 	ld [hli], a
-	ld a, "　"
+	ld a, " "
 	call .PlaceChars
 	ld [hl], "│"
 	pop hl
@@ -154,7 +154,7 @@ ENDM
 	dict "<TM>", TMChar
 	dict "<TRAINER>", TrainerChar
 	dict "<CONT>", ContText
-	dict "<⋯⋯>", SixDotsChar
+	dict "<……>", SixDotsChar
 	dict "<DONE>", DoneText
 	dict "<PROMPT>", PromptText
 	dict "<GA>", GaCharacter
@@ -181,11 +181,11 @@ ENDM
 	jr nc, .handakuten
 	cp FIRST_HIRAGANA_DAKUTEN_CHAR
 	jr nc, .hiragana_dakuten
-	add "カ" - "ガ"
+	add "F" - "ガ"
 	jr .katakana_dakuten
 
 .hiragana_dakuten:
-	add "か" - "が"
+	add "w" - "が"
 .katakana_dakuten:
 	push af
 	ld a, "ﾞ"
@@ -200,7 +200,7 @@ ENDM
 .handakuten:
 	cp "ぱ"
 	jr nc, .hiragana_handakuten
-	add "ハ" - "パ"
+	add "Z" - "パ"
 	jr .katakana_handakuten
 
 .hiragana_handakuten:
@@ -231,7 +231,7 @@ NullChar::
 
 .Text:
 	deciram hEventID, 1, 2
-	text "エラー"
+	text "Df-"
 	done
 
 MACRO print_name
@@ -280,14 +280,14 @@ PlaceCommandCharacter:
 	inc de
 	jp PlaceNextChar
 
-TMCharText::      db "わざマシン@"
-TrainerCharText:: db "トレーナー@"
-PCCharText::      db "パソコン@"
-RocketCharText::  db "ロケットだん@"
-POKeCharText::    db "ポケモン@"
-SixDotsCharText:: db "⋯⋯@"
-EnemyText::       db "てきの　@"
-GaCharacterTExt:: db "が　@"
+TMCharText::      db "わざ;Ll@"
+TrainerCharText:: db "Th-U-@"
+PCCharText::      db "パOJl@"
+RocketCharText::  db "iImTだん@"
+POKeCharText::    db "POKé@"
+SixDotsCharText:: db "……@"
+EnemyText::       db "äxの @"
+GaCharacterTExt:: db "が @"
 
 ContText::
 	push de
@@ -306,7 +306,7 @@ ContText::
 	db "@"
 
 PlaceDexEnd::
-	ld [hl], "。"
+	ld [hl], "."
 	pop hl
 	ret
 
@@ -379,7 +379,7 @@ ScrollTextUpOneLine::
 	dec b
 	jr nz, .copyText
 	coord hl, TEXTBOX_INNERX, TEXTBOX_INNERY + 2
-	ld a, "　"
+	ld a, " "
 	ld b, TEXTBOX_INNERW
 .clearText
 	ld [hli], a
@@ -675,7 +675,7 @@ Text_TX_DOTS:
 	ld h, b
 	ld l, c
 .loop
-	ld a, "⋯"
+	ld a, "…"
 	ld [hli], a
 	push de
 	call GetJoypad

@@ -153,7 +153,7 @@ endr
 .CheckTriesRemaining:
 	ld a, [wMemoryGameNumberTriesRemaining]
 	hlcoord 17, 0
-	add "０"
+	add "0"
 	ld [hl], a
 	ld hl, wMemoryGameNumberTriesRemaining
 	ld a, [hl]
@@ -358,11 +358,11 @@ MemoryGame_CheckMatch:
 	ret
 
 .YeahText:
-	text "　いただき！"
+	text " sÄだx!"
 	done
 
 .DarnText:
-	text "ざんねん⋯⋯"
+	text "ざんねん……"
 	done
 
 MemoryGame_InitBoard:
@@ -501,9 +501,9 @@ MemoryGame_InitStrings:
 .dummy_text
 	db "@"
 .str1
-	db "とったもの@"
+	db "ö←Ärの@"
 .str2
-	db "あと　かい@"
+	db "rö ws@"
 
 MemoryGame_Card2Coord:
 	ld d, 0

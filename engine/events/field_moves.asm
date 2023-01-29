@@ -137,7 +137,7 @@ FailCut:
 	ret
 
 Text_CantUseCutHere:
-	text "ここでは　つかえません"
+	text "ここでは Üwuません"
 	prompt
 
 DoCut:
@@ -174,8 +174,8 @@ CutScript:
 
 Text_CutItDown:
 	text_from_ram wStringBuffer2
-	text "　は　"
-	line "くさかりを　つかった！"
+	text " は "
+	line "yさwりを Üw←Ä!"
 	prompt
 
 SurfFunction:
@@ -233,8 +233,8 @@ FailSurf:
 	ret
 
 Text_CantSurfHere:
-	text "ここでは　のることが"
-	next "できません"
+	text "ここでは のるこöが"
+	next "でxません"
 	prompt
 
 SurfScript:
@@ -257,10 +257,10 @@ SurfScript:
 
 Text_UsedSurf:
 	text_from_ram wStringBuffer2
-	text "　は　"
+	text " は "
 	line "@"
 	text_from_ram wPlayerName
-	text "を　のせた！"
+	text "を のせÄ!"
 	prompt
 
 MovePlayerIntoWater:
@@ -369,7 +369,7 @@ FailFly:
 	ret
 
 Text_CantUseFlyHere:
-	text "ここでは　つかえません！"
+	text "ここでは Üwuません!"
 	prompt
 
 FlyScript:
@@ -431,7 +431,7 @@ FailDig:
 	ret
 
 Text_CantUseDigHere:
-	text "ここでは　つかえません！"
+	text "ここでは Üwuません!"
 	prompt
 
 DigScript:
@@ -501,7 +501,7 @@ CheckIfSpawnPoint:
 	ret
 
 Text_CantFindDestination:
-	text "とびさきが　みつかりません"
+	text "öびさxが dÜwりません"
 	para ""
 	done
 
@@ -520,7 +520,7 @@ FailTeleport:
 	ret
 
 Text_CantUseTeleportHere:
-	text "ここでは　つかえません！"
+	text "ここでは Üwuません!"
 	para ""
 	done
 
@@ -537,6 +537,6 @@ TeleportScript:
 	jpab Functionfcc24
 
 Text_ReturnToLastMonCenter:
-	text "さいごに　たちよった"
-	line "#センターにもどります"
+	text "さsごに ÄÖv←Ä"
+	line "#NlP-にrどります"
 	done

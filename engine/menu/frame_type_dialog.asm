@@ -33,11 +33,11 @@ FrameTypeDialog:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 8 ; items
-	db "１ばんめ@"
-	db "２ばんめ@"
-	db "３ばんめ@"
-	db "４ばんめ@"
-	db "５ばんめ@"
-	db "６ばんめ@"
-	db "７ばんめ@"
-	db "８ばんめ@"
+	db "1ばんm@"
+	db "2ばんm@"
+	db "3ばんm@"
+	db "4ばんm@"
+	db "5ばんm@"
+	db "6ばんm@"
+	db "7ばんm@"
+	db "8ばんm@"

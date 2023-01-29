@@ -24,10 +24,10 @@ FieldDebug_Teleport:
 	ret
 
 .MapRegisteredText:
-	text "このばしょを　とうろくしました"
+	text "このばし<MN>を ötろyしましÄ"
 	para "<DONE>"
 
 .CannotRegisterMapText:
-	text "ここは　とうろくできません！"
+	text "ここは ötろyでxません!"
 	para "<DONE>"
 

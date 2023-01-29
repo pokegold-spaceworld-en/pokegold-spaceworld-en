@@ -361,7 +361,7 @@ FieldDebug_SpriteViewer:
 	ret
 
 .FollowPromptString:
-	text "これを　せんたくしますか？"
+	text "これを せんÄyしますw?"
 	done
 
 .SetStartingPoint:
@@ -378,7 +378,7 @@ LoadUnderDevelopmentString:
 	ret
 
 .String:
-	db "かいはつちゅう@"
+	db "wsはÜÖ<PK>t@"
 
 Functionfc689:
 	ld de, wVirtualOAM

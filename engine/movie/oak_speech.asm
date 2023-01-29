@@ -366,100 +366,104 @@ DemoItemList::
 	db $FF
 
 DemoPlayerName::
-	db "サトシ@"
+	db "ASH@"
 
 DemoRivalName::
-	db "シゲル@"
+	db "KEN@"
 
 OakSpeechDemo::
-	text "ようこそ"
-	line "ポケット　モンスターの　せかいへ！"
-	cont "ごぞんじ　わしが　オーキドじゃ！"
+	text "Welcome to the"
+	line "world of #MON!"
+	cont "As you know my"
+	cont "name is OAK!"	
 
-	para "きょう　きみに　きてもらったのは"
-	line "ほかでもない"
-	cont "あたらしい　ずかんづくりを"
-	cont "てつだって　ほしいのじゃ！"
-
-	para "もちろん"
-	line "きみの　パートナーとなる　ポケモンと"
-	cont "りュックは　ようい　しておる"
-
-	para "りュックの　なかには"
-	line "キズぐすりと"
-	cont "モンスターボールが"
-	cont "はいっておるから　あんしんじゃ！"
-
-	para "すでに　きみの　ライバルは"
-	line "しゅっぱつ　しとる"
-
-	para "まけないよう　がんばって　くれい！"
+;	para "I have called you"
+;	line "here today because"	
+;	cont "I want you to help"		
+;	cont "me with the new"	
+;	cont "#DEX!"		
+;
+;	para "I have prepared"
+;	line "a #MON and a"
+;	cont "PACK with POTIONs"
+;	cont "and # BALLs!"	
+;
+;	para "Your RIVAL already"
+;	line "left, so give it"
+;	cont "your best. I'm"
+;	cont "counting on you!"		
 	prompt
 
 OakSpeech1::
-	text "いやあ　またせた！"
+;	text "Oh! Sorry for"
+;	line "the wait."	
 
-	para "ポケット　モンスターの　せかいへ"
-	line "ようこそ！"
+	para "Welcome to the"
+	line "world of #MON!"
 
-	para "わたしの　なまえは　オーキド"
-
-	para "みんなからは　#　はかせと"
-	line "したわれて　おるよ"
+	para "My name is OAK!"
+	line "People call me"
+	cont "the #MON PROF!"
 	prompt
 
 OakSpeech2::
-	text "きみも　もちろん"
-	line "しっているとは　おもうが"
+	;text "As you surely"
+	;line "already know…"
 
-	para "この　せかいには"
-	line "ポケット　モンスターと　よばれる"
-	cont "いきもの　たちが"
-	cont "いたるところに　すんでいる！"
+	text "This world is"
+	line "inhabited by"
+	cont "creatures called"
+	cont "#MON!"
 	prompt
 
 OakSpeech3::
-	text "その　#　という　いきものを"
-	line "ひとは　ぺットに　したり"
-	cont "しょうぶに　つかったり"
-	cont "そして・・・"
+	text "For some people,"
+	line "#MON are"
+	cont "pets. Others use"
+	cont "them for fights."
+	
+	para "Myself…"	
 
-	para "わたしは　この　#の"
-	line "けんきゅうを　してる　というわけだ"
+	para "I study #MON"
+	line "as a profession."
 	prompt
 
 OakSpeech4::
-	text "では　はじめに　きみの　なまえを"
-	line "おしえて　もらおう！"
+	text "First, what is"
+	line "your name?"
 	prompt
 
 OakSpeech5::
-	text "そして　この　しょうねんは"
-	line "きみの　おさななじみであり"
-	cont"ライバルである"
+	text "Then there's this"
+	line "boy. He's been"
+	cont"your rival since"
+	cont"you were a baby."	
 
-	para "・・・えーと？"
-	line "なまえは　なんて　いったかな？"
+	para "…Erm, what is"
+	line "his name again?"
 	prompt
 
 OakSpeech6::
-	text "さて　きみの　きねんすべき"
-	line "たびだちのひを"
-	cont "きろくしておこう！"
+	text "Let's start your"
+	line "adventure by"
+	cont "setting the day!"	
 
-	para "じかんも　なるべく　せいかくにな！"
+;	para "Be sure to be"
+;	line "precise when"
+;	cont "setting the time!"	
 	prompt
 
 OakSpeech7::
-	text "<PLAYER>！"
+	text "<PLAYER>!"
 
-	para "いよいよ　これから"
-	line "きみの　ものがたりの　はじまりだ！"
+	para "Your very own"
+	line "#MON legend is"
+	cont "about to unfold!"	
 
-	para "ゆめと　ぼうけんと！"
-	line "ポケット　モンスターの　せかいへ！"
-
-	para "レッツ　ゴー！"
+	para "A world of dreams"
+	line "and adventures"
+	cont "with #MON"		
+	cont "awaits! Let's go!"
 	done
 
 SetPlayerNamesDebug::
@@ -475,10 +479,10 @@ CopyNameDebug:
 	ret
 
 DebugPlayerName:
-	db "コージ@"
+	db "KOJI@"
 
 DebugRivalName:
-	db "レッド@"
+	db "RED@"
 
 ChoosePlayerName::
 	call PanPortraitRight
@@ -513,8 +517,8 @@ ChoosePlayerName::
 	ret
 
 ChoosePlayerNameEndText:
-	text "ふむ・・・"
-	line "<PLAYER>　と　いうんだな！"
+	text "Right! So your"
+	line "name is <PLAYER>!"
 	prompt
 
 PlayerNameMenuHeader:
@@ -526,12 +530,12 @@ PlayerNameMenuHeader:
 PlayerNameMenuData:
 	db STATICMENU_CURSOR | STATICMENU_PLACE_TITLE | STATICMENU_DISABLE_B
 	db 04 ; items
-	db "じぶんできめる@"
-	db "ゴールド@"
-	db "サトシ@"
-	db "ジャック@"
+	db "NEW NAME@"
+	db "GOLD@"
+	db "ASH@"
+	db "JACK@"
 	db 3 ; x offset for the title string
-	db "なまえこうほ@"
+	db "NAME@"
 
 ChooseRivalName::
 	call PanPortraitRight
@@ -566,8 +570,9 @@ ChooseRivalName::
 	ret
 
 ChooseRivalNameEndText:
-	text "そうか　そうだったな"
-	line "<RIVAL>　という　なまえだ"
+	text "That's right! I"
+	line "remember now! His"
+	cont "name is <RIVAL>!"	
 	prompt
 
 RivalNameMenuHeader:
@@ -579,12 +584,12 @@ RivalNameMenuHeader:
 RivalNameMenuData:
 	db STATICMENU_CURSOR | STATICMENU_PLACE_TITLE | STATICMENU_DISABLE_B
 	db 04 ; items
-	db "じぶんできめる@"
-	db "シルバー@"
-	db "シゲル@"
-	db "ジョン@"
+	db "NEW NAME@"
+	db "SILVER@"
+	db "GARY@"
+	db "JOHN@"
 	db 3
-	db "なまえこうほ@"
+	db "NAME@"
 
 MomNamePrompt::
 	ld hl, MomNameMenuHeader
@@ -622,12 +627,12 @@ MomNameMenuHeader:
 .MomNameMenuData:
 	db STATICMENU_CURSOR | STATICMENU_PLACE_TITLE | STATICMENU_DISABLE_B
 	db 04 ; items
-	db "じぶんで　きめる@"
-	db "おかあさん@"
-	db "ママ@"
-	db "かあちゃん@"
+	db "NEW NAME@"
+	db "MOM@"
+	db "MA@"
+	db "MOMMY@"
 	db 3
-	db "なまえこうほ@"
+	db "NAME@"
 
 NamingWindow::
 	; loads the menu header put into hl

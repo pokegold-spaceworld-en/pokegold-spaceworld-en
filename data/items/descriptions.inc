@@ -256,920 +256,920 @@ ItemDescriptions::
 	dw ItemFFDescription
 
 MasterBallDescription:
-	db   "ポケモンを　つかまえることが　できる@"
+	db   "ポIblを Üwまuるこöが でxる@"
 
 UltraBallDescription:
-	db   "ポケモンを　つかまえることが　できる@"
+	db   "ポIblを Üwまuるこöが でxる@"
 
 Item03Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 GreatBallDescription:
-	db   "ポケモンを　つかまえることが　できる@"
+	db   "ポIblを Üwまuるこöが でxる@"
 
 PokeBallDescription:
-	db   "ポケモンを　つかまえることが　できる@"
+	db   "ポIblを Üwまuるこöが でxる@"
 
 TownMapDescription:
-	db   "マップを　みることが　できる@"
+	db   ";mプを dるこöが でxる@"
 
 BicycleDescription:
-	db   "２ばいの　はやさで　いどうできる"
-	next "しつないでは　のることが　できない@"
+	db   "2ばsの はsさで sどtでxる"
+	next "しÜüsでは のるこöが でxüs@"
 
 MoonStoneDescription:
-	db   "とくていの　ポケモンを　しんかさせる@"
+	db   "öyäsの ポIblを しんwさせる@"
 
 AntidoteDescription:
-	db   "どく　じょうたいから　かいふくする@"
+	db   "どy じ<MN>tÄswら wsふyする@"
 
 BurnHealDescription:
-	db   "やけど　じょうたいから　かいふくする@"
+	db   "szど じ<MN>tÄswら wsふyする@"
 
 IceHealDescription:
-	db   "こおり　じょうたいから　かいふくする@"
+	db   "こvり じ<MN>tÄswら wsふyする@"
 
 AwakeningDescription:
-	db   "ねむり　じょうたいから　かいふくする@"
+	db   "ねlり じ<MN>tÄswら wsふyする@"
 
 ParlyzHealDescription:
-	db   "マヒ　じょうたいから　かいふくする@"
+	db   ";( じ<MN>tÄswら wsふyする@"
 
 FullRestoreDescription:
-	db   "すべての　ステータスいじょうと"
-	next "たいりょくを　ぜんかいふくする　　@"
+	db   "すべäの MS-PMsじ<MN>tö"
+	next "Äsり<MN>yを ぜんwsふyする  @"
 
 MaxPotionDescription:
-	db   "たいりょくを　ぜんかいふくする　　@"
+	db   "Äsり<MN>yを ぜんwsふyする  @"
 
 HyperPotionDescription:
-	db   "たいりょくを２００　かいふくする　　@"
+	db   "Äsり<MN>yを200 wsふyする  @"
 
 SuperPotionDescription:
-	db   "たいりょくを５０　かいふくする　　@"
+	db   "Äsり<MN>yを50 wsふyする  @"
 
 PotionDescription:
-	db   "たいりょくを２０　かいふくする　　@"
+	db   "Äsり<MN>yを20 wsふyする  @"
 
 EscapeRopeDescription:
-	db   "ダンジョンから　ぬけだす@"
+	db   "ダlジplwら ぬzだす@"
 
 RepelDescription:
-	db   "１００ぽのあいだ　よわい　ポケモンと"
-	next "エンカウントしなくなる@"
+	db   "100ぽのrsだ vわs ポIblö"
+	next "DlFClTしüyüる@"
 
 MaxElixerDescription:
-	db   "ポケモン　１たいの"
-	next "ピーピー　すべてを　ぜんかいふくする@"
+	db   "ポIbl 1Äsの"
+	next "ピ-ピ- すべäを ぜんwsふyする@"
 
 FireStoneDescription:
-	db   "とくていの　ポケモンを　しんかさせる@"
+	db   "öyäsの ポIblを しんwさせる@"
 
 ThunderstoneDescription:
-	db   "とくていの　ポケモンを　しんかさせる@"
+	db   "öyäsの ポIblを しんwさせる@"
 
 WaterStoneDescription:
-	db   "とくていの　ポケモンを　しんかさせる@"
+	db   "öyäsの ポIblを しんwさせる@"
 
 Item19Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 HPUpDescription:
-	db   "たいりょくの　さいだいちを　ふやす@"
+	db   "Äsり<MN>yの さsだsÖを ふsす@"
 
 ProteinDescription:
-	db   "こうげきの　きそポイントを　あげる@"
+	db   "こtげxの xそポBlTを rげる@"
 
 IronDescription:
-	db   "ぼうぎょの　きそポイントを　あげる@"
+	db   "ぼtぎ<MN>の xそポBlTを rげる@"
 
 CarbosDescription:
-	db   "すばやさの　きそポイントを　あげる@"
+	db   "すばsさの xそポBlTを rげる@"
 
 Item1EDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 CalciumDescription:
-	db   "とくしゅの　きそポイントを　あげる@"
+	db   "öyし<PK>の xそポBlTを rげる@"
 
 RareCandyDescription:
-	db   "ポケモンの　レべルを　１つあげる@"
+	db   "ポIblの hべgを 1Ürげる@"
 
 XAccuracyDescription:
-	db   "しようした　せんとうちゅうだけ"
-	next "めいちゅうりつが　あがる@"
+	db   "しvtしÄ せんötÖ<PK>tだz"
+	next "msÖ<PK>tりÜが rがる@"
 
 LeafStoneDescription:
-	db   "とくていの　ポケモンを　しんかさせる@"
+	db   "öyäsの ポIblを しんwさせる@"
 
 Item23Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 NuggetDescription:
-	db   "きんで　できた　タマ"
-	next "たかく　うれる@"
+	db   "xんで でxÄ P;"
+	next "Äwy tれる@"
 
 PokeDollDescription:
-	db   "エンカウントした　ポケモンから"
-	next "かならず　にげられる@"
+	db   "DlFClTしÄ ポIblwら"
+	next "wüらず にげられる@"
 
 FullHealDescription:
-	db   "すべての　ステータスいじょうの"
-	next "じょうたいから　かいふくする@"
+	db   "すべäの MS-PMsじ<MN>tの"
+	next "じ<MN>tÄswら wsふyする@"
 
 ReviveDescription:
-	db   "たいりょくが　はんぶんで"
-	next "ひんしじょうたいから　かいふくする@"
+	db   "Äsり<MN>yが はんぶんで"
+	next "ひんしじ<MN>tÄswら wsふyする@"
 
 MaxReviveDescription:
-	db   "たいりょくが　ぜんかいで"
-	next "ひんしじょうたいから　かいふくする@"
+	db   "Äsり<MN>yが ぜんwsで"
+	next "ひんしじ<MN>tÄswら wsふyする@"
 
 GuardSpecDescription:
-	db   "しようした　せんとうちゅうだけ"
-	next "とくしゅぼうぎょが　あがる@"
+	db   "しvtしÄ せんötÖ<PK>tだz"
+	next "öyし<PK>ぼtぎ<MN>が rがる@"
 
 SuperRepelDescription:
-	db   "２００ぽのあいだ　よわい　ポケモンと"
-	next "エンカウントしなくなる@"
+	db   "200ぽのrsだ vわs ポIblö"
+	next "DlFClTしüyüる@"
 
 MaxRepelDescription:
-	db   "２５０ぽのあいだ　よわい　ポケモンと"
-	next "エンカウントしなくなる@"
+	db   "250ぽのrsだ vわs ポIblö"
+	next "DlFClTしüyüる@"
 
 DireHitDescription:
-	db   "しようした　せんとうちゅうだけ"
-	next "クりティカルりつが　あがる@"
+	db   "しvtしÄ せんötÖ<PK>tだz"
+	next "HりSqFgりÜが rがる@"
 
 Item2DDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 FreshWaterDescription:
-	db   "たいりょくを５０　かいふくする　　@"
+	db   "Äsり<MN>yを50 wsふyする  @"
 
 SodaPopDescription:
-	db   "たいりょくを６０　かいふくする　　@"
+	db   "Äsり<MN>yを60 wsふyする  @"
 
 LemonadeDescription:
-	db   "たいりょくを８０　かいふくする　　@"
+	db   "Äsり<MN>yを80 wsふyする  @"
 
 XAttackDescription:
-	db   "しようした　せんとうちゅうだけ"
-	next "こうげきが　あがる@"
+	db   "しvtしÄ せんötÖ<PK>tだz"
+	next "こtげxが rがる@"
 
 Item32Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 XDefendDescription:
-	db   "しようした　せんとうちゅうだけ"
-	next "ぼうぎょが　あがる@"
+	db   "しvtしÄ せんötÖ<PK>tだz"
+	next "ぼtぎ<MN>が rがる@"
 
 XSpeedDescription:
-	db   "しようした　せんとうちゅうだけ"
-	next "すばやさが　あがる@"
+	db   "しvtしÄ せんötÖ<PK>tだz"
+	next "すばsさが rがる@"
 
 XSpecialDescription:
-	db   "しようした　せんとうちゅうだけ"
-	next "とくしゅこうげきが　あがる@"
+	db   "しvtしÄ せんötÖ<PK>tだz"
+	next "öyし<PK>こtげxが rがる@"
 
 CoinCaseDescription:
-	db   "もっていると　コインを　"
-	next "９９９９まいまで　もつことが　できる@"
+	db   "r←äsるö JBlを "
+	next "9999まsまで rÜこöが でxる@"
 
 ItemfinderDescription:
-	db   "かくされた　どうぐが　"
-	next "がめんないにあると　おとがなる@"
+	db   "wyされÄ どtぐが "
+	next "がmんüsにrるö vöがüる@"
 
 PokeFluteDescription:
-	db   "ねむっている　ポケモンを　おこす@"
+	db   "ねl←äsる ポIblを vこす@"
 
 ExpShareDescription:
-	db   "たたかわなかった　ポケモンにも"
-	next "けいけんちが　ふりわけられる@"
+	db   "ÄÄwわüw←Ä ポIblにr"
+	next "zszんÖが ふりわzられる@"
 
 OldRodDescription:
-	db   "ポケモンが　つれる@"
+	db   "ポIblが Üれる@"
 
 GoodRodDescription:
-	db   "ポケモンが　つれる@"
+	db   "ポIblが Üれる@"
 
 Item3CDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 SuperRodDescription:
-	db   "ポケモンが　つれる@"
+	db   "ポIblが Üれる@"
 
 PPUpDescription:
-	db   "わざポイントの　さいだいちが　あがる@"
+	db   "わざポBlTの さsだsÖが rがる@"
 
 EtherDescription:
-	db   "ポケモン１たいの　１つの　"
-	next "わざポイントを　１０かいふくする　　@"
+	db   "ポIbl1Äsの 1Üの "
+	next "わざポBlTを 10wsふyする  @"
 
 MaxEtherDescription:
-	db   "ポケモン１たいの　１つの"
-	next "わざポイントを　ぜんかいふくする　　@"
+	db   "ポIbl1Äsの 1Üの"
+	next "わざポBlTを ぜんwsふyする  @"
 
 ElixerDescription:
-	db   "ポケモン１たいの　すべての"
-	next "わざポイントを　１０かいふくする　　@"
+	db   "ポIbl1Äsの すべäの"
+	next "わざポBlTを 10wsふyする  @"
 
 MysticPetalDescription:
-	db   "そうびすると　くさタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö yさPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 WhiteFeatherDescription:
-	db   "そうびすると　ひこうタイプの"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö ひこtPBプの"
+	next "わざのsり<MN>yを vわmられる@"
 
 ConfuseClawDescription:
-	db   "そうびすると　せんとうの　まえに"
-	next "てきに　ダメージを　あたえる@"
+	db   "そtびするö せんötの まuに"
+	next "äxに ダa-ジを rÄuる@"
 
 WisdomOrbDescription:
-	db   "そうびすると　"
-	next "とくしゅぼうぎょが　１０あがる@"
+	db   "そtびするö "
+	next "öyし<PK>ぼtぎ<MN>が 10rがる@"
 
 SteelShellDescription:
-	db   "そうびすると　"
-	next "ぼうぎょが　１０あがる@"
+	db   "そtびするö "
+	next "ぼtぎ<MN>が 10rがる@"
 
 UpGradeDescription:
-	db   "そうびすると　"
-	next "すべての　のうりょくが　５あがる@"
+	db   "そtびするö "
+	next "すべäの のtり<MN>yが 5rがる@"
 
 StrangeThreadDescription:
-	db   "そうびすると"
-	next "てきの　こうげきを　よけることがある@"
+	db   "そtびするö"
+	next "äxの こtげxを vzるこöがrる@"
 
 BigLeafDescription:
-	db   "そうびすると　くさタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö yさPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 QuickNeedleDescription:
-	db   "そうびすると"
-	next "せんせいこうげき　することがある@"
+	db   "そtびするö"
+	next "せんせsこtげx するこöがrる@"
 
 Item4BDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 SharpStoneDescription:
-	db   "そうびすると　いわタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö sわPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 BlackFeatherDescription:
-	db   "そうびすると　ひこうタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö ひこtPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 SharpFangDescription:
-	db   "そうびすると　ノーマルタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö Y-;gPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 SnakeskinDescription:
-	db   "そうびすると　"
-	next "どく　じょうたいに　ならない@"
+	db   "そtびするö "
+	next "どy じ<MN>tÄsに üらüs@"
 
 ElectricPouchDescription:
-	db   "そうびすると　でんきタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö でんxPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 ToxicNeedleDescription:
-	db   "そうびすると　どくタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö どyPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 KingsRockDescription:
-	db   "そうびすると"
-	next "たまに　てきが　ひるむことがある@"
+	db   "そtびするö"
+	next "Äまに äxが ひるlこöがrる@"
 
 StrangePowerDescription:
-	db   "そうびすると　"
-	next "すべての　タイプこうかが　むこう@"
+	db   "そtびするö "
+	next "すべäの PBプこtwが lこt@"
 
 LifeTagDescription:
-	db   "そうびすると　せんとうごに"
-	next "ひんし　じょうたいから　かいふくする@"
+	db   "そtびするö せんötごに"
+	next "ひんし じ<MN>tÄswら wsふyする@"
 
 PoisonFangDescription:
-	db   "そうびすると　どくタイプの"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö どyPBプの"
+	next "わざのsり<MN>yが rがる@"
 
 CordycepsDescription:
-	db   "りっぱな　キノコ"
-	next "たかく　うれる@"
+	db   "り←ぱü GYJ"
+	next "Äwy tれる@"
 
 DragonFangDescription:
-	db   "そうびすると　ドラゴンタイプの"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö ドfゴlPBプの"
+	next "わざのsり<MN>yが rがる@"
 
 SilverpowderDescription:
-	db   "そうびすると　むしタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö lしPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 DiggingClawDescription:
-	db   "そうびすると　せんとういがいで"
-	next "あなをほるが　つかえるようになる@"
+	db   "そtびするö せんötsがsで"
+	next "rüをほるが Üwuるvtにüる@"
 
 Item5ADescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 AmuletCoinDescription:
-	db   "そうびすると　"
-	next "もらえる　おかねが　２ばい@"
+	db   "そtびするö "
+	next "rらuる vwねが 2ばs@"
 
 MigraineSeedDescription:
-	db   "そうびすると　エスパータイプの"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö DMパ-PBプの"
+	next "わざのsり<MN>yが rがる@"
 
 CounterCuffDescription:
-	db   "そうびすると　４ぶんの１で"
-	next "てきに　はんげきする　@"
+	db   "そtびするö 4ぶんの1で"
+	next "äxに はんげxする @"
 
 TalismanTagDescription:
-	db   "そうびすると　"
-	next "エンカウント　しにくくなる@"
+	db   "そtびするö "
+	next "DlFClT しにyyüる@"
 
 StrangeWaterDescription:
-	db   "そうびすると　みずタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö dずPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 TwistedspoonDescription:
-	db   "そうびすると　エスパータイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö DMパ-PBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 AttackNeedleDescription:
-	db   "そうびすると　むしタイプの"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö lしPBプの"
+	next "わざのsり<MN>yが rがる@"
 
 PowerBracerDescription:
-	db   "そうびすると　かくとうタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö wyötPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 HardStoneDescription:
-	db   "そうびすると　いわタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö sわPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 Item64Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 JigglingBalloonDescription:
-	db   "そうびすると　ノーマルタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö Y-;gPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 FireManeDescription:
-	db   "そうびすると　ほのおタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö ほのvPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 SlowpoketailDescription:
-	db   "とても　おいしい"
-	next "たかく　うれる@"
+	db   "öär vsしs"
+	next "Äwy tれる@"
 
 EarthDescription:
-	db   "そうびすると"
-	next "マヒ　じょうたいに　ならない@"
+	db   "そtびするö"
+	next ";( じ<MN>tÄsに üらüs@"
 
 StickDescription:
-	db   "そうびすると　ノーマルタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö Y-;gPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 FleeFeatherDescription:
-	db   "そうびすると　１ターン　かけないで"
-	next "ほかの　ポケモンと　こうたいできる@"
+	db   "そtびするö 1P-l wzüsで"
+	next "ほwの ポIblö こtÄsでxる@"
 
 IceFangDescription:
-	db   "そうびすると　こおりタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö こvりPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 FossilShardDescription:
-	db   "そうびすると　じめんタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö じmんPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 GrossGarbageDescription:
-	db   "そうびすると　どくタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö どyPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 BigPearlDescription:
-	db   "きれいな　しんじゅ"
-	next "たかく　うれる@"
+	db   "xれsü しんじ<PK>"
+	next "Äwy tれる@"
 
 ChampionBeltDescription:
-	db   "そうびすると　かくとうタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö wyötPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 TagDescription:
-	db   "そうびすると　ゴーストタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö ゴ-MTPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 SpellTagDescription:
-	db   "そうびすると　"
-	next "エンカウント　しやすくなる@"
+	db   "そtびするö "
+	next "DlFClT しsすyüる@"
 
 FiveYenCoinDescription:
-	db   "そうびすると　エスパータイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö DMパ-PBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 GuardThreadDescription:
-	db   "そうびすると　むしタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö lしPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 StimulusOrbDescription:
-	db   "そうびすると　"
-	next "ねむり　じょうたいに　ならない@"
+	db   "そtびするö "
+	next "ねlり じ<MN>tÄsに üらüs@"
 
 CalmBerryDescription:
-	db   "そうびすると　"
-	next "こんらん　じょうたいに　ならない@"
+	db   "そtびするö "
+	next "こんらん じ<MN>tÄsに üらüs@"
 
 ThickClubDescription:
-	db   "そうびすると　じめんタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö じmんPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 FocusOrbDescription:
-	db   "そうびすると"
-	next "きぜつ　しないで　たえることがある@"
+	db   "そtびするö"
+	next "xぜÜ しüsで Äuるこöがrる@"
 
 Item78Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 DetectOrbDescription:
-	db   "そうびすると"
-	next "てきの　こうげきを　よけることがある@"
+	db   "そtびするö"
+	next "äxの こtげxを vzるこöがrる@"
 
 LongTongueDescription:
-	db   "そうびすると"
-	next "ポケモンの　ほかくりつが　あがる@"
+	db   "そtびするö"
+	next "ポIblの ほwyりÜが rがる@"
 
 LottoTicketDescription:
-	db   "ふくびきが　できる@"
+	db   "ふyびxが でxる@"
 
 EverstoneDescription:
-	db   "そうびすると"
-	next "ポケモンが　しんか　しなくなる@"
+	db   "そtびするö"
+	next "ポIblが しんw しüyüる@"
 
 SharpHornDescription:
-	db   "そうびすると　"
-	next "こうげきが　１０あがる@"
+	db   "そtびするö "
+	next "こtげxが 10rがる@"
 
 LuckyEggDescription:
-	db   "そうびすると　"
-	next "もらえる　けいけんちが　２ばい@"
+	db   "そtびするö "
+	next "rらuる zszんÖが 2ばs@"
 
 LongVineDescription:
-	db   "そうびすると"
-	next "ポケモンの　ほかくりつが　あがる@"
+	db   "そtびするö"
+	next "ポIblの ほwyりÜが rがる@"
 
 MomsLoveDescription:
-	db   "そうびすると　あるくたびに　　"
-	next "たいりょくが１　かいふくする@"
+	db   "そtびするö rるyÄびに  "
+	next "Äsり<MN>yが1 wsふyする@"
 
 SmokescreenItemDescription:
-	db   "そうびすると　"
-	next "エンカウントしたてきから　にげられる@"
+	db   "そtびするö "
+	next "DlFClTしÄäxwら にげられる@"
 
 WetHornDescription:
-	db   "そうびすると　みずタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö dずPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 SkateboardDescription:
-	db   "２ばいの　はやさで　いどうできる"
-	next "しつないでも　のることが　できる@"
+	db   "2ばsの はsさで sどtでxる"
+	next "しÜüsでr のるこöが でxる@"
 
 CrimsonJewelDescription:
-	db   "あかい　ほうせき"
-	next "たかく　うれる@"
+	db   "rws ほtせx"
+	next "Äwy tれる@"
 
 InvisibleWallDescription:
-	db   "そうびすると　とくしゅこうげきの"
-	next "ダメージが　はんぶんになる@"
+	db   "そtびするö öyし<PK>こtげxの"
+	next "ダa-ジが はんぶんにüる@"
 
 SharpScytheDescription:
-	db   "そうびすると"
-	next "クりティカルが　でやすくなる@"
+	db   "そtびするö"
+	next "HりSqFgが でsすyüる@"
 
 Item87Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 IceBikiniDescription:
-	db   "そうびすると　こおりタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö こvりPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 ThunderFangDescription:
-	db   "そうびすると　でんきタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö でんxPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 FireClawDescription:
-	db   "そうびすると　ほのおタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö ほのvPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 TwinHornsDescription:
-	db   "そうびすると　"
-	next "こうげきが　１０あがる@"
+	db   "そtびするö "
+	next "こtげxが 10rがる@"
 
 SpikeDescription:
-	db   "そうびすると　ゴーストタイプの　"
-	next "わざのいりょくが　あがる@"
+	db   "そtびするö ゴ-MTPBプの "
+	next "わざのsり<MN>yが rがる@"
 
 BerryDescription:
-	db   "たいりょくを２０　かいふくする　　@"
+	db   "Äsり<MN>yを20 wsふyする  @"
 
 AppleDescription:
-	db   "たいりょくを５０　かいふくする　　@"
+	db   "Äsり<MN>yを50 wsふyする  @"
 
 MetalCoatDescription:
-	db   "そうびすると　ふつうこうげきの"
-	next "ダメージが　はんぶんになる@"
+	db   "そtびするö ふÜtこtげxの"
+	next "ダa-ジが はんぶんにüる@"
 
 PrettyTailDescription:
-	db   "そうびすると　"
-	next "どく　じょうたいに　ならない@"
+	db   "そtびするö "
+	next "どy じ<MN>tÄsに üらüs@"
 
 WaterTailDescription:
-	db   "そうびすると　"
-	next "やけど　じょうたいに　ならない@"
+	db   "そtびするö "
+	next "szど じ<MN>tÄsに üらüs@"
 
 LeftoversDescription:
-	db   "そうびすると　１ターンごとに　　"
-	next "たいりょくが３０　かいふくする@"
+	db   "そtびするö 1P-lごöに  "
+	next "Äsり<MN>yが30 wsふyする@"
 
 IceWingDescription:
-	db   "そうびすると　"
-	next "とくしゅぼうぎょが　１０あがる@"
+	db   "そtびするö "
+	next "öyし<PK>ぼtぎ<MN>が 10rがる@"
 
 ThunderWingDescription:
-	db   "そうびすると　"
-	next "すばやさが　１０あがる@"
+	db   "そtびするö "
+	next "すばsさが 10rがる@"
 
 FireWingDescription:
-	db   "そうびすると　"
-	next "とくしゅこうげきが　１０あがる@"
+	db   "そtびするö "
+	next "öyし<PK>こtげxが 10rがる@"
 
 Item96Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 DragonScaleDescription:
-	db   "そうびすると　ドラゴンタイプの　"
-	next "わざのいりょくを　よわめられる@"
+	db   "そtびするö ドfゴlPBプの "
+	next "わざのsり<MN>yを vわmられる@"
 
 BerserkGeneDescription:
-	db   "そうびすると　"
-	next "すべての　のうりょくが　１０あがる@"
+	db   "そtびするö "
+	next "すべäの のtり<MN>yが 10rがる@"
 
 HeartStoneDescription:
-	db   "とくていの　ポケモンを　しんかさせる@"
+	db   "öyäsの ポIblを しんwさせる@"
 
 FireTailDescription:
-	db   "そうびすると　"
-	next "こおり　じょうたいに　ならない@"
+	db   "そtびするö "
+	next "こvり じ<MN>tÄsに üらüs@"
 
 ThunderTailDescription:
-	db   "そうびすると　"
-	next "マヒ　じょうたいに　ならない@"
+	db   "そtびするö "
+	next ";( じ<MN>tÄsに üらüs@"
 
 SacredAshDescription:
-	db   "すべてのポケモンを　たいりょく１で"
-	next "ひんし　じょうたいから　かいふくする@"
+	db   "すべäのポIblを Äsり<MN>y1で"
+	next "ひんし じ<MN>tÄswら wsふyする@"
 
 TMHolderDescription:
-	db   "わざマシンを　しまう　ホルダ@"
+	db   "わざ;Llを しまt :gダ@"
 
 MailDescription:
-	db   "とくしゅ　アイテム@"
+	db   "öyし<PK> ABS]@"
 
 BallHolderDescription:
-	db   "とくしゅ　アイテム@"
+	db   "öyし<PK> ABS]@"
 
 BagDescription:
-	db   "ふつうの　どうぐを　しまう　ホルダ@"
+	db   "ふÜtの どtぐを しまt :gダ@"
 
 ImportantBagDescription:
-	db   "だいじな　どうぐを　しまう　ホルダ@"
+	db   "だsじü どtぐを しまt :gダ@"
 
 PoisonStoneDescription:
-	db   "とくていの　ポケモンを　しんかさせる@"
+	db   "öyäsの ポIblを しんwさせる@"
 
 ItemA3Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemA4Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemA5Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemA6Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemA7Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemA8Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemA9Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemAADescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemABDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemACDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemADDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemAEDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemAFDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemB0Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemB1Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemB2Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemB3Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemB4Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemB5Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemB6Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemB7Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemB8Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemB9Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemBADescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemBBDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemBCDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemBDDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemBEDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemBFDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemC0Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemC1Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemC2Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 ItemC3Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 TM01Description:
-	db   "わざマシン０１@"
+	db   "わざ;Ll01@"
 
 TM02Description:
-	db   "わざマシン０２@"
+	db   "わざ;Ll02@"
 
 TM03Description:
-	db   "わざマシン０３@"
+	db   "わざ;Ll03@"
 
 TM04Description:
-	db   "わざマシン０４@"
+	db   "わざ;Ll04@"
 
 ItemC8Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 TM05Description:
-	db   "わざマシン０５@"
+	db   "わざ;Ll05@"
 
 TM06Description:
-	db   "わざマシン０６@"
+	db   "わざ;Ll06@"
 
 TM07Description:
-	db   "わざマシン０７@"
+	db   "わざ;Ll07@"
 
 TM08Description:
-	db   "わざマシン０８@"
+	db   "わざ;Ll08@"
 
 TM09Description:
-	db   "わざマシン０９@"
+	db   "わざ;Ll09@"
 
 TM10Description:
-	db   "わざマシン１０@"
+	db   "わざ;Ll10@"
 
 TM11Description:
-	db   "わざマシン１１@"
+	db   "わざ;Ll11@"
 
 TM12Description:
-	db   "わざマシン１２@"
+	db   "わざ;Ll12@"
 
 TM13Description:
-	db   "わざマシン１３@"
+	db   "わざ;Ll13@"
 
 TM14Description:
-	db   "わざマシン１４@"
+	db   "わざ;Ll14@"
 
 TM15Description:
-	db   "わざマシン１５@"
+	db   "わざ;Ll15@"
 
 TM16Description:
-	db   "わざマシン１６@"
+	db   "わざ;Ll16@"
 
 TM17Description:
-	db   "わざマシン１７@"
+	db   "わざ;Ll17@"
 
 TM18Description:
-	db   "わざマシン１８@"
+	db   "わざ;Ll18@"
 
 TM19Description:
-	db   "わざマシン１９@"
+	db   "わざ;Ll19@"
 
 TM20Description:
-	db   "わざマシン２０@"
+	db   "わざ;Ll20@"
 
 TM21Description:
-	db   "わざマシン２１@"
+	db   "わざ;Ll21@"
 
 TM22Description:
-	db   "わざマシン２２@"
+	db   "わざ;Ll22@"
 
 TM23Description:
-	db   "わざマシン２３@"
+	db   "わざ;Ll23@"
 
 TM24Description:
-	db   "わざマシン２４@"
+	db   "わざ;Ll24@"
 
 TM25Description:
-	db   "わざマシン２５@"
+	db   "わざ;Ll25@"
 
 TM26Description:
-	db   "わざマシン２６@"
+	db   "わざ;Ll26@"
 
 TM27Description:
-	db   "わざマシン２７@"
+	db   "わざ;Ll27@"
 
 TM28Description:
-	db   "わざマシン２８@"
+	db   "わざ;Ll28@"
 
 ItemE1Description:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"
 
 TM29Description:
-	db   "わざマシン２９@"
+	db   "わざ;Ll29@"
 
 TM30Description:
-	db   "わざマシン３０@"
+	db   "わざ;Ll30@"
 
 TM31Description:
-	db   "わざマシン３１@"
+	db   "わざ;Ll31@"
 
 TM32Description:
-	db   "わざマシン３２@"
+	db   "わざ;Ll32@"
 
 TM33Description:
-	db   "わざマシン３３@"
+	db   "わざ;Ll33@"
 
 TM34Description:
-	db   "わざマシン３４@"
+	db   "わざ;Ll34@"
 
 TM35Description:
-	db   "わざマシン３５@"
+	db   "わざ;Ll35@"
 
 TM36Description:
-	db   "わざマシン３６@"
+	db   "わざ;Ll36@"
 
 TM37Description:
-	db   "わざマシン３７@"
+	db   "わざ;Ll37@"
 
 TM38Description:
-	db   "わざマシン３８@"
+	db   "わざ;Ll38@"
 
 TM39Description:
-	db   "わざマシン３９@"
+	db   "わざ;Ll39@"
 
 TM40Description:
-	db   "わざマシン４０@"
+	db   "わざ;Ll40@"
 
 TM41Description:
-	db   "わざマシン４１@"
+	db   "わざ;Ll41@"
 
 TM42Description:
-	db   "わざマシン４２@"
+	db   "わざ;Ll42@"
 
 TM43Description:
-	db   "わざマシン４３@"
+	db   "わざ;Ll43@"
 
 TM44Description:
-	db   "わざマシン４４@"
+	db   "わざ;Ll44@"
 
 TM45Description:
-	db   "わざマシン４５@"
+	db   "わざ;Ll45@"
 
 TM46Description:
-	db   "わざマシン４６@"
+	db   "わざ;Ll46@"
 
 TM47Description:
-	db   "わざマシン４７@"
+	db   "わざ;Ll47@"
 
 TM48Description:
-	db   "わざマシン４８@"
+	db   "わざ;Ll48@"
 
 TM49Description:
-	db   "わざマシン４９@"
+	db   "わざ;Ll49@"
 
 TM50Description:
-	db   "わざマシン５０@"
+	db   "わざ;Ll50@"
 
 HM01Description:
-	db   "ひでんマシン０１@"
+	db   "ひでん;Ll01@"
 
 HM02Description:
-	db   "ひでんマシン０２@"
+	db   "ひでん;Ll02@"
 
 HM03Description:
-	db   "ひでんマシン０３@"
+	db   "ひでん;Ll03@"
 
 HM04Description:
-	db   "ひでんマシン０４@"
+	db   "ひでん;Ll04@"
 
 HM05Description:
-	db   "ひでんマシン０５@"
+	db   "ひでん;Ll05@"
 
 HM06Description:
-	db   "ひでんマシン０６@"
+	db   "ひでん;Ll06@"
 
 HM07Description:
-	db   "ひでんマシン０７@"
+	db   "ひでん;Ll07@"
 
 ItemFFDescription:
-	db   "？"
-	next "？@"
+	db   "?"
+	next "?@"

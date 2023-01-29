@@ -208,8 +208,8 @@ FieldDebug_DoClearEventFlags:
 	ret
 
 .NoMapFlagsText:
-	text "このマップは　シーケンスの"
-	line "とうろくが　ありません"
+	text "この;mプは L-IlMの"
+	line "ötろyが rりません"
 	prompt
 
 .MenuHeader:
@@ -221,8 +221,8 @@ FieldDebug_DoClearEventFlags:
 .MenuData:
 	db STATICMENU_CURSOR
 	db 2
-	db "フラグを　クりア@"
-	db "フラグを　うめる@"
+	db ")fグを HりA@"
+	db ")fグを tmる@"
 
 .CheckMapFlags:
 	ld a, [wMapGroup]

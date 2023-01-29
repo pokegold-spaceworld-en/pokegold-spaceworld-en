@@ -25,6 +25,6 @@ FieldDebug_UnusedSetPriority:
 .MenuData:
 	db STATICMENU_CURSOR
 	db 2
-	db "ゆうせん@"
-	db "ひゆうせん@"
+	db "ttせん@"
+	db "ひttせん@"
 

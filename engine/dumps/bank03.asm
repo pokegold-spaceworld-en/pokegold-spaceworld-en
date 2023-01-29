@@ -320,18 +320,18 @@ Functiond41d:
 Textd46b:
 	text_from_ram wStringBuffer1
 	text "を"
-	line "すてました！"
+	line "すäましÄ!"
 	prompt
 
 Textd478:
 	text_from_ram wStringBuffer2
-	text "を　すてます"
-	line "ほんとに　よろしいですか？"
+	text "を すäます"
+	line "ほんöに vろしsですw?"
 	prompt
 
 Textd491:
-	text "それは　とても　たいせつなモノです"
-	line "すてることは　できません！"
+	text "それは öär ÄsせÜübYです"
+	line "すäるこöは でxません!"
 	prompt
 
 Functiond4b2:
@@ -2209,31 +2209,31 @@ Function60a0:
 
 Texte168:
 	text_from_ram wStringBuffer1
-	text "は　マサキの　ところへ"
-	line "てんそうされた！"
+	text "は ;KGの öころへ"
+	line "äんそtされÄ!"
 	prompt
 
 Texte181:
 	text_from_ram wStringBuffer1
-	text "は　だれかの　<PC>に"
-	line "てんそうされた！"
+	text "は だれwの <PC>に"
+	line "äんそtされÄ!"
 	prompt
 
 Texte198:
 	text_from_ram wStringBuffer1
-	text "の　データが　あたらしく"
-	line "#ずかんに　セーブされます！@"
+	text "の デ-Pが rÄらしy"
+	line "#ずwんに N-ブされます!@"
 
 Texte1b8:
 	db "ドギ@"
 
 Texte1bb:
-	text "ゲットした　@"
+	text "ゲmTしÄ @"
 
 Texte1c3:
 	text_from_ram wStringBuffer1
 	text "に"
-	line "なまえを　つけますか？"
+	line "üまuを Üzますw?"
 	done
 
 _BillsPC:
@@ -2270,7 +2270,7 @@ _BillsPC:
 	ret
 
 Texte224:
-	text "なんに　するん？"
+	text "üんに するん?"
 	done
 
 Datae22e:
@@ -2285,22 +2285,22 @@ Datae236:
 	dw Texte23e
 
 Texte23e:
-	db "#の　ようすをみる@"
+	db "#の vtすをdる@"
 
 Texte248:
-	db "#を　つれていく@"
+	db "#を Üれäsy@"
 
 Texte251:
-	db "#を　あずける@"
+	db "#を rずzる@"
 
 Texte259:
-	db "#を　にがす@"
+	db "#を にがす@"
 
 Texte260:
-	db "ボックスを　かえる@"
+	db "ボmHMを wuる@"
 
 Texte26a:
-	db "さようなら@"
+	db "さvtüら@"
 
 Tablee270:
 	dw Functione5c5
@@ -2323,8 +2323,8 @@ Functione284:
 	ret
 
 Texte291:
-	text "#もってへんやつは"
-	line "おことわりや！"
+	text "#r←äへんsÜは"
+	line "vこöわりs!"
 	prompt
 
 Functione2a4:
@@ -2359,12 +2359,12 @@ Functione2b0:
 	ret
 
 Texte2cc:
-	text "１ぴきも　もってへんやんか！"
+	text "1ぴxr r←äへんsんw!"
 	prompt
 
 Texte2dc:
-	text "それ　あずけたら"
-	line "こまるんとちゃう？"
+	text "それ rずzÄら"
+	line "こまるんöÖt?"
 	prompt
 
 Functione2f0:
@@ -2406,8 +2406,8 @@ Functione31b:
 	ret
 
 Texte336:
-	text "それいじょう　よくばったって"
-	line "#　もたれへんで！"
+	text "それsじ<MN>t vyば←Ä←ä"
+	line "# rÄれへんで!"
 	prompt
 
 Functione350:
@@ -2455,8 +2455,8 @@ Functione37b:
 
 Texte3af:
 	text_from_ram wStringBuffer1
-	text "　をほんとうに"
-	next "にがしますか？"
+	text " をほんötに"
+	next "にがしますw?"
 	done
 
 Functione3c3:
@@ -2504,7 +2504,7 @@ Functione3ed:
 	ret
 
 Texte40c:
-	db "ダミーボックス@"
+	db "ダ[-ボmHM@"
 
 Datae414:
 	db $40, $00, $00, $0c, $13, $1c, $64, $01
@@ -2537,16 +2537,16 @@ Functione438:
 	ret
 
 Texte461:
-	db "・．０１　@"
-	db "・．０２　@"
-	db "・．０３　@"
-	db "・．０４　@"
-	db "・．０５　@"
-	db "・．０６　@"
-	db "・．０７　@"
-	db "・．０８　@"
-	db "・．０９　@"
-	db "・．１０　@"
+	db "・<01 @"
+	db "・<02 @"
+	db "・<03 @"
+	db "・<04 @"
+	db "・<05 @"
+	db "・<06 @"
+	db "・<07 @"
+	db "・<08 @"
+	db "・<09 @"
+	db "・<10 @"
 
 Functione49d:
 	ld h, d
@@ -2567,11 +2567,11 @@ Functione49d:
 	ret
 
 Texte4bf:
-	db "あずかっている#"
-	next "　@"
+	db "rずw←äsる#"
+	next " @"
 
 Texte4ca:
-	db "／３０@"
+	db "/30@"
 
 Functione4ce:
 	ld a, [wMenuSelection]
@@ -2624,8 +2624,8 @@ Functione51f:
 	ret
 
 Texte529:
-	text "バンクチェンジは"
-	next "かいはつちゅうです！"
+	text "バlHQ→lジは"
+	next "wsはÜÖ<PK>tです!"
 	prompt
 
 Functione53e:
@@ -2641,9 +2641,9 @@ Functione54d:
 	ret
 
 Texte551:
-	text "#　ボックスを　かえると"
-	line "どうじに　レポートが　かかれます"
-	para "<⋯⋯>　それでも　いいですか？"
+	text "# ボmHMを wuるö"
+	line "どtじに hポ-Tが wwれます"
+	para "<……> それでr ssですw?"
 	done
 
 Functione57e:
@@ -2671,9 +2671,9 @@ Datae5a5:
 
 Datae5ad:
 	db $80, $03
-	db "ボックスきりかえ@"
-	db "なまえを　かえる@"
-	db "やめる@"
+	db "ボmHMxりwu@"
+	db "üまuを wuる@"
+	db "smる@"
 
 Functione5c5:
 	call LoadStandardMenuHeader
@@ -2760,13 +2760,13 @@ Functione5d3:
 	ret
 
 Texte679:
-	db "ボックス／いまの　ボックス@"
+	db "ボmHM/sまの ボmHM@"
 
 Texte687:
-	db "しゅるい　　なまえ　　　レべル@"
+	db "し<PK>るs  üまu   hべg@"
 
 Texte697:
-	text "どの#が　みたいねん？"
+	text "どの#が dÄsねん?"
 	done
 
 Functione6a4:
@@ -2795,7 +2795,7 @@ Functione6a4:
 	ret
 
 Texte6d0:
-	text "#を　えらんだ！"
+	text "#を uらんだ!"
 	prompt
 
 Tablee6da:
@@ -3391,42 +3391,42 @@ Functione8f9:
 	jp TossItem
 
 Texteb6e:
-	text "よけられた！"
-	line "こいつは　つかまりそうにないぞ！"
+	text "vzられÄ!"
+	line "こsÜは Üwまりそtにüsぞ!"
 	prompt
 
 Texteb87:
 	text "#に"
-	line "うまく　あたらなかった！"
+	line "tまy rÄらüw←Ä!"
 	prompt
 
 Texteb98:
-	text "だめだ！　#が"
-	line "ボールから　でてしまった！"
+	text "だmだ! #が"
+	line "ボ-gwら でäしま←Ä!"
 	prompt
 
 Textebaf:
-	text "ああ！"
-	line "つかまえたと　おもったのに！"
+	text "rr!"
+	line "ÜwまuÄö vr←Äのに!"
 	prompt
 
 Textebc3:
-	text "ざんねん！"
-	line "もうすこしで　つかまえられたのに！"
+	text "ざんねん!"
+	line "rtすこしで ÜwまuられÄのに!"
 	prompt
 
 Textebdc:
-	text "おしい！"
-	line "あと　ちょっとの　ところだったのに！"
+	text "vしs!"
+	line "rö Ö<MN>←öの öころだ←Äのに!"
 	prompt
 
 Textebf5:
-	text "やったー！"
+	text "s←Ä-!"
 	line "@"
 
 Textebfd:
 	text_from_ram wBattleMonNickname
-	text "を　つかまえたぞ！@"
+	text "を ÜwまuÄぞ!@"
 
 Textec0b:
 	sound_caught_mon
@@ -3435,20 +3435,20 @@ Textec0b:
 
 Textec0e:
 	text_from_ram wdf17
-	text "は　マサキの　ところへ"
-	line "てんそうされた！"
+	text "は ;KGの öころへ"
+	line "äんそtされÄ!"
 	prompt
 
 Textec27:
 	text_from_ram wdf17
-	text "は　だれかの　<PC>に"
-	line "てんそうされた！"
+	text "は だれwの <PC>に"
+	line "äんそtされÄ!"
 	prompt
 
 Textec3e:
 	text_from_ram wBattleMonNickname
-	text "の　データが　あたらしく"
-	line "#ずかんに　セーブされます！@"
+	text "の デ-Pが rÄらしy"
+	line "#ずwんに N-ブされます!@"
 
 Textec5e:
 	sound_slot_machine_start
@@ -3456,12 +3456,12 @@ Textec5e:
 	text_end
 
 Textec61:
-	text "つかまえた　@"
+	text "ÜwまuÄ @"
 
 Textec69:
 	text_from_ram wStringBuffer1
 	text "に"
-	line "なまえを　つけますか"
+	line "üまuを Üzますw"
 	done
 
 Functionec7a:
@@ -3640,18 +3640,18 @@ Functionedbe:
 
 Textedcb:
 	text_from_ram wStringBuffer1
-	text "の　@"
+	text "の @"
 
 Textedd2:
 	text_from_ram wStringBuffer2
 	text "の"
-	line "きそ　ポイントが　あがった！"
+	line "xそ ポBlTが rが←Ä!"
 	prompt
 
 
 
 Textede7:
-	text "つかっても　こうかが　ないよ"
+	text "Üw←är こtwが üsv"
 	prompt
 
 Tableedf7:
@@ -3662,19 +3662,19 @@ Tableedf7:
 	dw Textee1c
 
 Textee01:
-	db "たいりょく@"
+	db "Äsり<MN>y@"
 
 Textee07:
-	db "こうげきりょく@"
+	db "こtげxり<MN>y@"
 
 Textee0f:
-	db "ぼうぎょりょく@"
+	db "ぼtぎ<MN>り<MN>y@"
 
 Textee17:
-	db "すばやさ@"
+	db "すばsさ@"
 
 Textee1c:
-	db "とくしゅのうりょく@"
+	db "öyし<PK>のtり<MN>y@"
 
 Functionee26:
 	ld a, [wCurItem]
@@ -4336,8 +4336,8 @@ Functionf218:
 	jp .sub_f21d
 
 Textf2a6:
-	text "その#には　"
-	line "つかえません"
+	text "その#には "
+	line "Üwuません"
 	done
 
 Functionf2b5:
@@ -4502,19 +4502,19 @@ Dataf3b8:
 	db $ff
 
 Textf3bd:
-	text "#のふえを　ふいた！"
-	para "うーん！"
-	line "すばらしい　ねいろだ！"
+	text "#のふuを ふsÄ!"
+	para "t-ん!"
+	line "すばらしs ねsろだ!"
 	prompt
 
 Textf3da:
-	text "すべての　#が"
-	line "めを　さました！"
+	text "すべäの #が"
+	line "mを さましÄ!"
 	prompt
 
 Textf3ec:
 	text "<PLAYER>は"
-	line "#のふえを　ふいてみた！@"
+	line "#のふuを ふsädÄ!@"
 
 Functionf3fd:
 	ld b, $08
@@ -4539,12 +4539,12 @@ Functionf413:
 	ret
 
 Textf424:
-	text "あなたの　コイン"
+	text "rüÄの JBl"
 	line "@"
 
 Textf42f:
 	deciram wCoins, 2, 4
-	text "まい"
+	text "まs"
 	prompt
 
 Functionf437:
@@ -4807,29 +4807,29 @@ Functionf5f3:
 
 Textf5ff:
 	text "どのわざの"
-	line "ポイントをふやす？"
+	line "ポBlTをふsす?"
 	done
 
 Textf610:
 	text "どのわざを"
-	line "かいふくする？"
+	line "wsふyする?"
 	done
 
 Textf61f:
 	text_from_ram wStringBuffer2
-	text "は　これいじょう"
-	line "ふやすことが　できません"
+	text "は これsじ<MN>t"
+	line "ふsすこöが でxません"
 	prompt
 
 Textf639:
 	text_from_ram wStringBuffer2
 	text "の"
-	line "わざポイントが　ふえた！"
+	line "わざポBlTが ふuÄ!"
 	prompt
 
 Textf64c:
-	text "わざポイントが"
-	line "かいふくした！"
+	text "わざポBlTが"
+	line "wsふyしÄ!"
 	prompt
 
 Functionf65d:
@@ -4933,40 +4933,40 @@ Functionf678:
 	jp Functionf7a2
 
 Textf723:
-	text "<TM>を　きどうした！"
+	text "<TM>を xどtしÄ!"
 	prompt
 
 Textf72e:
-	text "ひでんマシンを　きどうした！"
+	text "ひでん;Llを xどtしÄ!"
 
 Textf73d:
-	text "なかには　@"
+	text "üwには @"
 
 Textf744:
 	text_from_ram wStringBuffer2
 	text "が"
-	line "きろくされていた！"
+	line "xろyされäsÄ!"
 	para "@"
 
 Textf755:
 	text_from_ram wStringBuffer2
 	text "を"
-	line "#に　おぼえさせますか？"
+	line "#に vぼuさせますw?"
 	done
 
 Textf768:
 	text_from_ram wStringBuffer1
-	text "と　@"
+	text "ö @"
 
 Textf76f:
 	text_from_ram wStringBuffer2
 	text "は"
-	line "あいしょうが　わるかった！"
+	line "rsし<MN>tが わるw←Ä!"
 	para "@"
 
 Textf784:
 	text_from_ram wStringBuffer2
-	text "は　おぼえられない！"
+	text "は vぼuられüs!"
 	prompt
 
 Functionf793:
@@ -5031,34 +5031,34 @@ Functionf7f4:
 	jp PrintText
 
 Textf7fb:
-	text "オーキドの　ことば<⋯⋯>"
-	line "<PLAYER>よ！　こういうものには"
-	cont "つかいどきが　あるのじゃ！"
+	text "E-Gドの こöば<……>"
+	line "<PLAYER>v! こtstrのには"
+	cont "Üwsどxが rるのじ!"
 	prompt
 
 Textf822:
-	text "たいせつな　あずかりものです！"
+	text "ÄsせÜü rずwりrのです!"
 
 Textf832:
 	db ""
-	next "つかうことは　できません！"
+	next "Üwtこöは でxません!"
 	prompt
 
 Textf841:
-	text "つかっても　こうかがないよ"
+	text "Üw←är こtwがüsv"
 	prompt
 
 Textf850:
-	text "<TRAINER>に　ボールを　はじかれた！"
+	text "<TRAINER>に ボ-gを はじwれÄ!"
 	prompt
 
 Textf860:
-	text "ひとの　ものを　とったら　どろぼう！"
+	text "ひöの rのを ö←Äら どろぼt!"
 	prompt
 
 Textf874:
-	text "ここでは　じてんしゃに"
-	next "のることは　できません"
+	text "ここでは じäんしに"
+	next "のるこöは でxません"
 	prompt
 
 Textf88d:
@@ -5067,12 +5067,12 @@ Textf88d:
 Textf893:
 	text_from_ram wStringBuffer1
 	text "に"
-	line "のることは　できません"
+	line "のるこöは でxません"
 	prompt
 
 Textf8a5:
-	text "ボックスに　あずけている　#が"
-	line "いっぱいなので　つかえません！"
+	text "ボmHMに rずzäsる #が"
+	line "s←ぱsüので Üwuません!"
 	prompt
 
 Textf8c6:
@@ -5081,7 +5081,7 @@ Textf8c6:
 Textf8ca:
 	text_low
 	text_from_ram wStringBuffer2
-	text "を　つかった！"
+	text "を Üw←Ä!"
 	done
 
 Textf8d7:
@@ -5090,7 +5090,7 @@ Textf8d7:
 Textf8db:
 	text_low
 	text_from_ram wStringBuffer2
-	text "に　のった"
+	text "に の←Ä"
 	prompt
 
 Textf8e6:
@@ -5099,7 +5099,7 @@ Textf8e6:
 Textf8ea:
 	text_low
 	text_from_ram wStringBuffer2
-	text "から　おりた"
+	text "wら vりÄ"
 	prompt
 
 SECTION "engine/dumps/bank03.asm@Functionf960", ROMX
@@ -5438,8 +5438,8 @@ Functionfbf0:
 	ret
 
 Textfc19:
-	text "わたしは　こずくりやさん"
-	line "さて　どうする？"
+	text "わÄしは こずyりsさん"
+	line "さä どtする?"
 	done
 
 Datafc30:
@@ -5449,60 +5449,60 @@ Datafc30:
 
 Datafc38:
 	db $80, $03
-	db "あずける@"
+	db "rずzる@"
 
 Textfc3f:
-	db "ひきとる@"
+	db "ひxöる@"
 
 Textfc44:
-	db "やめる@"
+	db "smる@"
 
 Textfc48:
-	text "あずけた！"
+	text "rずzÄ!"
 	prompt
 
 Textfc4f:
-	text "すでに　２ひきの#を"
-	line "あずかっています"
+	text "すでに 2ひxの#を"
+	line "rずw←äsます"
 	prompt
 
 Textfc64:
-	text "こずくりを　ちゅうししますか？"
+	text "こずyりを Ö<PK>tししますw?"
 	done
 
 Textfc75:
-	text "#は　いっぴきも"
-	line "あずかってませんが"
+	text "#は s←ぴxr"
+	line "rずw←äませんが"
 	prompt
 
 Textfc89:
-	text "ひきとった！"
+	text "ひxö←Ä!"
 	prompt
 
 Textfc91:
-	text "てもちも　マサキの　<PC>も"
-	line "#で　いっぱいのようです"
+	text "ärÖr ;KGの <PC>r"
+	line "#で s←ぱsのvtです"
 	prompt
 
 Textfcac:
-	text "それでは　こづくりします！"
+	text "それでは こづyりします!"
 	prompt
 
 Textfcbb:
-	text "あいしょうが　いいようです"
+	text "rsし<MN>tが ssvtです"
 	prompt
 
 Textfcca:
-	text "あいしょうが　わるいようです"
+	text "rsし<MN>tが わるsvtです"
 	prompt
 
 Textfcda:
-	text "せいべつが　あわないようです"
+	text "せsべÜが rわüsvtです"
 	prompt
 
 Textfcea:
-	text "ざんねんながら　まだ　うまれて"
-	line "こないようです"
+	text "ざんねんüがら まだ tまれä"
+	line "こüsvtです"
 	prompt
 
 Functionfd03:
@@ -5524,8 +5524,8 @@ Functionfd03:
 	jp Functionfbde
 
 Textfd2e:
-	text "タマゴが　うまれました！"
-	line "ひきとりますか？"
+	text "P;ゴが tまれましÄ!"
+	line "ひxöりますw?"
 	done
 
 Functionfd45:
@@ -5614,22 +5614,22 @@ Functionfdab:
 
 Textfdc7:
 	text_from_ram wStringBuffer1
-	text "は　すでに"
+	text "は すでに"
 	line "@"
 
 Textfdd2:
 	text_from_ram wStringBuffer2
-	text "を　おぼえています"
+	text "を vぼuäsます"
 	prompt
 
 Textfde0:
-	db "います"
+	db "sます"
 	prompt
 
 ; NOTE: This is missing the preceeding "text_from_ram"  byte
 Textfde4:
 	dw wStringBuffer2
-	text "を　おぼえています"
+	text "を vぼuäsます"
 	prompt
 
 Datafdf1:
@@ -5655,12 +5655,12 @@ Functionfdf3:
 
 Textfe0a:
 	text_from_ram wStringBuffer1
-	text "は　すでに"
+	text "は すでに"
 	line "@"
 
 Textfe15:
 	text_from_ram wStringBuffer2
-	text "を　おぼえています"
+	text "を vぼuäsます"
 	prompt
 
 Datafe23:

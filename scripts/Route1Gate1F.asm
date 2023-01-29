@@ -40,16 +40,16 @@ Route1Gate1FText2:
 	ret
 
 Route1Gate1FText1String:
-	text "このゲートを　ぬけると"
-	line "すぐに　オールドシティ　です"
+	text "Through this gate"
+	line "lies OLD CITY!"
 	done
 
 Route1Gate1FText2String:
-	text "オールドシティには"
-	line "あの　ゆうめいな"
-	cont "ごじゅうのとう　が　あるの"
+	text "That one famous"
+	line "five-story tower"
+	cont "is in OLD CITY."
 
-	para "いってみたこと　ある？"
+	para "Have you been?"
 	done
 
 ;ends at 40D9

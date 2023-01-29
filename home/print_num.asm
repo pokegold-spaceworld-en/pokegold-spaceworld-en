@@ -148,12 +148,12 @@ PrintNumber::
 	call .PrintLeadingZero
 	jr .PrintLeastSignificantDigit
 .LeadingNonZero
-	ld a, "０"
+	ld a, "0"
 	add c
 	ld [hl], a
 .PrintLeastSignificantDigit
 	call .AdvancePointer
-	ld a, "０"
+	ld a, "0"
 	add b
 	ld [hli], a
 	pop de
@@ -221,7 +221,7 @@ PrintNumber::
 	ldh a, [hPrintNumLeadingDigit]
 	or c
 	jr z, .PrintLeadingZero
-	ld a, "０"
+	ld a, "0"
 	add c
 	ld [hl], a
 	ldh [hPrintNumLeadingDigit], a
@@ -230,7 +230,7 @@ PrintNumber::
 ; prints a leading zero unless they are turned off in the flags
 	bit 7, d
 	ret z
-	ld [hl], "０"
+	ld [hl], "0"
 	ret
 
 .AdvancePointer:

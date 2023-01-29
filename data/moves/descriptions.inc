@@ -252,998 +252,998 @@ MoveDescriptions::
 	dw BounceDescription
 
 PoundDescription:
-	db   "てや　しっぽなどを　つかい"
-	next "てきを　はたいて　こうげき@"
+	db   "äs し←ぽüどを Üws"
+	next "äxを はÄsä こtげx@"
 
 KarateChopDescription:
-	db   "チョップで　てきを　こうげき"
-	next "クりティカルヒットが　でやすい@"
+	db   "Qpmプで äxを こtげx"
+	next "HりSqFg(mTが でsすs@"
 
 DoubleslapDescription:
-	db   "てきを　おうふくビンタで"
-	next "２ー５かい　れんぞくで　こうげき@"
+	db   "äxを vtふyビlPで"
+	next "2-5ws れんぞyで こtげx@"
 
 CometPunchDescription:
-	db   "てきを　れんぞくで　なぐりつけ"
-	next "２ー５かい　れんぞくで　こうげき@"
+	db   "äxを れんぞyで üぐりÜz"
+	next "2-5ws れんぞyで こtげx@"
 
 MegaPunchDescription:
-	db   "ものすごい　ちからをこめた　パンチで"
-	next "てきを　なぐって　こうげき@"
+	db   "rのすごs ÖwらをこmÄ パlQで"
+	next "äxを üぐ←ä こtげx@"
 
 PayDayDescription:
-	db   "こばんをなげて　てきを　こうげき"
-	next "せんとうごに　おかねが　てにはいる@"
+	db   "こばんをüげä äxを こtげx"
+	next "せんötごに vwねが äにはsる@"
 
 FirePunchDescription:
-	db   "ほのおをこめた　パンチで　こうげき"
-	next "てきを　やけどさせることがある@"
+	db   "ほのvをこmÄ パlQで こtげx"
+	next "äxを szどさせるこöがrる@"
 
 IcePunchDescription:
-	db   "れいきをこめた　パンチで　こうげき"
-	next "てきを　こおらせることがある@"
+	db   "れsxをこmÄ パlQで こtげx"
+	next "äxを こvらせるこöがrる@"
 
 ThunderpunchDescription:
-	db   "でんげきをこめた　パンチで　こうげき"
-	next "てきを　マヒさせることがある@"
+	db   "でんげxをこmÄ パlQで こtげx"
+	next "äxを ;(させるこöがrる@"
 
 ScratchDescription:
-	db   "するどいツメを　つかい"
-	next "てきを　ひっかいて　こうげき@"
+	db   "するどsRaを Üws"
+	next "äxを ひ←wsä こtげx@"
 
 VicegripDescription:
-	db   "おおきなハサミを　つかい"
-	next "てきを　はさんで　こうげき@"
+	db   "vvxüZK[を Üws"
+	next "äxを はさんで こtげx@"
 
 GuillotineDescription:
-	db   "おおきなハサミを　つかって"
-	next "てきを　はさみ　せんとうふのうにする@"
+	db   "vvxüZK[を Üw←ä"
+	next "äxを はさd せんötふのtにする@"
 
 RazorWindDescription:
-	db   "１ターンめで　かぜのやいばを　つくり"
-	next "つぎのターンで　てきを　こうげき@"
+	db   "1P-lmで wぜのssばを Üyり"
+	next "ÜぎのP-lで äxを こtげx@"
 
 SwordsDanceDescription:
-	db   "たたかいの　おどりを　おどって"
-	next "こうげきを　グーンとあげる@"
+	db   "ÄÄwsの vどりを vど←ä"
+	next "こtげxを グ-lörげる@"
 
 CutDescription:
-	db   "するどいカマや　ツメなどを　つかって"
-	next "てきを　きりつけて　こうげき@"
+	db   "するどsF;s Raüどを Üw←ä"
+	next "äxを xりÜzä こtげx@"
 
 GustDescription:
-	db   "つばさで　つよいかぜを　おこし"
-	next "それを　てきにぶつけて　こうげき@"
+	db   "Üばさで Üvswぜを vこし"
+	next "それを äxにぶÜzä こtげx@"
 
 WingAttackDescription:
-	db   "つばさを　おおきく　ひろげて"
-	next "そのまま　てきに　たいあたりする@"
+	db   "Üばさを vvxy ひろげä"
+	next "そのまま äxに ÄsrÄりする@"
 
 WhirlwindDescription:
-	db   "つよいかぜで　てきを　ふきとばす"
-	next "ふきとばすと　せんとうは　おわる@"
+	db   "Üvswぜで äxを ふxöばす"
+	next "ふxöばすö せんötは vわる@"
 
 FlyDescription:
-	db   "１ターンめで　そらに　とびたって"
-	next "つぎのターンで　てきを　こうげき@"
+	db   "1P-lmで そらに öびÄ←ä"
+	next "ÜぎのP-lで äxを こtげx@"
 
 BindDescription:
-	db   "２ー５ターンのあいだ　ながいからだや"
-	next "つるを　つかって　てきを　しめつける@"
+	db   "2-5P-lのrsだ üがswらだs"
+	next "Üるを Üw←ä äxを しmÜzる@"
 
 SlamDescription:
-	db   "ながいシッポや　ツルなどを"
-	next "てきに　たたきつけて　こうげき@"
+	db   "üがsLmポs Rgüどを"
+	next "äxに ÄÄxÜzä こtげx@"
 
 VineWhipDescription:
-	db   "ムチのように　ほそながい　つるを　"
-	next "てきに　たたきつけて　こうげき@"
+	db   "]Qのvtに ほそüがs Üるを "
+	next "äxに ÄÄxÜzä こtげx@"
 
 StompDescription:
-	db   "おおきなあしで　ふみつけて　こうげき"
-	next "てきを　ひるませることがある@"
+	db   "vvxürしで ふdÜzä こtげx"
+	next "äxを ひるませるこöがrる@"
 
 DoubleKickDescription:
-	db   "２ほんの　あしをつかって　てきを"
-	next "２かい　れんぞくで　こうげき@"
+	db   "2ほんの rしをÜw←ä äxを"
+	next "2ws れんぞyで こtげx@"
 
 MegaKickDescription:
-	db   "ものすごい　ちからをこめた　キックで"
-	next "てきを　けっとばして　こうげき@"
+	db   "rのすごs ÖwらをこmÄ GmHで"
+	next "äxを z←öばしä こtげx@"
 
 JumpKickDescription:
-	db   "ジャンプした　いきおいで　キックを"
-	next "くりだす　はずすと　ダメージをうける@"
+	db   "ジnlプしÄ sxvsで GmHを"
+	next "yりだす はずすö ダa-ジをtzる@"
 
 RollingKickDescription:
-	db   "からだを　すばやく　１かいてんさせ"
-	next "そのいきおいで　キックを　くりだす@"
+	db   "wらだを すばsy 1wsäんさせ"
+	next "そのsxvsで GmHを yりだす@"
 
 SandAttackDescription:
-	db   "てきの　かおなどに　すなをかけて　"
-	next "めいちゅうりつを　さげさせる@"
+	db   "äxの wvüどに すüをwzä "
+	next "msÖ<PK>tりÜを さげさせる@"
 
 HeadbuttDescription:
-	db   "あたまから　つっこんで　こうげき"
-	next "てきを　ひるませることがある@"
+	db   "rÄまwら Ü←こんで こtげx"
+	next "äxを ひるませるこöがrる@"
 
 HornAttackDescription:
-	db   "とがった　ツノを　つかい"
-	next "てきを　つついて　こうげき@"
+	db   "öが←Ä RYを Üws"
+	next "äxを ÜÜsä こtげx@"
 
 FuryAttackDescription:
-	db   "とがった　ツノを　つかい"
-	next "２ー５かい　れんぞくで　こうげき@"
+	db   "öが←Ä RYを Üws"
+	next "2-5ws れんぞyで こtげx@"
 
 HornDrillDescription:
-	db   "ツノを　ドりルのように　かいてんさせ"
-	next "てきを　つつき　せんとうふのうにする@"
+	db   "RYを ドりgのvtに wsäんさせ"
+	next "äxを ÜÜx せんötふのtにする@"
 
 TackleDescription:
-	db   "からだぜんたいを　つかって"
-	next "てきに　たいあたりして　こうげき@"
+	db   "wらだぜんÄsを Üw←ä"
+	next "äxに ÄsrÄりしä こtげx@"
 
 BodySlamDescription:
-	db   "からだごと　たおれこんで　こうげき"
-	next "てきを　マヒさせることがある@"
+	db   "wらだごö Ävれこんで こtげx"
+	next "äxを ;(させるこöがrる@"
 
 WrapDescription:
-	db   "２ー５ターンのあいだ　ながいからだや"
-	next "ツルをつかって　てきを　しめつける@"
+	db   "2-5P-lのrsだ üがswらだs"
+	next "RgをÜw←ä äxを しmÜzる@"
 
 TakeDownDescription:
-	db   "いきおいをつけて　てきに　たいあたり"
-	next "じぶんもすこし　ダメージをうける@"
+	db   "sxvsをÜzä äxに ÄsrÄり"
+	next "じぶんrすこし ダa-ジをtzる@"
 
 ThrashDescription:
-	db   "２ー３ターンのあいだ　あばれつづける"
-	next "あばれたあとは　こんらんしてしまう@"
+	db   "2-3P-lのrsだ rばれÜづzる"
+	next "rばれÄröは こんらんしäしまt@"
 
 DoubleEdgeDescription:
-	db   "いのちをかけて　てきに　たいあたり"
-	next "じぶんもすこし　ダメージをうける@"
+	db   "sのÖをwzä äxに ÄsrÄり"
+	next "じぶんrすこし ダa-ジをtzる@"
 
 TailWhipDescription:
-	db   "てきに　しっぽをふって　ゆだんさせて"
-	next "ぼうぎょを　さげさせる@"
+	db   "äxに し←ぽをふ←ä tだんさせä"
+	next "ぼtぎ<MN>を さげさせる@"
 
 PoisonStingDescription:
-	db   "どくのある　ハりや　ツノで　こうげき"
-	next "てきに　どくをあたえることがある@"
+	db   "どyのrる Zりs RYで こtげx"
+	next "äxに どyをrÄuるこöがrる@"
 
 TwineedleDescription:
-	db   "りょうての　ハりを　つかって"
-	next "てきを　２かい　れんぞくで　こうげき@"
+	db   "り<MN>täの Zりを Üw←ä"
+	next "äxを 2ws れんぞyで こtげx@"
 
 PinMissileDescription:
-	db   "するどいハりを　てきに　はっしゃして"
-	next "２ー５かい　れんぞくで　こうげき@"
+	db   "するどsZりを äxに は←ししä"
+	next "2-5ws れんぞyで こtげx@"
 
 LeerDescription:
-	db   "てきを　にらんで　おびえさせて　"
-	next "ぼうぎょを　さげさせる@"
+	db   "äxを にらんで vびuさせä "
+	next "ぼtぎ<MN>を さげさせる@"
 
 BiteDescription:
-	db   "するどい　はで　かみついて　こうげき"
-	next "てきを　ひるませることがある@"
+	db   "するどs はで wdÜsä こtげx"
+	next "äxを ひるませるこöがrる@"
 
 GrowlDescription:
-	db   "かわいくないて　てきを　ゆだんさせて"
-	next "こうげきを　さげさせる@"
+	db   "wわsyüsä äxを tだんさせä"
+	next "こtげxを さげさせる@"
 
 RoarDescription:
-	db   "ほえて　てきを　にげださせる"
-	next "てきが　にげると　せんとうは　おわる@"
+	db   "ほuä äxを にげださせる"
+	next "äxが にげるö せんötは vわる@"
 
 SingDescription:
-	db   "ここちよい　うたごえで"
-	next "てきを　ふかいねむりへと　さそう@"
+	db   "ここÖvs tÄごuで"
+	next "äxを ふwsねlりへö さそt@"
 
 SupersonicDescription:
-	db   "からだから　かいおんぱを　はっして"
-	next "てきを　こんらんさせることがある　@"
+	db   "wらだwら wsvんぱを は←しä"
+	next "äxを こんらんさせるこöがrる @"
 
 SonicboomDescription:
-	db   "しょうげきはで　てきを　こうげき"
-	next "２０の　きまったダメージを　あたえる@"
+	db   "し<MN>tげxはで äxを こtげx"
+	next "20の xま←Äダa-ジを rÄuる@"
 
 DisableDescription:
-	db   "ちょうのうりょくで　てきの　うごきを"
-	next "とめて　わざを　１つ　つかえなくする@"
+	db   "Ö<MN>tのtり<MN>yで äxの tごxを"
+	next "ömä わざを 1Ü Üwuüyする@"
 
 AcidDescription:
-	db   "つよいさんで　てきの　ひふを　とかす"
-	next "ぼうぎょを　さげることがある@"
+	db   "Üvsさんで äxの ひふを öwす"
+	next "ぼtぎ<MN>を さげるこöがrる@"
 
 EmberDescription:
-	db   "ちいさな　ほのおで　こうげき"
-	next "てきを　やけどさせることがある@"
+	db   "Ösさü ほのvで こtげx"
+	next "äxを szどさせるこöがrる@"
 
 FlamethrowerDescription:
-	db   "すごい　ほのおで　こうげき"
-	next "てきを　やけどさせることがある@"
+	db   "すごs ほのvで こtげx"
+	next "äxを szどさせるこöがrる@"
 
 MistDescription:
-	db   "しろいきりで　からだを　おおい"
-	next "のうりょくを　さげられないようにする@"
+	db   "しろsxりで wらだを vvs"
+	next "のtり<MN>yを さげられüsvtにする@"
 
 WaterGunDescription:
-	db   "みずを　はっしゃして"
-	next "てきを　こうげき@"
+	db   "dずを は←ししä"
+	next "äxを こtげx@"
 
 HydroPumpDescription:
-	db   "みずを　ものすごい　いきおいで"
-	next "はっしゃして　てきを　こうげき@"
+	db   "dずを rのすごs sxvsで"
+	next "は←ししä äxを こtげx@"
 
 SurfDescription:
-	db   "みずに　なみを　おこし　それを"
-	next "ものすごい　ちからで　たたきつける@"
+	db   "dずに üdを vこし それを"
+	next "rのすごs Öwらで ÄÄxÜzる@"
 
 IceBeamDescription:
-	db   "れいきを　はっしゃして　こうげき"
-	next "てきを　こおらせることがある@"
+	db   "れsxを は←ししä こtげx"
+	next "äxを こvらせるこöがrる@"
 
 BlizzardDescription:
-	db   "ゆきを　つよいかぜにのせて　こうげき"
-	next "てきを　こおらせることがある@"
+	db   "txを Üvswぜにのせä こtげx"
+	next "äxを こvらせるこöがrる@"
 
 PsybeamDescription:
-	db   "ふしぎな　ひかりを　はっしゃする"
-	next "てきを　こんらんさせることがある@"
+	db   "ふしぎü ひwりを は←しする"
+	next "äxを こんらんさせるこöがrる@"
 
 BubblebeamDescription:
-	db   "みずを　いきおいよく　はっしゃする"
-	next "てきの　すばやさを　さげることがある@"
+	db   "dずを sxvsvy は←しする"
+	next "äxの すばsさを さげるこöがrる@"
 
 AuroraBeamDescription:
-	db   "にじいろの　ひかりを　はっしゃする"
-	next "こうげきを　さげることがある@"
+	db   "にじsろの ひwりを は←しする"
+	next "こtげxを さげるこöがrる@"
 
 HyperBeamDescription:
-	db   "ダメージは　おおきいが　つかうと"
-	next "つぎのターン　うごけなくなってしまう@"
+	db   "ダa-ジは vvxsが Üwtö"
+	next "ÜぎのP-l tごzüyü←äしまt@"
 
 PeckDescription:
-	db   "ながい　くちばしを　つかって　"
-	next "てきを　つついて　こうげき@"
+	db   "üがs yÖばしを Üw←ä "
+	next "äxを ÜÜsä こtげx@"
 
 DrillPeckDescription:
-	db   "くちばしを　ちゅうしんに　からだを"
-	next "かいてんさせて　てきに　とっしんする@"
+	db   "yÖばしを Ö<PK>tしんに wらだを"
+	next "wsäんさせä äxに ö←しんする@"
 
 SubmissionDescription:
-	db   "じぶんごと　じめんに　たたきつける"
-	next "じぶんにも　すこしダメージ@"
+	db   "じぶんごö じmんに ÄÄxÜzる"
+	next "じぶんにr すこしダa-ジ@"
 
 LowKickDescription:
-	db   "タイミングよく　あしを　ひっかける"
-	next "てきを　ひるませることがある@"
+	db   "PB[lグvy rしを ひ←wzる"
+	next "äxを ひるませるこöがrる@"
 
 CounterDescription:
-	db   "てきからうけた　ぶつりこうげきの"
-	next "ダメージを　ばいにしてかえす@"
+	db   "äxwらtzÄ ぶÜりこtげxの"
+	next "ダa-ジを ばsにしäwuす@"
 
 SeismicTossDescription:
-	db   "いんりょくを　りようして　なげる"
-	next "レべルぶんの　ダメージを　あたえる@"
+	db   "sんり<MN>yを りvtしä üげる"
+	next "hべgぶんの ダa-ジを rÄuる@"
 
 StrengthDescription:
-	db   "ぜんしんに　すごいちからを　ためて"
-	next "てきを　こうげき@"
+	db   "ぜんしんに すごsÖwらを Ämä"
+	next "äxを こtげx@"
 
 AbsorbDescription:
-	db   "てきに　あたえた　ダメージの"
-	next "はんぶん　たいりょくを　かいふくする@"
+	db   "äxに rÄuÄ ダa-ジの"
+	next "はんぶん Äsり<MN>yを wsふyする@"
 
 MegaDrainDescription:
-	db   "てきに　あたえた　ダメージの"
-	next "はんぶん　たいりょくを　かいふくする@"
+	db   "äxに rÄuÄ ダa-ジの"
+	next "はんぶん Äsり<MN>yを wsふyする@"
 
 LeechSeedDescription:
-	db   "てきの　からだに　タネをうえて"
-	next "ターンごとに　たいりょくを　すいとる@"
+	db   "äxの wらだに PXをtuä"
+	next "P-lごöに Äsり<MN>yを すsöる@"
 
 GrowthDescription:
-	db   "いっきに　からだを　せいちょうさせて"
-	next "とくしゅこうげきを　あげる@"
+	db   "s←xに wらだを せsÖ<MN>tさせä"
+	next "öyし<PK>こtげxを rげる@"
 
 RazorLeafDescription:
-	db   "はっぱで　てきを　きりつける"
-	next "クりティカルヒットが　でやすい@"
+	db   "は←ぱで äxを xりÜzる"
+	next "HりSqFg(mTが でsすs@"
 
 SolarbeamDescription:
-	db   "１ターンめで　ひかりを　きゅうしゅう"
-	next "つぎのターンで　てきを　こうげき@"
+	db   "1P-lmで ひwりを x<PK>tし<PK>t"
+	next "ÜぎのP-lで äxを こtげx@"
 
 PoisonpowderDescription:
-	db   "どくそを　ふくんだ　こなを　ふりまき"
-	next "てきに　どくをあたえる@"
+	db   "どyそを ふyんだ こüを ふりまx"
+	next "äxに どyをrÄuる@"
 
 StunSporeDescription:
-	db   "しびれる　こなを　ふりまき"
-	next "てきを　マヒさせてしまう@"
+	db   "しびれる こüを ふりまx"
+	next "äxを ;(させäしまt@"
 
 SleepPowderDescription:
-	db   "ねむくなる　こなを　ふりまき"
-	next "てきを　ねむらせてしまう@"
+	db   "ねlyüる こüを ふりまx"
+	next "äxを ねlらせäしまt@"
 
 PetalDanceDescription:
-	db   "２ー３ターンのあいだ　あばれつづける"
-	next "あばれたあとは　こんらんしてしまう@"
+	db   "2-3P-lのrsだ rばれÜづzる"
+	next "rばれÄröは こんらんしäしまt@"
 
 StringShotDescription:
-	db   "いとを　てきの　からだに　まきつけ"
-	next "すばやさを　さげさせる@"
+	db   "söを äxの wらだに まxÜz"
+	next "すばsさを さげさせる@"
 
 DragonRageDescription:
-	db   "しょうげきはで　てきを　こうげき"
-	next "４０の　きまったダメージを　あたえる@"
+	db   "し<MN>tげxはで äxを こtげx"
+	next "40の xま←Äダa-ジを rÄuる@"
 
 FireSpinDescription:
-	db   "２ー５ターンのあいだ　てきを"
-	next "ほのおの　ちゅうしんに　とじこめる@"
+	db   "2-5P-lのrsだ äxを"
+	next "ほのvの Ö<PK>tしんに öじこmる@"
 
 ThundershockDescription:
-	db   "でんげきを　あびせて　こうげき"
-	next "てきを　マヒさせることがある@"
+	db   "でんげxを rびせä こtげx"
+	next "äxを ;(させるこöがrる@"
 
 ThunderboltDescription:
-	db   "つよいでんげきを　あびせて　こうげき"
-	next "てきを　マヒさせることがある@"
+	db   "Üvsでんげxを rびせä こtげx"
+	next "äxを ;(させるこöがrる@"
 
 ThunderWaveDescription:
-	db   "よわいでんげきを　てきに　ぶつけて"
-	next "マヒさせてしまう@"
+	db   "vわsでんげxを äxに ぶÜzä"
+	next ";(させäしまt@"
 
 ThunderDescription:
-	db   "てきに　むかって　かみなりを　おとす"
-	next "マヒさせることがある@"
+	db   "äxに lw←ä wdüりを vöす"
+	next ";(させるこöがrる@"
 
 RockThrowDescription:
-	db   "ちいさな　いわを　なげつけて"
-	next "てきを　こうげき@"
+	db   "Ösさü sわを üげÜzä"
+	next "äxを こtげx@"
 
 EarthquakeDescription:
-	db   "じめんを　ゆらして　こうげき"
-	next "とんでる　てきいがいに　だいダメージ@"
+	db   "じmんを tらしä こtげx"
+	next "öんでる äxsがsに だsダa-ジ@"
 
 FissureDescription:
-	db   "じわれを　おこして　てきを　のみこむ"
-	next "のみこまれると　せんとうふのうになる@"
+	db   "じわれを vこしä äxを のdこl"
+	next "のdこまれるö せんötふのtにüる@"
 
 DigDescription:
-	db   "１ターンめで　じめんに　もぐり"
-	next "つぎのターンで　てきを　こうげき@"
+	db   "1P-lmで じmんに rぐり"
+	next "ÜぎのP-lで äxを こtげx@"
 
 ToxicDescription:
-	db   "じょじょに　ダメージがふえる　どくを"
-	next "てきに　あたえる@"
+	db   "じ<MN>じ<MN>に ダa-ジがふuる どyを"
+	next "äxに rÄuる@"
 
 ConfusionDescription:
-	db   "ちょうのうりょくで　こうげき"
-	next "てきを　こんらんさせることがある@"
+	db   "Ö<MN>tのtり<MN>yで こtげx"
+	next "äxを こんらんさせるこöがrる@"
 
 PsychicMDescription:
-	db   "つよいねんりきで　てきを　こうげき"
-	next "とくしゅぼうぎょを　さげることがある@"
+	db   "Üvsねんりxで äxを こtげx"
+	next "öyし<PK>ぼtぎ<MN>を さげるこöがrる@"
 
 HypnosisDescription:
-	db   "てきに　あんじを　かけて"
-	next "ふかい　ねむりへと　さそう@"
+	db   "äxに rんじを wzä"
+	next "ふws ねlりへö さそt@"
 
 MeditateDescription:
-	db   "ヨガのポーズで　ねむった　ちからを"
-	next "ひきだし　こうげきを　あげる@"
+	db   "eガのポ-ズで ねl←Ä Öwらを"
+	next "ひxだし こtげxを rげる@"
 
 AgilityDescription:
-	db   "ちからを　ぬいて　からだを　かるくし"
-	next "すばやさを　グーンとあげる@"
+	db   "Öwらを ぬsä wらだを wるyし"
+	next "すばsさを グ-lörげる@"
 
 QuickAttackDescription:
-	db   "ものすごい　はやさで　うごいて　"
-	next "かならず　せんせいこうげきする@"
+	db   "rのすごs はsさで tごsä "
+	next "wüらず せんせsこtげxする@"
 
 RageDescription:
-	db   "こうげきされるたびに　いかりで"
-	next "こうげきが　あがっていく@"
+	db   "こtげxされるÄびに swりで"
+	next "こtげxが rが←äsy@"
 
 TeleportDescription:
-	db   "ちょうのうりょくを　つかって"
-	next "せんとうから　だっしゅつする@"
+	db   "Ö<MN>tのtり<MN>yを Üw←ä"
+	next "せんötwら だ←し<PK>Üする@"
 
 NightShadeDescription:
-	db   "てきに　おそろしい　まぼろしを　みせ"
-	next "レべルぶんの　ダメージを　あたえる@"
+	db   "äxに vそろしs まぼろしを dせ"
+	next "hべgぶんの ダa-ジを rÄuる@"
 
 MimicDescription:
-	db   "てきが　つかった　わざが　"
-	next "そのときだけ　じぶんの　わざになる@"
+	db   "äxが Üw←Ä わざが "
+	next "そのöxだz じぶんの わざにüる@"
 
 ScreechDescription:
-	db   "いやなおとを　だして　てきの"
-	next "ぼうぎょを　ガクッとさげさせる@"
+	db   "ssüvöを だしä äxの"
+	next "ぼtぎ<MN>を ガHmöさげさせる@"
 
 DoubleTeamDescription:
-	db   "ぶんしんで　てきを　まどわせ"
-	next "めいちゅうりつを　さげさせる@"
+	db   "ぶんしんで äxを まどわせ"
+	next "msÖ<PK>tりÜを さげさせる@"
 
 RecoverDescription:
-	db   "キズついた　からだを　たいりょくの"
-	next "はんぶんだけ　かいふくする@"
+	db   "GズÜsÄ wらだを Äsり<MN>yの"
+	next "はんぶんだz wsふyする@"
 
 HardenDescription:
-	db   "ぜんしんに　ちからをこめ　かたくなり"
-	next "ぼうぎょを　あげる@"
+	db   "ぜんしんに Öwらをこm wÄyüり"
+	next "ぼtぎ<MN>を rげる@"
 
 MinimizeDescription:
-	db   "からだを　ちぢめて　ちいさくなり"
-	next "てきの　めいちゅうりつを　さげさせる@"
+	db   "wらだを Öぢmä Ösさyüり"
+	next "äxの msÖ<PK>tりÜを さげさせる@"
 
 SmokescreenDescription:
-	db   "けむりや　スミなどで　てきの　"
-	next "めいちゅうりつを　さげさせる@"
+	db   "zlりs M[üどで äxの "
+	next "msÖ<PK>tりÜを さげさせる@"
 
 ConfuseRayDescription:
-	db   "あやしいひかりで　てきを　まどわし"
-	next "こんらんさせてしまう@"
+	db   "rsしsひwりで äxを まどわし"
+	next "こんらんさせäしまt@"
 
 WithdrawDescription:
-	db   "かたいからに　もぐりこんで"
-	next "ぼうぎょを　あげる@"
+	db   "wÄswらに rぐりこんで"
+	next "ぼtぎ<MN>を rげる@"
 
 DefenseCurlDescription:
-	db   "からだを　まるめて　きゅうしょを"
-	next "かくし　ぼうぎょを　あげる@"
+	db   "wらだを まるmä x<PK>tし<MN>を"
+	next "wyし ぼtぎ<MN>を rげる@"
 
 BarrierDescription:
-	db   "めのまえに　かべを　つくりだし"
-	next "ぼうぎょを　グーンとあげる@"
+	db   "mのまuに wべを Üyりだし"
+	next "ぼtぎ<MN>を グ-lörげる@"
 
 LightScreenDescription:
-	db   "ひかりのかべを　つくり　とくしゅ"
-	next "こうげきの　ダメージを　よわめる@"
+	db   "ひwりのwべを Üyり öyし<PK>"
+	next "こtげxの ダa-ジを vわmる@"
 
 HazeDescription:
-	db   "くろいきりが　からだを　おおい"
-	next "からだの　いじょうを　もとにもどす@"
+	db   "yろsxりが wらだを vvs"
+	next "wらだの sじ<MN>tを röにrどす@"
 
 ReflectDescription:
-	db   "ひかりのかべを　つくり　ぶつり"
-	next "こうげきの　ダメージを　よわめる@"
+	db   "ひwりのwべを Üyり ぶÜり"
+	next "こtげxの ダa-ジを vわmる@"
 
 FocusEnergyDescription:
-	db   "こうげきに　きあいを　こめて"
-	next "クりティカルヒットを　でやすくする@"
+	db   "こtげxに xrsを こmä"
+	next "HりSqFg(mTを でsすyする@"
 
 BideDescription:
-	db   "２ー３ターン　こうげきに　たえて"
-	next "うけたダメージを　ばいにしてかえす@"
+	db   "2-3P-l こtげxに Äuä"
+	next "tzÄダa-ジを ばsにしäwuす@"
 
 MetronomeDescription:
-	db   "ゆびを　ふって　のうを　しげきして"
-	next "いろんな　ワザを　ランダムでくりだす@"
+	db   "tびを ふ←ä のtを しげxしä"
+	next "sろんü jザを flダ]でyりだす@"
 
 MirrorMoveDescription:
-	db   "てきの　わざを　まねして　"
-	next "おなじわざで　てきを　こうげき@"
+	db   "äxの わざを まねしä "
+	next "vüじわざで äxを こtげx@"
 
 SelfdestructDescription:
-	db   "てきに　だいダメージを　あたえるが"
-	next "つかうと　せんとうふのうに　なる@"
+	db   "äxに だsダa-ジを rÄuるが"
+	next "Üwtö せんötふのtに üる@"
 
 EggBombDescription:
-	db   "タマゴを　おもいっきり　なげつけて"
-	next "てきを　こうげき@"
+	db   "P;ゴを vrs←xり üげÜzä"
+	next "äxを こtげx@"
 
 LickDescription:
-	db   "ながいしたで　なめまわして　こうげき"
-	next "てきを　マヒさせることがある@"
+	db   "üがsしÄで ümまわしä こtげx"
+	next "äxを ;(させるこöがrる@"
 
 SmogDescription:
-	db   "はいきガスを　ふきかけて　こうげき"
-	next "てきに　どくをあたえることがある@"
+	db   "はsxガMを ふxwzä こtげx"
+	next "äxに どyをrÄuるこöがrる@"
 
 SludgeDescription:
-	db   "へドロを　なげつけて　こうげき"
-	next "てきに　どくをあたえることがある@"
+	db   "へドiを üげÜzä こtげx"
+	next "äxに どyをrÄuるこöがrる@"
 
 BoneClubDescription:
-	db   "てにもった　ホネで　てきを　こうげき"
-	next "てきを　ひるませることがある@"
+	db   "äにr←Ä :Xで äxを こtげx"
+	next "äxを ひるませるこöがrる@"
 
 FireBlastDescription:
-	db   "だいの　もじが　すべてを　やきつくす"
-	next "てきを　やけどさせることがある@"
+	db   "だsの rじが すべäを sxÜyす"
+	next "äxを szどさせるこöがrる@"
 
 WaterfallDescription:
-	db   "たきを　さかのぼるような　いきおいで"
-	next "てきに　とっしんする@"
+	db   "Äxを さwのぼるvtü sxvsで"
+	next "äxに ö←しんする@"
 
 ClampDescription:
-	db   "２ー５ターンのあいだ　てきを"
-	next "からに　はさみこんでしまう　@"
+	db   "2-5P-lのrsだ äxを"
+	next "wらに はさdこんでしまt @"
 
 SwiftDescription:
-	db   "ぜったいに　よけられない　ほしがたの"
-	next "こうせんを　むすうに　はっしゃする@"
+	db   "ぜ←Äsに vzられüs ほしがÄの"
+	next "こtせんを lすtに は←しする@"
 
 SkullBashDescription:
-	db   "１ターンめで　あたまを　ひっこめて"
-	next "つぎのターンで　てきを　こうげき@"
+	db   "1P-lmで rÄまを ひ←こmä"
+	next "ÜぎのP-lで äxを こtげx@"
 
 SpikeCannonDescription:
-	db   "するどいハりを　てきに　はっしゃして"
-	next "２ー５かい　れんぞくで　こうげき@"
+	db   "するどsZりを äxに は←ししä"
+	next "2-5ws れんぞyで こtげx@"
 
 ConstrictDescription:
-	db   "２ー５ターンのあいだ　ながいからだや"
-	next "ツルをつかって　てきを　しめつける@"
+	db   "2-5P-lのrsだ üがswらだs"
+	next "RgをÜw←ä äxを しmÜzる@"
 
 AmnesiaDescription:
-	db   "いっしゅん　なにかを　わすれることで"
-	next "とくしゅぼうぎょを　グーンとあげる@"
+	db   "s←し<PK>ん üにwを わすれるこöで"
+	next "öyし<PK>ぼtぎ<MN>を グ-lörげる@"
 
 KinesisDescription:
-	db   "てきの　めを　スプーンに　むけさせて"
-	next "めいちゅうりつを　さげさせる@"
+	db   "äxの mを Mプ-lに lzさせä"
+	next "msÖ<PK>tりÜを さげさせる@"
 
 SoftboiledDescription:
-	db   "キズついた　からだを　たいりょくの"
-	next "はんぶんだけ　かいふくする@"
+	db   "GズÜsÄ wらだを Äsり<MN>yの"
+	next "はんぶんだz wsふyする@"
 
 HiJumpKickDescription:
-	db   "ジャンプした　いきおいで　ひざげりを"
-	next "くりだす　はずすと　ダメージをうける@"
+	db   "ジnlプしÄ sxvsで ひざげりを"
+	next "yりだす はずすö ダa-ジをtzる@"
 
 GlareDescription:
-	db   "おなかの　もようで　てきを　いかくし"
-	next "おびえさせて　マヒさせてしまう@"
+	db   "vüwの rvtで äxを swyし"
+	next "vびuさせä ;(させäしまt@"
 
 DreamEaterDescription:
-	db   "てきに　あたえた　ダメージの"
-	next "はんぶん　たいりょくを　かいふくする@"
+	db   "äxに rÄuÄ ダa-ジの"
+	next "はんぶん Äsり<MN>yを wsふyする@"
 
 PoisonGasDescription:
-	db   "どくガスを　てきに　ふきかけて"
-	next "どくをあたえる@"
+	db   "どyガMを äxに ふxwzä"
+	next "どyをrÄuる@"
 
 BarrageDescription:
-	db   "まるいものを　てきに　なげつけて"
-	next "２ー５かい　れんぞくで　こうげき@"
+	db   "まるsrのを äxに üげÜzä"
+	next "2-5ws れんぞyで こtげx@"
 
 LeechLifeDescription:
-	db   "てきに　あたえた　ダメージの"
-	next "はんぶん　たいりょくを　かいふくする@"
+	db   "äxに rÄuÄ ダa-ジの"
+	next "はんぶん Äsり<MN>yを wsふyする@"
 
 LovelyKissDescription:
-	db   "こわい　かおで　キスを　せまる"
-	next "キスされると　ねむってしまう@"
+	db   "こわs wvで GMを せまる"
+	next "GMされるö ねl←äしまt@"
 
 SkyAttackDescription:
-	db   "１ターンめで　じゃくてんを　さがし"
-	next "つぎのターンで　てきを　こうげき@"
+	db   "1P-lmで じyäんを さがし"
+	next "ÜぎのP-lで äxを こtげx@"
 
 TransformDescription:
-	db   "てきの　ポケモンと　おなじ　すがたに"
-	next "さいぼうを　へんかさせ　へんしんする@"
+	db   "äxの ポIblö vüじ すがÄに"
+	next "さsぼtを へんwさせ へんしんする@"
 
 BubbleDescription:
-	db   "あわを　ふきかけて　こうげき"
-	next "てきの　すばやさを　さげることがある@"
+	db   "rわを ふxwzä こtげx"
+	next "äxの すばsさを さげるこöがrる@"
 
 DizzyPunchDescription:
-	db   "おやこどうじに　パンチで　こうげき"
-	next "てきを　こんらんさせることがある@"
+	db   "vsこどtじに パlQで こtげx"
+	next "äxを こんらんさせるこöがrる@"
 
 SporeDescription:
-	db   "さいみんこうかのある　ほうしを"
-	next "ふりまき　てきを　ねむらせる@"
+	db   "さsdんこtwのrる ほtしを"
+	next "ふりまx äxを ねlらせる@"
 
 FlashDescription:
-	db   "つよい　ひかりで　めを　くらませて"
-	next "てきの　めいちゅうりつを　さげさせる@"
+	db   "Üvs ひwりで mを yらませä"
+	next "äxの msÖ<PK>tりÜを さげさせる@"
 
 PsywaveDescription:
-	db   "てきに　１ーレべル×１．５の"
-	next "ダメージを　ランダムで　あたえる@"
+	db   "äxに 1-hべg×1<5の"
+	next "ダa-ジを flダ]で rÄuる@"
 
 SplashDescription:
-	db   "はねるだけで　なにもおこらない⋯@"
+	db   "はねるだzで üにrvこらüs…@"
 
 AcidArmorDescription:
-	db   "からだを　えきじょうに　へんかさせて"
-	next "ぼうぎょを　グーンとあげる@"
+	db   "wらだを uxじ<MN>tに へんwさせä"
+	next "ぼtぎ<MN>を グ-lörげる@"
 
 CrabhammerDescription:
-	db   "ハサミを　てきに　たたきつける"
-	next "クりティカルヒットが　でやすい@"
+	db   "ZK[を äxに ÄÄxÜzる"
+	next "HりSqFg(mTが でsすs@"
 
 ExplosionDescription:
-	db   "てきに　だいダメージを　あたえるが"
-	next "つかうと　せんとうふのうに　なる@"
+	db   "äxに だsダa-ジを rÄuるが"
+	next "Üwtö せんötふのtに üる@"
 
 FurySwipesDescription:
-	db   "てきを　するどいツメで　ひっかいて"
-	next "２ー５かい　れんぞくで　こうげき@"
+	db   "äxを するどsRaで ひ←wsä"
+	next "2-5ws れんぞyで こtげx@"
 
 BonemerangDescription:
-	db   "ホネを　なげつけて　いきと　かえりで"
-	next "２かい　れんぞくで　こうげき@"
+	db   ":Xを üげÜzä sxö wuりで"
+	next "2ws れんぞyで こtげx@"
 
 RestDescription:
-	db   "２ターン　ねむって　たいりょくと"
-	next "からだのいじょうを　かいふくする@"
+	db   "2P-l ねl←ä Äsり<MN>yö"
+	next "wらだのsじ<MN>tを wsふyする@"
 
 RockSlideDescription:
-	db   "おおきな　いわを　なげつける"
-	next "てきを　ひるませることがある@"
+	db   "vvxü sわを üげÜzる"
+	next "äxを ひるませるこöがrる@"
 
 HyperFangDescription:
-	db   "するどいまえばで　てきを　こうげき"
-	next "ひるませることがある@"
+	db   "するどsまuばで äxを こtげx"
+	next "ひるませるこöがrる@"
 
 SharpenDescription:
-	db   "ポりゴンを　へらし　カクカクになって"
-	next "こうげきを　あげる@"
+	db   "ポりゴlを へらし FHFHにü←ä"
+	next "こtげxを rげる@"
 
 ConversionDescription:
-	db   "じぶんに　テクスチャーを　はりつけて"
-	next "てきと　おなじ　ぞくせいに　かわる@"
+	db   "じぶんに SHMQn-を はりÜzä"
+	next "äxö vüじ ぞyせsに wわる@"
 
 TriAttackDescription:
-	db   "３しゅるいの　こうせんを"
-	next "１つにまとめて　てきに　はっしゃする@"
+	db   "3し<PK>るsの こtせんを"
+	next "1Üにまömä äxに は←しする@"
 
 SuperFangDescription:
-	db   "するどいまえばで　こうげきして"
-	next "てきの　たいりょくを　はんぶんにする@"
+	db   "するどsまuばで こtげxしä"
+	next "äxの Äsり<MN>yを はんぶんにする@"
 
 SlashDescription:
-	db   "するどいカマや　ツメなどで　こうげき"
-	next "クりティカルヒットが　でやすい@"
+	db   "するどsF;s Raüどで こtげx"
+	next "HりSqFg(mTが でsすs@"
 
 SubstituteDescription:
-	db   "たいりょくの　４ぶんの１を　つかって"
-	next "じぶんの　ぶんしんをだす@"
+	db   "Äsり<MN>yの 4ぶんの1を Üw←ä"
+	next "じぶんの ぶんしんをだす@"
 
 StruggleDescription:
-	db   "わざポイントがなくなると　でるわざ"
-	next "じぶんもすこし　ダメージをうける@"
+	db   "わざポBlTがüyüるö でるわざ"
+	next "じぶんrすこし ダa-ジをtzる@"
 
 SketchDescription:
-	db   "てきが　つかったわざを　スケッチして"
-	next "そのわざを　じぶんのものに　する@"
+	db   "äxが Üw←Äわざを MImQしä"
+	next "そのわざを じぶんのrのに する@"
 
 TripleKickDescription:
-	db   "てきを　３かい　れんぞくで　こうげき"
-	next "あてるたびに　ダメージが　あがる@"
+	db   "äxを 3ws れんぞyで こtげx"
+	next "räるÄびに ダa-ジが rがる@"
 
 ThiefDescription:
-	db   "こうげきの　さいちゅうに　すきをみて"
-	next "てきが　もっている　どうぐを　ぬすむ@"
+	db   "こtげxの さsÖ<PK>tに すxをdä"
+	next "äxが r←äsる どtぐを ぬすl@"
 
 SpiderWebDescription:
-	db   "ネバネバとした　いとを　からませて"
-	next "てきを　にげられなく　してしまう@"
+	db   "XバXバöしÄ söを wらませä"
+	next "äxを にげられüy しäしまt@"
 
 MindReaderDescription:
-	db   "てきの　うごきを　こころで　かんじて"
-	next "つぎの　こうげきを　かならず　あてる@"
+	db   "äxの tごxを こころで wんじä"
+	next "Üぎの こtげxを wüらず räる@"
 
 NightmareDescription:
-	db   "てきが　ねてるあいだ　たいりょくを"
-	next "まいターン　８ぶんの１　へらしていく@"
+	db   "äxが ねäるrsだ Äsり<MN>yを"
+	next "まsP-l 8ぶんの1 へらしäsy@"
 
 FlameWheelDescription:
-	db   "ほのおを　まとって　とっしんする"
-	next "てきを　やけどさせることがある@"
+	db   "ほのvを まö←ä ö←しんする"
+	next "äxを szどさせるこöがrる@"
 
 SnoreDescription:
-	db   "ねているときだけ　つかえる　わざ"
-	next "すごいいびきで　てきを　こうげき@"
+	db   "ねäsるöxだz Üwuる わざ"
+	next "すごssびxで äxを こtげx@"
 
 NailDownDescription:
-	db   "じぶんを　こうげきすることで　てきに"
-	next "まいターン　ダメージを　あたえる@"
+	db   "じぶんを こtげxするこöで äxに"
+	next "まsP-l ダa-ジを rÄuる@"
 
 FlailDescription:
-	db   "たいりょくが　すくないほど"
-	next "てきに　おおきなダメージを　あたえる@"
+	db   "Äsり<MN>yが すyüsほど"
+	next "äxに vvxüダa-ジを rÄuる@"
 
 Conversion2Description:
-	db   "てきに　テクスチャーを　はりつけて"
-	next "ぞくせいを　ランダムでかえてしまう@"
+	db   "äxに SHMQn-を はりÜzä"
+	next "ぞyせsを flダ]でwuäしまt@"
 
 CoinHurlDescription:
-	db   "おかねを　つかって　てきを　こうげき"
-	next "かいぬしが　りッチなほど　つよいワザ@"
+	db   "vwねを Üw←ä äxを こtげx"
+	next "wsぬしが りmQüほど Üvsjザ@"
 
 CottonSporeDescription:
-	db   "ほうしを　まとわりつかせ　てきにの"
-	next "ぼうぎょを　ガクッとさげさせる@"
+	db   "ほtしを まöわりÜwせ äxにの"
+	next "ぼtぎ<MN>を ガHmöさげさせる@"
 
 ReversalDescription:
-	db   "たいりょくが　すくないほど"
-	next "てきに　おおきなダメージを　あたえる@"
+	db   "Äsり<MN>yが すyüsほど"
+	next "äxに vvxüダa-ジを rÄuる@"
 
 SpiteDescription:
-	db   "さいごに　うけた　わざを　うらんで　"
-	next "その　わざポイントを　へらしてしまう@"
+	db   "さsごに tzÄ わざを tらんで "
+	next "その わざポBlTを へらしäしまt@"
 
 PowderSnowDescription:
-	db   "ゆきを　かぜにのせて　こうげき"
-	next "てきを　こおらせることがある@"
+	db   "txを wぜにのせä こtげx"
+	next "äxを こvらせるこöがrる@"
 
 ProtectDescription:
-	db   "つぎのターンの　こうげきを　うけない@"
+	db   "ÜぎのP-lの こtげxを tzüs@"
 
 MachPunchDescription:
-	db   "ものすごいはやさで　パンチをくりだし"
-	next "かならず　せんせいこうげきする@"
+	db   "rのすごsはsさで パlQをyりだし"
+	next "wüらず せんせsこtげxする@"
 
 ScaryFaceDescription:
-	db   "こわいかおで　てきを　おびえさせて　"
-	next "ぼうぎょを　ガクッとさげさせる@"
+	db   "こわswvで äxを vびuさせä "
+	next "ぼtぎ<MN>を ガHmöさげさせる@"
 
 FaintAttackDescription:
-	db   "てきを　ゆだんさせて　ちかづき"
-	next "よけられない　こうげきを　くりだす@"
+	db   "äxを tだんさせä Öwづx"
+	next "vzられüs こtげxを yりだす@"
 
 SweetKissDescription:
-	db   "かわいい　かおで　キスを　せまる"
-	next "キスされると　こんらんしてしまう@"
+	db   "wわss wvで GMを せまる"
+	next "GMされるö こんらんしäしまt@"
 
 BellyDrumDescription:
-	db   "おなかを　たたいて　てきを　いかく"
-	next "こうげきを　グーンとあげる@"
+	db   "vüwを ÄÄsä äxを swy"
+	next "こtげxを グ-lörげる@"
 
 SludgeBombDescription:
-	db   "へドロを　なげつけて　こうげき"
-	next "てきに　どくをあたえることがある@"
+	db   "へドiを üげÜzä こtげx"
+	next "äxに どyをrÄuるこöがrる@"
 
 MudSlapDescription:
-	db   "てきの　かおなどに　ドロをかけて　"
-	next "めいちゅうりつを　さげさせる@"
+	db   "äxの wvüどに ドiをwzä "
+	next "msÖ<PK>tりÜを さげさせる@"
 
 OctazookaDescription:
-	db   "すみの　かたまりを　はっしゃして"
-	next "めいちゅうりつを　さげさせる　@"
+	db   "すdの wÄまりを は←ししä"
+	next "msÖ<PK>tりÜを さげさせる @"
 
 SpikesDescription:
-	db   "てきが　にげるときに　わなを　しかけ"
-	next "こうたいした　てきを　こうげきする@"
+	db   "äxが にげるöxに わüを しwz"
+	next "こtÄsしÄ äxを こtげxする@"
 
 ZapCannonDescription:
-	db   "あたりにくいが　ダメージは　おおきい"
-	next "あたれば　かならず　マヒさせる@"
+	db   "rÄりにysが ダa-ジは vvxs"
+	next "rÄれば wüらず ;(させる@"
 
 ForesightDescription:
-	db   "ゴーストタイプの　てきに　"
-	next "ノーマルタイプの　わざが　あたる@"
+	db   "ゴ-MTPBプの äxに "
+	next "Y-;gPBプの わざが rÄる@"
 
 DestinyBondDescription:
-	db   "このわざの　あとに　たおされると"
-	next "てきも　せんとうふのうになる@"
+	db   "このわざの röに Ävされるö"
+	next "äxr せんötふのtにüる@"
 
 PerishSongDescription:
-	db   "きいた　ポケモンは　３ターンごに"
-	next "せんとうふのうに　なってしまう@"
+	db   "xsÄ ポIblは 3P-lごに"
+	next "せんötふのtに ü←äしまt@"
 
 SynchronizeDescription:
-	db   "シンクロじょうたいに　なると　てきも"
-	next "おなじ　ダメージを　うけるようになる@"
+	db   "LlHiじ<MN>tÄsに üるö äxr"
+	next "vüじ ダa-ジを tzるvtにüる@"
 
 DetectDescription:
-	db   "てきの　うごきを　みきることで"
-	next "つぎの　こうげきを　かならずあてる@"
+	db   "äxの tごxを dxるこöで"
+	next "Üぎの こtげxを wüらずräる@"
 
 BoneLockDescription:
-	db   "てにもった　ホネで　２ー５かい　"
-	next "れんぞくで　てきを　こうげきする@"
+	db   "äにr←Ä :Xで 2-5ws "
+	next "れんぞyで äxを こtげxする@"
 
 LockOnDescription:
-	db   "てきに　しょうじゅんを　あわせて"
-	next "つぎの　こうげきを　かならずあてる@"
+	db   "äxに し<MN>tじ<PK>んを rわせä"
+	next "Üぎの こtげxを wüらずräる@"
 
 OutrageDescription:
-	db   "２ー３ターンのあいだ　あばれつづける"
-	next "あばれたあとは　こんらんしてしまう@"
+	db   "2-3P-lのrsだ rばれÜづzる"
+	next "rばれÄröは こんらんしäしまt@"
 
 SandstormDescription:
-	db   "すなあらしを　はっせいさせて"
-	next "まいターン　ダメージを　あたえる@"
+	db   "すürらしを は←せsさせä"
+	next "まsP-l ダa-ジを rÄuる@"
 
 GigaDrainDescription:
-	db   "てきに　あたえた　ダメージの"
-	next "はんぶん　たいりょくを　かいふくする@"
+	db   "äxに rÄuÄ ダa-ジの"
+	next "はんぶん Äsり<MN>yを wsふyする@"
 
 EndureDescription:
-	db   "つぎのターンで　こうげきを　うけても"
-	next "かららず　たいりょくが　１のこる@"
+	db   "ÜぎのP-lで こtげxを tzär"
+	next "wららず Äsり<MN>yが 1のこる@"
 
 CharmDescription:
-	db   "かわいくあまえて　てきを　ゆだんさせ"
-	next "こうげきを　ガクッとさげさせる　@"
+	db   "wわsyrまuä äxを tだんさせ"
+	next "こtげxを ガHmöさげさせる @"
 
 RolloutDescription:
-	db   "５ターンのあいだ　てきを　こうげき"
-	next "あてるたびに　ダメージが　あがる@"
+	db   "5P-lのrsだ äxを こtげx"
+	next "räるÄびに ダa-ジが rがる@"
 
 FalseSwipeDescription:
-	db   "かならず　たいりょくが　１のこるよう"
-	next "てかげんして　こうげき@"
+	db   "wüらず Äsり<MN>yが 1のこるvt"
+	next "äwげんしä こtげx@"
 
 SwaggerDescription:
-	db   "てきを　おこらせて　こんらんさせるが"
-	next "こうげきも　グーンと　あげてしまう@"
+	db   "äxを vこらせä こんらんさせるが"
+	next "こtげxr グ-lö rげäしまt@"
 
 MilkDrinkDescription:
-	db   "キズついた　からだを　たいりょくの"
-	next "はんぶんだけ　かいふくする@"
+	db   "GズÜsÄ wらだを Äsり<MN>yの"
+	next "はんぶんだz wsふyする@"
 
 SparkDescription:
-	db   "でんきを　まとって　とっしんする"
-	next "てきを　マヒさせることがある@"
+	db   "でんxを まö←ä ö←しんする"
+	next "äxを ;(させるこöがrる@"
 
 FuryCutterDescription:
-	db   "するどいカマや　ツメなどで　てきを"
-	next "２かい　れんぞくで　こうげき@"
+	db   "するどsF;s Raüどで äxを"
+	next "2ws れんぞyで こtげx@"
 
 SteelWingDescription:
-	db   "つばさを　おおきく　ひろげて"
-	next "そのまま　てきに　たいあたりする@"
+	db   "Üばさを vvxy ひろげä"
+	next "そのまま äxに ÄsrÄりする@"
 
 StalkerDescription:
-	db   "てきを　じーっと　みていると　なぜか"
-	next "てきは　にげられなく　なってしまう@"
+	db   "äxを じ-←ö däsるö üぜw"
+	next "äxは にげられüy ü←äしまt@"
 
 AttractDescription:
-	db   "オスなら　メスに　メスなら　オスに"
-	next "こうげきが　できなくなってしまう@"
+	db   "EMüら aMに aMüら EMに"
+	next "こtげxが でxüyü←äしまt@"
 
 SleepTalkDescription:
-	db   "ねているときだけ　つかえる　わざ"
-	next "ランダムで　じぶんのわざを　くりだす@"
+	db   "ねäsるöxだz Üwuる わざ"
+	next "flダ]で じぶんのわざを yりだす@"
 
 BellChimeDescription:
-	db   "ここちよい　すずのねを　きかせて"
-	next "すべての　じょうたいを　かいふくする@"
+	db   "ここÖvs すずのねを xwせä"
+	next "すべäの じ<MN>tÄsを wsふyする@"
 
 ReturnDescription:
-	db   "よくしてくれる　かいぬしの　ために"
-	next "ぜんりょくで　てきを　こうげき@"
+	db   "vyしäyれる wsぬしの Ämに"
+	next "ぜんり<MN>yで äxを こtげx@"
 
 PresentDescription:
-	db   "てきに　ばくだんを　プレゼントする"
-	next "たまに　かいふくしてしまうことがある@"
+	db   "äxに ばyだんを プhゼlTする"
+	next "Äまに wsふyしäしまtこöがrる@"
 
 FrustrationDescription:
-	db   "むごい　しうちの　うさばらしに　"
-	next "てきを　ぜんりょくで　こうげき@"
+	db   "lごs しtÖの tさばらしに "
+	next "äxを ぜんり<MN>yで こtげx@"
 
 SafeguardDescription:
-	db   "ふしぎな　ちからで　まもられて"
-	next "とくしゅ　じょうたいに　ならなくなる@"
+	db   "ふしぎü Öwらで まrられä"
+	next "öyし<PK> じ<MN>tÄsに üらüyüる@"
 
 PainSplitDescription:
-	db   "てきと　じぶんの　たいりょくを"
-	next "たして　それを　なかよく　わける@"
+	db   "äxö じぶんの Äsり<MN>yを"
+	next "Äしä それを üwvy わzる@"
 
 SacredFireDescription:
-	db   "しんぴてきな　ほのおで　こうげき"
-	next "てきを　ひるませることがある@"
+	db   "しんぴäxü ほのvで こtげx"
+	next "äxを ひるませるこöがrる@"
 
 MagnitudeDescription:
-	db   "じめんを　ゆらして　てきを　こうげき"
-	next "ダメージは　ランダムで　かわる@"
+	db   "じmんを tらしä äxを こtげx"
+	next "ダa-ジは flダ]で wわる@"
 
 DynamicpunchDescription:
-	db   "あたりにくいが　ダメージは　おおきい"
-	next "あたれば　かならず　こんらんさせる@"
+	db   "rÄりにysが ダa-ジは vvxs"
+	next "rÄれば wüらず こんらんさせる@"
 
 MegaphoneDescription:
-	db   "すごいおとで　てきの　きをちらせて　"
-	next "とくしゅこうげきを　さげさせる@"
+	db   "すごsvöで äxの xをÖらせä "
+	next "öyし<PK>こtげxを さげさせる@"
 
 DragonbreathDescription:
-	db   "くちから　ものすごい　いきをはいて"
-	next "てきを　こうげき@"
+	db   "yÖwら rのすごs sxをはsä"
+	next "äxを こtげx@"
 
 BatonPassDescription:
-	db   "ついかこうかを　のこしたまま"
-	next "ほかの　ポケモンと　いれかわる@"
+	db   "Üswこtwを のこしÄまま"
+	next "ほwの ポIblö sれwわる@"
 
 EncoreDescription:
-	db   "てきが　さいごに　つかった　わざを"
-	next "２ー５かい　れんぞくで　ださせる@"
+	db   "äxが さsごに Üw←Ä わざを"
+	next "2-5ws れんぞyで ださせる@"
 
 PursuitDescription:
-	db   "てきが　にげるときに　つかうと"
-	next "だいダメージを　あたえることができる@"
+	db   "äxが にげるöxに Üwtö"
+	next "だsダa-ジを rÄuるこöがでxる@"
 
 RapidSpinDescription:
-	db   "からだを　はやく　かいてんさせて"
-	next "てきを　こうげき@"
+	db   "wらだを はsy wsäんさせä"
+	next "äxを こtげx@"
 
 TemptDescription:
-	db   "てきに　エサをなげて　きを　そらせて"
-	next "てきの　かいひりつを　さげさせる@"
+	db   "äxに DKをüげä xを そらせä"
+	next "äxの wsひりÜを さげさせる@"
 
 IronTailDescription:
-	db   "かたい　シッポで　てきを　こうげき"
-	next "てきの　ぼうぎょを　さげることがある@"
+	db   "wÄs Lmポで äxを こtげx"
+	next "äxの ぼtぎ<MN>を さげるこöがrる@"
 
 RockHeadDescription:
-	db   "かたい　あたまで　てきを　こうげき"
-	next "てきを　ひるませることがある@"
+	db   "wÄs rÄまで äxを こtげx"
+	next "äxを ひるませるこöがrる@"
 
 VitalThrowDescription:
-	db   "こうげきを　うけずに　こうげきできる"
-	next "はずれると　だいダメージを　うける@"
+	db   "こtげxを tzずに こtげxでxる"
+	next "はずれるö だsダa-ジを tzる@"
 
 MorningSunDescription:
-	db   "たいりょくを　かいふくする"
-	next "じかんで　かいふくりょうが　かわる@"
+	db   "Äsり<MN>yを wsふyする"
+	next "じwんで wsふyり<MN>tが wわる@"
 
 SynthesisDescription:
-	db   "たいりょくを　かいふくする"
-	next "じかんで　かいふくりょうが　かわる@"
+	db   "Äsり<MN>yを wsふyする"
+	next "じwんで wsふyり<MN>tが wわる@"
 
 MoonlightDescription:
-	db   "たいりょくを　かいふくする"
-	next "じかんで　かいふくりょうが　かわる@"
+	db   "Äsり<MN>yを wsふyする"
+	next "じwんで wsふyり<MN>tが wわる@"
 
 HiddenPowerDescription:
-	db   "ポケモンによって　てきに　あたえる"
-	next "ダメージの　りょうが　へんかする@"
+	db   "ポIblにv←ä äxに rÄuる"
+	next "ダa-ジの り<MN>tが へんwする@"
 
 CrossCutterDescription:
-	db   "ハサミを　こうさ　させて　こうげき"
-	next "クりティカルヒットが　でやすい@"
+	db   "ZK[を こtさ させä こtげx"
+	next "HりSqFg(mTが でsすs@"
 
 TwisterDescription:
-	db   "ものすごい　かぜを　おこして"
-	next "てきを　こうげき@"
+	db   "rのすごs wぜを vこしä"
+	next "äxを こtげx@"
 
 RainDanceDescription:
-	db   "５ターンのあいだ　みずタイプの"
-	next "わざの　いりょくが　あがる@"
+	db   "5P-lのrsだ dずPBプの"
+	next "わざの sり<MN>yが rがる@"
 
 SunnyDayDescription:
-	db   "５ターンのあいだ　ほのおタイプの"
-	next "わざの　いりょくが　あがる@"
+	db   "5P-lのrsだ ほのvPBプの"
+	next "わざの sり<MN>yが rがる@"
 
 F2Description:
-	db   "コメントさくせいちゅう@"
+	db   "JalTさyせsÖ<PK>t@"
 
 F3Description:
-	db   "コメントさくせいちゅう@"
+	db   "JalTさyせsÖ<PK>t@"
 
 F4Description:
-	db   "コメントさくせいちゅう@"
+	db   "JalTさyせsÖ<PK>t@"
 
 UprootDescription:
-	db   "てきを　つかんで　ほうりなげて"
-	next "だいダメージを　あたえる@"
+	db   "äxを Üwんで ほtりüげä"
+	next "だsダa-ジを rÄuる@"
 
 WindRideDescription:
-	db   "かぜと　ともに　てきに　たいあたり"
-	next "クりティカルヒットが　でやすい@"
+	db   "wぜö örに äxに ÄsrÄり"
+	next "HりSqFg(mTが でsすs@"
 
 WaterSportDescription:
-	db   "コメントさくせいちゅう@"
+	db   "JalTさyせsÖ<PK>t@"
 
 StrongArmDescription:
-	db   "ふとい　うでで　てきを　こうげき"
-	next "こうげきが　あがることがある@"
+	db   "ふös tでで äxを こtげx"
+	next "こtげxが rがるこöがrる@"
 
 BrightMossDescription:
-	db   "あたりを　あかるくして"
-	next "わざの　めいちゅうりつを　あげる@"
+	db   "rÄりを rwるyしä"
+	next "わざの msÖ<PK>tりÜを rげる@"
 
 WhirlpoolDescription:
-	db   "２ー５ターンのあいだ　てきを"
-	next "うずの　ちゅうしんに　とじこめる@"
+	db   "2-5P-lのrsだ äxを"
+	next "tずの Ö<PK>tしんに öじこmる@"
 
 BounceDescription:
-	db   "はねるだけで　なにもおこらない⋯@"
+	db   "はねるだzで üにrvこらüs…@"

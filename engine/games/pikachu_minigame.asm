@@ -251,7 +251,7 @@ PikachuMiniGame_BlinkText:
 	ret
 
 .text
-	db "スタートホタン▶タイトルかめん"
+	db "MP-T:Pl▶PBTgwmん"
 	db 0	; terminator
 
 PikachuMiniGame_Copy128Tiles:	; unreferenced?

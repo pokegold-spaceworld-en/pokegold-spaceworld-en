@@ -22,4 +22,4 @@ PlaceWaitingText::
 	jp DelayFrames
 
 .Waiting
-	db "つうしんたいきちゅう！@"
+	db "ÜtしんÄsxÖ<PK>t!@"

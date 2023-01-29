@@ -41,7 +41,7 @@ FieldDebug_ShowWarpToText:
 .WarpToText:
 	text_from_ram wStringBuffer2
 	text "に"
-	line "ワープします！"
+	line "j-プします!"
 	done
 
 Functionfcc24:

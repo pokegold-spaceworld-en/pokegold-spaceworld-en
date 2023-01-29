@@ -110,796 +110,796 @@ PokedexEntryPointers1::
 	dw KinglerDexEntry
 
 BulbasaurDexEntry:
-	db "たね@"
+	db "Äね@"
 	db 7
 	dw 69
-	db   "うまれたときから　せなかに"
-	next "なにかの　タネが　うえてあり"
-	next "からだと　いっしょに　そだつ。@"
+	db   "tまれÄöxwら せüwに"
+	next "üにwの PXが tuärり"
+	next "wらだö s←し<MN>に そだÜ.@"
 
 IvysaurDexEntry:
-	db "たね@"
+	db "Äね@"
 	db 10
 	dw 130
-	db   "せなかに　ハナのつぼみが　あり"
-	next "ようぶんを　きゅうしゅう　すると"
-	next "だんだん　そだってくる。@"
+	db   "せüwに ZUのÜぼdが rり"
+	next "vtぶんを x<PK>tし<PK>t するö"
+	next "だんだん そだ←äyる.@"
 
 VenusaurDexEntry:
-	db "たね@"
+	db "Äね@"
 	db 20
 	dw 1000
-	db   "おおきな　はなを　いじするため"
-	next "ひなたをみつけると　まるで"
-	next "ひきよせられるように　いどうする。@"
+	db   "vvxü はüを sじするÄm"
+	next "ひüÄをdÜzるö まるで"
+	next "ひxvせられるvtに sどtする.@"
 
 CharmanderDexEntry:
-	db "とかげ@"
+	db "öwげ@"
 	db 6
 	dw 85
-	db   "あついものを　このむ　せいかく。"
-	next "しっぽの　ほのおは　こうふんすると"
-	next "おんどが　あがっていく。@"
+	db   "rÜsrのを このl せswy."
+	next "し←ぽの ほのvは こtふんするö"
+	next "vんどが rが←äsy.@"
 
 CharmeleonDexEntry:
-	db "かえん@"
+	db "wuん@"
 	db 11
 	dw 190
-	db   "もえる　シッポを　ふりまわすと"
-	next "まわりの　おんどが　どんどん"
-	next "あがって　あいてを　くるしめる。@"
+	db   "ruる Lmポを ふりまわすö"
+	next "まわりの vんどが どんどん"
+	next "rが←ä rsäを yるしmる.@"
 
 CharizardDexEntry:
-	db "かえん@"
+	db "wuん@"
 	db 17
 	dw 905
-	db   "がんせきも　もえあがるような　"
-	next "こうねつの　ほのおを　はいて"
-	next "やまかじを　おこすことも　ある。@"
+	db   "がんせxr rurがるvtü "
+	next "こtねÜの ほのvを はsä"
+	next "sまwじを vこすこör rる.@"
 
 SquirtleDexEntry:
-	db "かめのこ@"
+	db "wmのこ@"
 	db 5
 	dw 90
-	db   "うまれたあと　せなかが　ふくらんで"
-	next "かたい　こうらが　できる。くちから"
-	next "きょうりょくな　あわを　だす。@"
+	db   "tまれÄrö せüwが ふyらんで"
+	next "wÄs こtらが でxる.yÖwら"
+	next "x<MN>tり<MN>yü rわを だす.@"
 
 WartortleDexEntry:
-	db "かめ@"
+	db "wm@"
 	db 10
 	dw 225
-	db   "しばしば　すいちゅうに　かくれ"
-	next "えものを　ねらう。はやく　およぐとき"
-	next "みみを　うごかして　バランスをとる。@"
+	db   "しばしば すsÖ<PK>tに wyれ"
+	next "urのを ねらt.はsy vvぐöx"
+	next "ddを tごwしä バflMをöる.@"
 
 BlastoiseDexEntry:
-	db "こうら@"
+	db "こtら@"
 	db 16
 	dw 855
-	db   "おもたくて　カラが　かたいため"
-	next "のしかかられると　たいていの"
-	next "ポケモンは　きを　うしなってしまう。@"
+	db   "vrÄyä Ffが wÄsÄm"
+	next "のしwwられるö Äsäsの"
+	next "ポIblは xを tしü←äしまt.@"
 
 CaterpieDexEntry:
-	db "いもむし@"
+	db "srlし@"
 	db 3
 	dw 29
-	db   "みどりの　ひふに　おおわれている。"
-	next "だっぴして　せいちょうすると"
-	next "いとを　かけて　サナギに　かわる。@"
+	db   "dどりの ひふに vvわれäsる."
+	next "だ←ぴしä せsÖ<MN>tするö"
+	next "söを wzä KUギに wわる.@"
 
 MetapodDexEntry:
-	db "さなぎ@"
+	db "さüぎ@"
 	db 7
 	dw 99
-	db   "うすい　カラに　つつまれているが"
-	next "なかみは　とても　やわらかく"
-	next "つよい　こうげきには　たえられない。@"
+	db   "tすs Ffに ÜÜまれäsるが"
+	next "üwdは öär sわらwy"
+	next "Üvs こtげxには Äuられüs.@"
 
 ButterfreeDexEntry:
-	db "ちょうちょ@"
+	db "Ö<MN>tÖ<MN>@"
 	db 11
 	dw 320
-	db   "ハネは　みずを　はじく　りんぷんに"
-	next "まもられている。あめの　ひでも"
-	next "そらを　とぶことが　できる。@"
+	db   "ZXは dずを はじy りんぷんに"
+	next "まrられäsる.rmの ひでr"
+	next "そらを öぶこöが でxる.@"
 
 WeedleDexEntry:
-	db "けむし@"
+	db "zlし@"
 	db 3
 	dw 32
-	db   "もりに　おおく　ハッパを　たべる。"
-	next "あたまに　するどい　ハりをもち"
-	next "さされると　どくに　おかされる。@"
+	db   "rりに vvy Zmパを Äべる."
+	next "rÄまに するどs ZりをrÖ"
+	next "さされるö どyに vwされる.@"
 
 KakunaDexEntry:
-	db "さなぎ@"
+	db "さüぎ@"
 	db 6
 	dw 100
-	db   "おとなの　からだを　つくるため"
-	next "カラのなかで　へんしんちゅう。"
-	next "ほとんど　うごけない。@"
+	db   "vöüの wらだを ÜyるÄm"
+	next "Ffのüwで へんしんÖ<PK>t."
+	next "ほöんど tごzüs.@"
 
 BeedrillDexEntry:
-	db "どくばち@"
+	db "どyばÖ@"
 	db 10
 	dw 295
-	db   "しゅうだんで　あらわれることもある。"
-	next "もうスピードで　とびまわり"
-	next "おしりの　どくばりで　さしまくる。@"
+	db   "し<PK>tだんで rらわれるこörrる."
+	next "rtMピ-ドで öびまわり"
+	next "vしりの どyばりで さしまyる.@"
 
 PidgeyDexEntry:
-	db "ことり@"
+	db "こöり@"
 	db 3
 	dw 18
-	db   "もりや　はやしに　おおく　ぶんぷ。"
-	next "ちじょうに　おりてきたとき"
-	next "はばたいて　すなを　かけたりする。@"
+	db   "rりs はsしに vvy ぶんぷ."
+	next "Öじ<MN>tに vりäxÄöx"
+	next "はばÄsä すüを wzÄりする.@"
 
 PidgeottoDexEntry:
-	db "とり@"
+	db "öり@"
 	db 11
 	dw 300
-	db   "あしの　ツメが　はったつしている。"
-	next "エサの　タマタマを　つかんで"
-	next "１００キロさきの　す　まで　はこぶ。@"
+	db   "rしの Raが は←ÄÜしäsる."
+	next "DKの P;P;を Üwんで"
+	next "100Giさxの す まで はこぶ.@"
 
 PidgeotDexEntry:
-	db "とり@"
+	db "öり@"
 	db 15
 	dw 395
-	db   "うつくしい　ハネを　ひろげて"
-	next "あいてを　いかくする。"
-	next "マッハ２で　そらを　とびまわる。@"
+	db   "tÜyしs ZXを ひろげä"
+	next "rsäを swyする."
+	next ";mZ2で そらを öびまわる.@"
 
 RattataDexEntry:
-	db "ねずみ@"
+	db "ねずd@"
 	db 3
 	dw 35
-	db   "なんでも　かじって　こうげき。"
-	next "ちいさいうえに　うごきが　すばやく"
-	next "いろんな　ところに　しゅつぼつする。@"
+	db   "üんでr wじ←ä こtげx."
+	next "Ösさstuに tごxが すばsy"
+	next "sろんü öころに し<PK>ÜぼÜする.@"
 
 RaticateDexEntry:
-	db "ねずみ@"
+	db "ねずd@"
 	db 7
 	dw 185
-	db   "うしろあしの　ゆびは　３ぼんで"
-	next "ちいさな　みずかきが　ついている。"
-	next "かわを　およいで　わたる。@"
+	db   "tしろrしの tびは 3ぼんで"
+	next "Ösさü dずwxが Üsäsる."
+	next "wわを vvsで わÄる.@"
 
 SpearowDexEntry:
-	db "ことり@"
+	db "こöり@"
 	db 3
 	dw 20
-	db   "くさむらの　むしなどを　たべる。"
-	next "はねが　みじかいために　いつも"
-	next "いそがしく　はばたいている。@"
+	db   "yさlらの lしüどを Äべる."
+	next "はねが dじwsÄmに sÜr"
+	next "sそがしy はばÄsäsる.@"
 
 FearowDexEntry:
-	db "くちばし@"
+	db "yÖばし@"
 	db 12
 	dw 380
-	db   "おおきな　つばさで　おおぞらを"
-	next "とびつづけることが　できる。"
-	next "１かいも　おりなくても　へいきだ。@"
+	db   "vvxü Üばさで vvぞらを"
+	next "öびÜづzるこöが でxる."
+	next "1wsr vりüyär へsxだ.@"
 
 EkansDexEntry:
 	db "へび@"
 	db 20
 	dw 69
-	db   "くさちに　おおく　かくれている。"
-	next "こどもの　アーボは　どくをもたない。"
-	next "かまれても　だいじょうぶだ。@"
+	db   "yさÖに vvy wyれäsる."
+	next "こどrの A-ボは どyをrÄüs."
+	next "wまれär だsじ<MN>tぶだ.@"
 
 ArbokDexEntry:
-	db "コブラ@"
+	db "Jブf@"
 	db 35
 	dw 650
-	db   "おなかの　もようが　こわいかおに"
-	next "みえる。よわいてきは　そのもようを"
-	next "みただけで　にげだしてしまう。@"
+	db   "vüwの rvtが こわswvに"
+	next "duる.vわsäxは そのrvtを"
+	next "dÄだzで にげだしäしまt.@"
 
 PikachuDexEntry:
-	db "ねずみ@"
+	db "ねずd@"
 	db 4
 	dw 60
-	db   "ほっぺたの　りょうがわに"
-	next "ちいさい　でんきぶくろを　もっていて"
-	next "ピンチのときに　ほうでんする。@"
+	db   "ほ←ぺÄの り<MN>tがわに"
+	next "Ösさs でんxぶyろを r←äsä"
+	next "ピlQのöxに ほtでんする.@"
 
 RaichuDexEntry:
-	db "ねずみ@"
+	db "ねずd@"
 	db 8
 	dw 300
-	db   "でんげきは　１０まんボルトに"
-	next "たっする。シッポに　さわると"
-	next "インドぞうでも　きぜつする。@"
+	db   "でんげxは 10まんボgTに"
+	next "Ä←する.Lmポに さわるö"
+	next "Blドぞtでr xぜÜする.@"
 
 SandshrewDexEntry:
-	db "ねずみ@"
+	db "ねずd@"
 	db 6
 	dw 120
-	db   "みずけの　すくない　ばしょに"
-	next "ふかい　あなを　ほって　かくれる。"
-	next "えものを　ねらうときは　でてくる。@"
+	db   "dずzの すyüs ばし<MN>に"
+	next "ふws rüを ほ←ä wyれる."
+	next "urのを ねらtöxは でäyる.@"
 
 SandslashDexEntry:
-	db "ねずみ@"
+	db "ねずd@"
 	db 10
 	dw 295
-	db   "せなかを　まるめると　トゲトゲの"
-	next "ボールみたいだ。そのまま　ころがって"
-	next "ぶつかってきたり　にげたりする。　@"
+	db   "せüwを まるmるö TゲTゲの"
+	next "ボ-gdÄsだ.そのまま ころが←ä"
+	next "ぶÜw←äxÄり にげÄりする. @"
 
 NidoranFDexEntry:
-	db "どくばり@"
+	db "どyばり@"
 	db 4
 	dw 70
-	db   "ちいさくても　どくばりの　いりょくは"
-	next "きょうれつで　ちゅういが　ひつよう。"
-	next "メスのほうが　つのが　ちいさい。@"
+	db   "Ösさyär どyばりの sり<MN>yは"
+	next "x<MN>tれÜで Ö<PK>tsが ひÜvt."
+	next "aMのほtが Üのが Ösさs.@"
 
 NidorinaDexEntry:
-	db "どくばり@"
+	db "どyばり@"
 	db 8
 	dw 200
-	db   "メスなので　ツノのそだちが　おそい。"
-	next "ひっかいたり　かみついたりと"
-	next "にくだんせんを　このむ。@"
+	db   "aMüので RYのそだÖが vそs."
+	next "ひ←wsÄり wdÜsÄりö"
+	next "にyだんせんを このl.@"
 
 NidoqueenDexEntry:
-	db "ドりル@"
+	db "ドりg@"
 	db 13
 	dw 600
-	db   "せなかに　はりのような　ウロコが"
-	next "びっしりと　はえている。"
-	next "こうふんすると　はりが　さかだつ。@"
+	db   "せüwに はりのvtü CiJが"
+	next "び←しりö はuäsる."
+	next "こtふんするö はりが さwだÜ.@"
 
 NidoranMDexEntry:
-	db "どくばり@"
+	db "どyばり@"
 	db 5
 	dw 90
-	db   "ながい　みみを　たてて　きけんを"
-	next "かんじとる。からだの　とげが"
-	next "おおきいほど　つよい　どくをだす。@"
+	db   "üがs ddを Äää xzんを"
+	next "wんじöる.wらだの öげが"
+	next "vvxsほど Üvs どyをだす.@"
 
 NidorinoDexEntry:
-	db "どくばり@"
+	db "どyばり@"
 	db 9
 	dw 195
-	db   "すぐに　おこって　たたかおうとする。"
-	next "しかも　あたまの　ツノは　ささると"
-	next "きょうれつな　どくそをだす　しくみ。@"
+	db   "すぐに vこ←ä ÄÄwvtöする."
+	next "しwr rÄまの RYは ささるö"
+	next "x<MN>tれÜü どyそをだす しyd.@"
 
 NidokingDexEntry:
-	db "ドりル@"
+	db "ドりg@"
 	db 14
 	dw 620
-	db   "ダイヤのように　かたい　ひふと"
-	next "ながく　のびた　ツノが　とくちょう。"
-	next "ツノに　どくがあるので　ちゅうい。@"
+	db   "ダBcのvtに wÄs ひふö"
+	next "üがy のびÄ RYが öyÖ<MN>t."
+	next "RYに どyがrるので Ö<PK>ts.@"
 
 ClefairyDexEntry:
-	db "ようせい@"
+	db "vtせs@"
 	db 6
 	dw 75
-	db   "ふしぎで　かわいいので　おおくの"
-	next "ファンがいる。ただし　せいそくちが"
-	next "かぎられ　みつけるのが　たいへん。@"
+	db   "ふしぎで wわssので vvyの"
+	next ")&lがsる.Äだし せsそyÖが"
+	next "wぎられ dÜzるのが Äsへん.@"
 
 ClefableDexEntry:
-	db "ようせい@"
+	db "vtせs@"
 	db 13
 	dw 400
-	db   "みみが　よくて　１キロ　はなれた"
-	next "ところで　おとした　はりのおとを"
-	next "みごとに　ききわけられる。@"
+	db   "ddが vyä 1Gi はüれÄ"
+	next "öころで vöしÄ はりのvöを"
+	next "dごöに xxわzられる.@"
 
 VulpixDexEntry:
-	db "きつね@"
+	db "xÜね@"
 	db 6
 	dw 99
-	db   "こどもだが　６ほんの　しっぽが"
-	next "うつくしい。せいちょうすると"
-	next "さらに　しっぽが　ふえる。@"
+	db   "こどrだが 6ほんの し←ぽが"
+	next "tÜyしs.せsÖ<MN>tするö"
+	next "さらに し←ぽが ふuる.@"
 
 NinetalesDexEntry:
-	db "きつね@"
+	db "xÜね@"
 	db 11
 	dw 199
-	db   "おうごんに　かがやく　たいもうと"
-	next "９ほんの　ながい　しっぽを　もつ。"
-	next "１０００ねん　いきると　いわれる。@"
+	db   "vtごんに wがsy Äsrtö"
+	next "9ほんの üがs し←ぽを rÜ."
+	next "1000ねん sxるö sわれる.@"
 
 JigglypuffDexEntry:
-	db "ふうせん@"
+	db "ふtせん@"
 	db 5
 	dw 55
-	db   "つぶらな　ひとみが　ゆれるとき"
-	next "ねむけを　もよおす　ふしぎで"
-	next "きもちのいい　うたを　うたう。@"
+	db   "Üぶらü ひödが tれるöx"
+	next "ねlzを rvvす ふしぎで"
+	next "xrÖのss tÄを tÄt.@"
 
 WigglytuffDexEntry:
-	db "ふうせん@"
+	db "ふtせん@"
 	db 10
 	dw 120
-	db   "キメこまかい　たいもうは"
-	next "しなやかで　さわると　きもちいい。"
-	next "けがわにすると　うれるという。@"
+	db   "Gaこまws Äsrtは"
+	next "しüswで さわるö xrÖss."
+	next "zがわにするö tれるöst.@"
 
 ZubatDexEntry:
-	db "こうもり@"
+	db "こtrり@"
 	db 8
 	dw 75
-	db   "くらい　ばしょに　しゅうだんで"
-	next "はっせいする。ちょうおんぱを　だして"
-	next "ターゲットに　ちかづいていく。@"
+	db   "yらs ばし<MN>に し<PK>tだんで"
+	next "は←せsする.Ö<MN>tvんぱを だしä"
+	next "P-ゲmTに Öwづsäsy.@"
 
 GolbatDexEntry:
-	db "こうもり@"
+	db "こtrり@"
 	db 16
 	dw 550
-	db   "するどいキバで　かみついて"
-	next "いちどに　３００シーシーの"
-	next "ちを　すいとってしまう。@"
+	db   "するどsGバで wdÜsä"
+	next "sÖどに 300L-L-の"
+	next "Öを すsö←äしまt.@"
 
 OddishDexEntry:
-	db "ざっそう@"
+	db "ざ←そt@"
 	db 5
 	dw 54
-	db   "ひるまは　かおを　じめんに　うめて"
-	next "あまり　うごかない。よるに　なると"
-	next "たねをまきながら　あるきまわる。@"
+	db   "ひるまは wvを じmんに tmä"
+	next "rまり tごwüs.vるに üるö"
+	next "Äねをまxüがら rるxまわる.@"
 
 GloomDexEntry:
-	db "ざっそう@"
+	db "ざ←そt@"
 	db 8
 	dw 86
-	db   "めしべが　はなつ　とてつもなく"
-	next "くさい　においは　２キロさきまで"
-	next "とどき　きを　うしなわせる。@"
+	db   "mしべが はüÜ öäÜrüy"
+	next "yさs にvsは 2Giさxまで"
+	next "öどx xを tしüわせる.@"
 
 VileplumeDexEntry:
-	db "フラワー@"
+	db ")fj-@"
 	db 12
 	dw 186
-	db   "せかいいち　おおきい　はなびらから"
-	next "アレルギーを　おこす　かふんを"
-	next "オニの　ように　ばらまく。@"
+	db   "せwssÖ vvxs はüびらwら"
+	next "Ahgギ-を vこす wふんを"
+	next "EVの vtに ばらまy.@"
 
 ParasDexEntry:
-	db "きのこ@"
+	db "xのこ@"
 	db 3
 	dw 54
-	db   "むしの　せなかに　はえているのは"
-	next "とうちゅうかそう　という　キノコ。"
-	next "キノコは　そだって　おおきくなる。@"
+	db   "lしの せüwに はuäsるのは"
+	next "ötÖ<PK>twそt öst GYJ."
+	next "GYJは そだ←ä vvxyüる.@"
 
 ParasectDexEntry:
-	db "きのこ@"
+	db "xのこ@"
 	db 10
 	dw 295
-	db   "キノコの　カサから　どくほうしを"
-	next "まきちらす。しかし　ちゅうごくでは"
-	next "このほうしを　かんぽうやくに　する。@"
+	db   "GYJの FKwら どyほtしを"
+	next "まxÖらす.しwし Ö<PK>tごyでは"
+	next "このほtしを wんぽtsyに する.@"
 
 VenonatDexEntry:
-	db "こんちゅう@"
+	db "こんÖ<PK>t@"
 	db 10
 	dw 300
-	db   "おおきな　きのなかに　すみかをつくり"
-	next "ほかのむしなどを　たべてるらしい。"
-	next "よるは　あかりのそばに　やってくる。@"
+	db   "vvxü xのüwに すdwをÜyり"
+	next "ほwのlしüどを Äべäるらしs."
+	next "vるは rwりのそばに s←äyる.@"
 
 VenomothDexEntry:
-	db "どくが@"
+	db "どyが@"
 	db 15
 	dw 125
-	db   "はねに　りんぷんが　ついていて"
-	next "ヒラヒラと　はばたくたびに"
-	next "もうどくの　こなを　ばらまく。@"
+	db   "はねに りんぷんが Üsäsä"
+	next "(f(fö はばÄyÄびに"
+	next "rtどyの こüを ばらまy.@"
 
 DiglettDexEntry:
-	db "もぐら@"
+	db "rぐら@"
 	db 2
 	dw 8
-	db   "ちか１メートルくらいを　ほりすすみ"
-	next "きのねっこなどを　かじって　いきる。"
-	next "たまに　ちじょうに　かおをだす。@"
+	db   "Öw1a-Tgyらsを ほりすすd"
+	next "xのね←こüどを wじ←ä sxる."
+	next "Äまに Öじ<MN>tに wvをだす.@"
 
 DugtrioDexEntry:
-	db "もぐら@"
+	db "rぐら@"
 	db 7
 	dw 333
-	db   "ちちゅうを　ほりすすんで"
-	next "ゆだんしている　ところを"
-	next "べつの　ばしょから　こうげきする。@"
+	db   "ÖÖ<PK>tを ほりすすんで"
+	next "tだんしäsる öころを"
+	next "べÜの ばし<MN>wら こtげxする.@"
 
 MeowthDexEntry:
-	db "ばけねこ@"
+	db "ばzねこ@"
 	db 4
 	dw 42
-	db   "ひかる　ものが　だいすきで"
-	next "あちこち　おちている　おかねを"
-	next "ひろって　くることも　おおい。@"
+	db   "ひwる rのが だsすxで"
+	next "rÖこÖ vÖäsる vwねを"
+	next "ひろ←ä yるこör vvs.@"
 
 PersianDexEntry:
-	db "シャムネコ@"
+	db "Ln]XJ@"
 	db 10
 	dw 320
-	db   "きしょうが　はげしく　しっぽを"
-	next "まっすぐ　たてたら　よう　ちゅうい。"
-	next "とびかかって　かみつく　まえぶれだ。@"
+	db   "xし<MN>tが はげしy し←ぽを"
+	next "ま←すぐ ÄäÄら vt Ö<PK>ts."
+	next "öびww←ä wdÜy まuぶれだ.@"
 
 PsyduckDexEntry:
-	db "あひる@"
+	db "rひる@"
 	db 8
 	dw 196
-	db   "いつも　ずつうに　なやまされている。"
-	next "この　ずつうが　はげしくなると"
-	next "ふしぎな　ちからを　つかいはじめる。@"
+	db   "sÜr ずÜtに üsまされäsる."
+	next "この ずÜtが はげしyüるö"
+	next "ふしぎü Öwらを Üwsはじmる.@"
 
 GolduckDexEntry:
-	db "あひる@"
+	db "rひる@"
 	db 17
 	dw 766
-	db   "てのひらが　みずかきに　なっていて"
-	next "およぐのが　とくい。みずうみなどで"
-	next "ゆうがな　すがたが　みかけられる。@"
+	db   "äのひらが dずwxに ü←äsä"
+	next "vvぐのが öys.dずtdüどで"
+	next "ttがü すがÄが dwzられる.@"
 
 MankeyDexEntry:
-	db "ぶたざる@"
+	db "ぶÄざる@"
 	db 5
 	dw 280
-	db   "みのこなしが　かるく　きょうぼうな"
-	next "せいかく。おこって　あばれだすと"
-	next "てが　つけられなくなる。@"
+	db   "dのこüしが wるy x<MN>tぼtü"
+	next "せswy.vこ←ä rばれだすö"
+	next "äが Üzられüyüる.@"
 
 PrimeapeDexEntry:
-	db "ぶたざる@"
+	db "ぶÄざる@"
 	db 10
 	dw 320
-	db   "なぜか　もうれつに　おこって"
-	next "にげても　にげても　どこまでも"
-	next "おいかけてくる　せいかくだ。@"
+	db   "üぜw rtれÜに vこ←ä"
+	next "にげär にげär どこまでr"
+	next "vswzäyる せswyだ.@"
 
 GrowlitheDexEntry:
-	db "こいぬ@"
+	db "こsぬ@"
 	db 7
 	dw 190
-	db   "ひとなつこい　せいかくだが　ひろい"
-	next "なわばりを　もっており　ゆだんして"
-	next "ちかずくと　こうげきされる。@"
+	db   "ひöüÜこs せswyだが ひろs"
+	next "üわばりを r←ävり tだんしä"
+	next "Öwずyö こtげxされる.@"
 
 ArcanineDexEntry:
-	db "でんせつ@"
+	db "でんせÜ@"
 	db 19
 	dw 1550
-	db   "むかしから　おおくの　ひとを"
-	next "とりこにした　うつくしい　ポケモン。"
-	next "とぶように　かろやかに　はしる。@"
+	db   "lwしwら vvyの ひöを"
+	next "öりこにしÄ tÜyしs ポIbl."
+	next "öぶvtに wろswに はしる.@"
 
 PoliwagDexEntry:
-	db "おたま@"
+	db "vÄま@"
 	db 6
 	dw 124
-	db   "スべスべした　くろいひふは　うすい。"
-	next "おなかの　なかが　すけて"
-	next "うずまきじょうに　みえる。@"
+	db   "MべMべしÄ yろsひふは tすs."
+	next "vüwの üwが すzä"
+	next "tずまxじ<MN>tに duる.@"
 
 PoliwhirlDexEntry:
-	db "おたま@"
+	db "vÄま@"
 	db 10
 	dw 200
-	db   "りくでも　すいちゅうでも　くらせる。"
-	next "ちじょうでは　いつも　あせをかき"
-	next "からだを　ぬめぬめ　させている。@"
+	db   "りyでr すsÖ<PK>tでr yらせる."
+	next "Öじ<MN>tでは sÜr rせをwx"
+	next "wらだを ぬmぬm させäsる.@"
 
 PoliwrathDexEntry:
-	db "おたま@"
+	db "vÄま@"
 	db 13
 	dw 540
-	db   "クロールや　バタフライが　とくいで"
-	next "オりンピックの　せんしゅでも　"
-	next "ぐんぐんと　おいぬいていく。@"
+	db   "Hi-gs バP)fBが öysで"
+	next "EりlピmHの せんし<PK>でr "
+	next "ぐんぐんö vsぬsäsy.@"
 
 AbraDexEntry:
-	db "ねんりき@"
+	db "ねんりx@"
 	db 9
 	dw 195
-	db   "１にち　１８じかんは　ねている。"
-	next "ねむってる　あいだでも　さまざまな"
-	next "ちょうのうりょくを　つかう。@"
+	db   "1にÖ 18じwんは ねäsる."
+	next "ねl←äる rsだでr さまざまü"
+	next "Ö<MN>tのtり<MN>yを Üwt.@"
 
 KadabraDexEntry:
-	db "ねんりき@"
+	db "ねんりx@"
 	db 13
 	dw 565
-	db   "からだから　とくべつな　アルファはが"
-	next "でていて　そばに　ちかよるだけで"
-	next "あたまが　いたくなってくる。@"
+	db   "wらだwら öyべÜü Ag)&はが"
+	next "でäsä そばに Öwvるだzで"
+	next "rÄまが sÄyü←äyる.@"
 
 AlakazamDexEntry:
-	db "ねんりき@"
+	db "ねんりx@"
 	db 15
 	dw 480
-	db   "スーパーコンピュータより　すばやく"
-	next "けいさんする　ずのうを　もつ。"
-	next "ちのうしすうは　だいたい５０００。@"
+	db   "M-パ-Jlピo-Pvり すばsy"
+	next "zsさんする ずのtを rÜ."
+	next "Öのtしすtは だsÄs5000.@"
 
 MachopDexEntry:
-	db "かいりき@"
+	db "wsりx@"
 	db 8
 	dw 195
-	db   "ぜんしんが　きんにくで　できている。"
-	next "こどものようで　ありながら"
-	next "おとな　１００にんを　なげとばす。@"
+	db   "ぜんしんが xんにyで でxäsる."
+	next "こどrのvtで rりüがら"
+	next "vöü 100にんを üげöばす.@"
 
 MachokeDexEntry:
-	db "かいりき@"
+	db "wsりx@"
 	db 15
 	dw 705
-	db   "つかれることのない　きょうじんな"
-	next "にくたい。すごくおもい　にもつを"
-	next "はこぶ　しごとなどを　てつだう。@"
+	db   "Üwれるこöのüs x<MN>tじんü"
+	next "にyÄs.すごyvrs にrÜを"
+	next "はこぶ しごöüどを äÜだt.@"
 
 MachampDexEntry:
-	db "かいりき@"
+	db "wsりx@"
 	db 16
 	dw 1300
-	db   "はったつした　４ほんの　うでは"
-	next "２びょうかんに　１０００ぱつの"
-	next "パンチを　くりだすことができる。@"
+	db   "は←ÄÜしÄ 4ほんの tでは"
+	next "2び<MN>twんに 1000ぱÜの"
+	next "パlQを yりだすこöがでxる.@"
 
 BellsproutDexEntry:
-	db "フラワー@"
+	db ")fj-@"
 	db 7
 	dw 40
-	db   "ひとの　かおのような　ツボミから"
-	next "でんせつの　マンドラゴラの　いっしゅ"
-	next "ではないかと　ささやかれている。@"
+	db   "ひöの wvのvtü Rボ[wら"
+	next "でんせÜの ;lドfゴfの s←し<PK>"
+	next "ではüswö ささswれäsる.@"
 
 WeepinbellDexEntry:
-	db "ハエとり@"
+	db "ZDöり@"
 	db 10
 	dw 64
-	db   "ハッパの　ぶぶんは　カッターになって"
-	next "あいてを　きりさく。くちからは"
-	next "なんでも　とかす　えきたいを　はく。@"
+	db   "Zmパの ぶぶんは FmP-にü←ä"
+	next "rsäを xりさy.yÖwらは"
+	next "üんでr öwす uxÄsを はy.@"
 
 VictreebelDexEntry:
-	db "ハエとり@"
+	db "ZDöり@"
 	db 17
 	dw 155
-	db   "なんごくに　おおく　はっせいする"
-	next "きょうぼうな　しょくぶつ　ポケモン。"
-	next "ようかいえきで　なんでも　とかす。@"
+	db   "üんごyに vvy は←せsする"
+	next "x<MN>tぼtü し<MN>yぶÜ ポIbl."
+	next "vtwsuxで üんでr öwす.@"
 
 TentacoolDexEntry:
-	db "くらげ@"
+	db "yらげ@"
 	db 9
 	dw 455
-	db   "まるで　すいしょうのような"
-	next "めだまから　ふしぎな　ひかりの"
-	next "ビームを　はっしゃする。@"
+	db   "まるで すsし<MN>tのvtü"
+	next "mだまwら ふしぎü ひwりの"
+	next "ビ-]を は←しする.@"
 
 TentacruelDexEntry:
-	db "くらげ@"
+	db "yらげ@"
 	db 16
 	dw 550
-	db   "８０ぽん　の　しょくしゅが　じゆうに"
-	next "うごく。さされると　どくに　おかされ"
-	next "するどい　いたみが　はしる。@"
+	db   "80ぽん の し<MN>yし<PK>が じttに"
+	next "tごy.さされるö どyに vwされ"
+	next "するどs sÄdが はしる.@"
 
 GeodudeDexEntry:
-	db "がんせき@"
+	db "がんせx@"
 	db 4
 	dw 20
-	db   "そうげんや　やまに　せいそくする。"
-	next "いしころに　にていて　きがつかずに"
-	next "ふんだり　つまずいたり　してしまう。@"
+	db   "そtげんs sまに せsそyする."
+	next "sしころに にäsä xがÜwずに"
+	next "ふんだり ÜまずsÄり しäしまt.@"
 
 GravelerDexEntry:
-	db "がんせき@"
+	db "がんせx@"
 	db 10
 	dw 1050
-	db   "たかい　やまの　さかみちを"
-	next "ころがりながら　いどうするとき"
-	next "じゃまものは　おしつぶしていく。@"
+	db   "Äws sまの さwdÖを"
+	next "ころがりüがら sどtするöx"
+	next "じまrのは vしÜぶしäsy.@"
 
 GolemDexEntry:
-	db "メガトン@"
+	db "aガTl@"
 	db 14
 	dw 3000
-	db   "がんせきのような　かたい　からだで"
-	next "できている。ダイナマイトで"
-	next "ばくはしても　ダメージを　うけない。@"
+	db   "がんせxのvtü wÄs wらだで"
+	next "でxäsる.ダBU;BTで"
+	next "ばyはしär ダa-ジを tzüs.@"
 
 PonytaDexEntry:
-	db "ひのうま@"
+	db "ひのtま@"
 	db 10
 	dw 300
-	db   "からだが　かるく　あしの　ちからが"
-	next "ものすごい。１かいの　ジャンプで"
-	next "とうきょうタワーも　とびこえる。@"
+	db   "wらだが wるy rしの Öwらが"
+	next "rのすごs.1wsの ジnlプで"
+	next "ötx<MN>tPj-r öびこuる.@"
 
 RapidashDexEntry:
-	db "ひのうま@"
+	db "ひのtま@"
 	db 17
 	dw 950
-	db   "じそくは　さいこう　２４０キロ。"
-	next "メラメラ　もえながら　しんかんせんと"
-	next "おなじ　スピードで　かけぬける。@"
+	db   "じそyは さsこt 240Gi."
+	next "afaf ruüがら しんwんせんö"
+	next "vüじ Mピ-ドで wzぬzる.@"
 
 SlowpokeDexEntry:
-	db "まぬけ@"
+	db "まぬz@"
 	db 12
 	dw 360
-	db   "うごきが　のろく　まぬけ。"
-	next "たたかれても　５びょう　たってから"
-	next "いたさを　かんじるほどだ。@"
+	db   "tごxが のろy まぬz."
+	next "ÄÄwれär 5び<MN>t Ä←äwら"
+	next "sÄさを wんじるほどだ.@"
 
 SlowbroDexEntry:
-	db "やどかり@"
+	db "sどwり@"
 	db 16
 	dw 785
-	db   "ヤドンが　うみへ　エサを"
-	next "とりにいったとき　シェルダーに"
-	next "しっぽをかまれ　ヤドランになった。@"
+	db   "cドlが tdへ DKを"
+	next "öりにs←Äöx L→gダ-に"
+	next "し←ぽをwまれ cドflにü←Ä.@"
 
 MagnemiteDexEntry:
-	db "じしゃく@"
+	db "じしy@"
 	db 3
 	dw 60
-	db   "くうちゅうに　ういたまま　いどうして"
-	next "さゆうの　ユニットから"
-	next "でんじはなどを　ほうしゃする。@"
+	db   "ytÖ<PK>tに tsÄまま sどtしä"
+	next "さttの dVmTwら"
+	next "でんじはüどを ほtしする.@"
 
 MagnetonDexEntry:
-	db "じしゃく@"
+	db "じしy@"
 	db 10
 	dw 600
-	db   "ふくすうの　コイルが　れんけつして"
-	next "きょうりょくな　じりょくせんと"
-	next "こうでんあつを　ほうしゃする。@"
+	db   "ふyすtの JBgが れんzÜしä"
+	next "x<MN>tり<MN>yü じり<MN>yせんö"
+	next "こtでんrÜを ほtしする.@"
 
 FarfetchdDexEntry:
-	db "かるがも@"
+	db "wるがr@"
 	db 8
 	dw 150
-	db   "じぶんの　すを　つくるための"
-	next "しょくぶつの　クキを　１ぽん"
-	next "いつも　もって　あるいている。@"
+	db   "じぶんの すを ÜyるÄmの"
+	next "し<MN>yぶÜの HGを 1ぽん"
+	next "sÜr r←ä rるsäsる.@"
 
 DoduoDexEntry:
-	db "ふたごどり@"
+	db "ふÄごどり@"
 	db 14
 	dw 392
-	db   "とぶのは　にがてだが　はしるのは　"
-	next "はやく　きょだいな　あしあとを"
-	next "のこして　だいちを　かけぬける。@"
+	db   "öぶのは にがäだが はしるのは "
+	next "はsy x<MN>だsü rしröを"
+	next "のこしä だsÖを wzぬzる.@"
 
 DodrioDexEntry:
-	db "みつごどり@"
+	db "dÜごどり@"
 	db 18
 	dw 852
-	db   "３つの　あたまで　こうどな"
-	next "さくせんを　あやつる。ねるときも"
-	next "どれか　１つは　おきているという。@"
+	db   "3Üの rÄまで こtどü"
+	next "さyせんを rsÜる.ねるöxr"
+	next "どれw 1Üは vxäsるöst.@"
 
 SeelDexEntry:
-	db "あしか@"
+	db "rしw@"
 	db 11
 	dw 900
-	db   "みずいろの　たいもうに　おおわれた"
-	next "ひふは　ぶあつくて　じょうぶ。"
-	next "れいか４０ど　でも　かつどうできる。@"
+	db   "dずsろの Äsrtに vvわれÄ"
+	next "ひふは ぶrÜyä じ<MN>tぶ."
+	next "れsw40ど でr wÜどtでxる.@"
 
 DewgongDexEntry:
-	db "あしか@"
+	db "rしw@"
 	db 17
 	dw 1200
-	db   "ぜんしんが　まっしろな　けで"
-	next "おおわれている。さむさに　つよく"
-	next "むしろ　さむいほど　げんきになる。@"
+	db   "ぜんしんが ま←しろü zで"
+	next "vvわれäsる.さlさに Üvy"
+	next "lしろ さlsほど げんxにüる.@"
 
 GrimerDexEntry:
-	db "へドロ@"
+	db "へドi@"
 	db 9
 	dw 300
-	db   "つきからの　エックスせんをあびた"
-	next "へドロが　べトべターにへんかした。"
-	next "きたないモノが　だいこうぶつ。@"
+	db   "Üxwらの DmHMせんをrびÄ"
+	next "へドiが べTべP-にへんwしÄ."
+	next "xÄüsbYが だsこtぶÜ.@"
 
 MukDexEntry:
-	db "へドロ@"
+	db "へドi@"
 	db 12
 	dw 300
-	db   "ふだんは　じめんに　まざっていて"
-	next "わからない。からだに　さわると"
-	next "もうどくに　おかされる。@"
+	db   "ふだんは じmんに まざ←äsä"
+	next "わwらüs.wらだに さわるö"
+	next "rtどyに vwされる.@"
 
 ShellderDexEntry:
-	db "２まいがい@"
+	db "2まsがs@"
 	db 3
 	dw 40
-	db   "ダイヤモンドよりも　かたいカラに"
-	next "おおわれている。しかし　なかは"
-	next "とても　やわらかい。@"
+	db   "ダBcblドvりr wÄsFfに"
+	next "vvわれäsる.しwし üwは"
+	next "öär sわらws.@"
 
 CloysterDexEntry:
-	db "２まいがい@"
+	db "2まsがs@"
 	db 15
 	dw 1325
-	db   "カラが　ひじょうに　かたく"
-	next "ナパームだんでも　こわせない。"
-	next "こうげきするときだけ　ひらく。@"
+	db   "Ffが ひじ<MN>tに wÄy"
+	next "Uパ-]だんでr こわせüs."
+	next "こtげxするöxだz ひらy.@"
 
 GastlyDexEntry:
-	db "ガスじょう@"
+	db "ガMじ<MN>t@"
 	db 13
 	dw 1
-	db   "うすい　ガスじょうの　せいめいたい。"
-	next "ガスに　つつまれると"
-	next "インドぞうも　２びょうで　たおれる。@"
+	db   "tすs ガMじ<MN>tの せsmsÄs."
+	next "ガMに ÜÜまれるö"
+	next "Blドぞtr 2び<MN>tで Ävれる.@"
 
 HaunterDexEntry:
-	db "ガスじょう@"
+	db "ガMじ<MN>t@"
 	db 16
 	dw 1
-	db   "くらやみで　だれもいないのに"
-	next "みられているような　きがしたら"
-	next "そこに　ゴーストが　いるのだ。@"
+	db   "yらsdで だれrsüsのに"
+	next "dられäsるvtü xがしÄら"
+	next "そこに ゴ-MTが sるのだ.@"
 
 GengarDexEntry:
-	db "シャドー@"
+	db "Lnド-@"
 	db 15
 	dw 405
-	db   "やまで　そうなんしたとき"
-	next "いのちをうばいに　くらやみから"
-	next "あらわれることが　あるという。@"
+	db   "sまで そtüんしÄöx"
+	next "sのÖをtばsに yらsdwら"
+	next "rらわれるこöが rるöst.@"
 
 OnixDexEntry:
-	db "いわへび@"
+	db "sわへび@"
 	db 88
 	dw 2100
-	db   "せいちょうすると　からだの"
-	next "がんせきせいぶんが　へんかして"
-	next "くろい　ダイヤモンドのようになる。@"
+	db   "せsÖ<MN>tするö wらだの"
+	next "がんせxせsぶんが へんwしä"
+	next "yろs ダBcblドのvtにüる.@"
 
 DrowzeeDexEntry:
-	db "さいみん@"
+	db "さsdん@"
 	db 10
 	dw 324
-	db   "ユメをたべるという　でんせつの　"
-	next "いきもの　バクの　しそん。"
-	next "さいみんじゅつが　とくいだ。@"
+	db   "daをÄべるöst でんせÜの "
+	next "sxrの バHの しそん."
+	next "さsdんじ<PK>Üが öysだ.@"
 
 HypnoDexEntry:
-	db "さいみん@"
+	db "さsdん@"
 	db 16
 	dw 756
-	db   "ふりこのようなものを　もちあるく。"
-	next "こどもに　さいみんじゅつを　かけて"
-	next "どこかへ　つれさるじけんが　あった。@"
+	db   "ふりこのvtürのを rÖrるy."
+	next "こどrに さsdんじ<PK>Üを wzä"
+	next "どこwへ Üれさるじzんが r←Ä.@"
 
 KrabbyDexEntry:
 	db "さわがに@"
 	db 4
 	dw 65
-	db   "ハサミは　きょうりょくな　ぶきであり"
-	next "よこに　あるくとき　からだの"
-	next "バランスをとる　やくめも　はたす。@"
+	db   "ZK[は x<MN>tり<MN>yü ぶxでrり"
+	next "vこに rるyöx wらだの"
+	next "バflMをöる symr はÄす.@"
 
 KinglerDexEntry:
-	db "はさみ@"
+	db "はさd@"
 	db 13
 	dw 600
-	db   "ハサミは　１まんばりきの"
-	next "スーパーパワーを　ひめているのだが"
-	next "おおきすぎて　うまく　うごかない。@"
+	db   "ZK[は 1まんばりxの"
+	next "M-パ-パj-を ひmäsるのだが"
+	next "vvxすぎä tまy tごwüs.@"
 
 PokedexEntryPointers2::
 	dw VoltorbDexEntry
@@ -1056,1117 +1056,1117 @@ PokedexEntryPointers2::
 	dw LeafyDexEntry
 
 VoltorbDexEntry:
-	db "ボール@"
+	db "ボ-g@"
 	db 5
 	dw 104
-	db   "はつでんしょなどに　あらわれる。"
-	next "モンスターボールと　まちがえて"
-	next "さわって　しびれるひとが　おおい。@"
+	db   "はÜでんし<MN>üどに rらわれる."
+	next "blMP-ボ-gö まÖがuä"
+	next "さわ←ä しびれるひöが vvs.@"
 
 ElectrodeDexEntry:
-	db "ボール@"
+	db "ボ-g@"
 	db 12
 	dw 666
-	db   "ぼうだいな　エレクトン　エネルギーを"
-	next "ためこんでおり　ちょっとした"
-	next "しげきで　だいばくはつを　おこす。@"
+	db   "ぼtだsü DhHTl DXgギ-を"
+	next "Ämこんでvり Ö<MN>←öしÄ"
+	next "しげxで だsばyはÜを vこす.@"
 
 ExeggcuteDexEntry:
-	db "たまご@"
+	db "Äまご@"
 	db 4
 	dw 25
-	db   "たまごの　ようだが　じつは"
-	next "しょくぶつの　タネのような"
-	next "いきものだと　いうことが　わかった。@"
+	db   "Äまごの vtだが じÜは"
+	next "し<MN>yぶÜの PXのvtü"
+	next "sxrのだö stこöが わw←Ä.@"
 
 ExeggutorDexEntry:
-	db "やしのみ@"
+	db "sしのd@"
 	db 20
 	dw 1200
-	db   "あるく　ねったいうりん。"
-	next "みの　ひとつひとつに"
-	next "それぞれ　いしを　もっている。@"
+	db   "rるy ね←Ästりん."
+	next "dの ひöÜひöÜに"
+	next "それぞれ sしを r←äsる.@"
 
 CuboneDexEntry:
-	db "こどく@"
+	db "こどy@"
 	db 4
 	dw 65
-	db   "しにわかれた　ははおやの　ほねを"
-	next "あたまに　かぶっている。さびしいとき"
-	next "おおごえで　なくという。@"
+	db   "しにわwれÄ ははvsの ほねを"
+	next "rÄまに wぶ←äsる.さびしsöx"
+	next "vvごuで üyöst.@"
 
 MarowakDexEntry:
-	db "ほねずき@"
+	db "ほねずx@"
 	db 10
 	dw 450
-	db   "からだも　ちいさく　もともと　"
-	next "よわかった。ホネを　つかうようになり"
-	next "せいかくが　きょうぼうか　した。@"
+	db   "wらだr Ösさy rörö "
+	next "vわw←Ä.:Xを Üwtvtにüり"
+	next "せswyが x<MN>tぼtw しÄ.@"
 
 HitmonleeDexEntry:
-	db "キック@"
+	db "GmH@"
 	db 15
 	dw 498
-	db   "あしが　じゆうに　のびちぢみする。"
-	next "あいてが　とおく　はなれていても"
-	next "かんたんに　けりあげてしまう。@"
+	db   "rしが じttに のびÖぢdする."
+	next "rsäが övy はüれäsär"
+	next "wんÄんに zりrげäしまt.@"
 
 HitmonchanDexEntry:
-	db "パンチ@"
+	db "パlQ@"
 	db 14
 	dw 502
-	db   "プロボクサーの　たましいが"
-	next "のりうつった。パンチのスピードは"
-	next "しんかんせんよりも　はやい。@"
+	db   "プiボHK-の Äましsが"
+	next "のりtÜ←Ä.パlQのMピ-ドは"
+	next "しんwんせんvりr はss.@"
 
 LickitungDexEntry:
-	db "なめまわし@"
+	db "ümまわし@"
 	db 12
 	dw 655
-	db   "べロが　からだの　２ばいも　のびる。"
-	next "エサをとったり　こうげきをしたりと"
-	next "まるで　てのように　うごくのだ。@"
+	db   "べiが wらだの 2ばsr のびる."
+	next "DKをö←Äり こtげxをしÄりö"
+	next "まるで äのvtに tごyのだ.@"
 
 KoffingDexEntry:
-	db "どくガス@"
+	db "どyガM@"
 	db 6
 	dw 10
-	db   "うすい　バルーンじょうの　からだに"
-	next "もうどくの　ガスが　つまっている。"
-	next "ちかくに　くるだけで　くさい。@"
+	db   "tすs バg-lじ<MN>tの wらだに"
+	next "rtどyの ガMが Üま←äsる."
+	next "Öwyに yるだzで yさs.@"
 
 WeezingDexEntry:
-	db "どくガス@"
+	db "どyガM@"
 	db 12
 	dw 95
-	db   "ごくまれに　とつぜんへんいで"
-	next "ふたごの　ちいさい　ドガースが"
-	next "れんけつしたまま　でることがある。@"
+	db   "ごyまれに öÜぜんへんsで"
+	next "ふÄごの Ösさs ドガ-Mが"
+	next "れんzÜしÄまま でるこöがrる.@"
 
 RhyhornDexEntry:
-	db "とげとげ@"
+	db "öげöげ@"
 	db 10
 	dw 1150
-	db   "あたまは　わるいが　ちからが　つよく"
-	next "こうそうビルでも　たいあたりで"
-	next "コナゴナに　ふんさいしてしまう。@"
+	db   "rÄまは わるsが Öwらが Üvy"
+	next "こtそtビgでr ÄsrÄりで"
+	next "JUゴUに ふんさsしäしまt.@"
 
 RhydonDexEntry:
-	db "ドりル@"
+	db "ドりg@"
 	db 19
 	dw 1200
-	db   "ぜんしんを　よろいのような　ひふで"
-	next "まもっている。２０００どの"
-	next "マグマの　なかでも　いきられる。@"
+	db   "ぜんしんを vろsのvtü ひふで"
+	next "まr←äsる.2000どの"
+	next ";グ;の üwでr sxられる.@"
 
 ChanseyDexEntry:
-	db "たまご@"
+	db "Äまご@"
 	db 11
 	dw 346
-	db   "せいそくすうが　すくない。"
-	next "つかまえた　ひとには　しあわせを"
-	next "もたらすと　いわれている。@"
+	db   "せsそyすtが すyüs."
+	next "ÜwまuÄ ひöには しrわせを"
+	next "rÄらすö sわれäsる.@"
 
 TangelaDexEntry:
-	db "ツルじょう@"
+	db "Rgじ<MN>t@"
 	db 10
 	dw 350
-	db   "ブルーの　つるしょくぶつが"
-	next "からみあい　しょうたいは　みえない。"
-	next "ちかずくものに　からみついてくる。@"
+	db   "ブg-の Üるし<MN>yぶÜが"
+	next "wらdrs し<MN>tÄsは duüs."
+	next "Öwずyrのに wらdÜsäyる.@"
 
 KangaskhanDexEntry:
-	db "おやこ@"
+	db "vsこ@"
 	db 22
 	dw 800
-	db   "こどもは　ははおやの　おなかにある"
-	next "ふくろから　ほとんど　でてこない。"
-	next "やく３ねんで　おやばなれする。@"
+	db   "こどrは ははvsの vüwにrる"
+	next "ふyろwら ほöんど でäこüs."
+	next "sy3ねんで vsばüれする.@"
 
 HorseaDexEntry:
-	db "ドラゴン@"
+	db "ドfゴl@"
 	db 4
 	dw 80
-	db   "ぜんまいのように　クルクルまいた"
-	next "しっぽで　バランスをとる。"
-	next "スミを　はいて　こうげきする。@"
+	db   "ぜんまsのvtに HgHgまsÄ"
+	next "し←ぽで バflMをöる."
+	next "M[を はsä こtげxする.@"
 
 SeadraDexEntry:
-	db "ドラゴン@"
+	db "ドfゴl@"
 	db 12
 	dw 250
-	db   "ハネと　しっぽを　すばやく　うごかし"
-	next "まえを　むいたまま　うしろへ"
-	next "およぐことも　できる　ポケモン。@"
+	db   "ZXö し←ぽを すばsy tごwし"
+	next "まuを lsÄまま tしろへ"
+	next "vvぐこör でxる ポIbl.@"
 
 GoldeenDexEntry:
-	db "きんぎょ@"
+	db "xんぎ<MN>@"
 	db 6
 	dw 150
-	db   "せビレ　むなビレが　きんにくのように"
-	next "はったつしており　すいちゅうを"
-	next "５ノットの　はやさで　およぐ。@"
+	db   "せビh lüビhが xんにyのvtに"
+	next "は←ÄÜしävり すsÖ<PK>tを"
+	next "5YmTの はsさで vvぐ.@"
 
 SeakingDexEntry:
-	db "きんぎょ@"
+	db "xんぎ<MN>@"
 	db 13
 	dw 390
-	db   "ツノが　ドりルのように　とがっていて"
-	next "いわはだを　ツノで　くりぬき"
-	next "じぶんの　すを　つくっている。@"
+	db   "RYが ドりgのvtに öが←äsä"
+	next "sわはだを RYで yりぬx"
+	next "じぶんの すを Üy←äsる.@"
 
 StaryuDexEntry:
-	db "ほしがた@"
+	db "ほしがÄ@"
 	db 8
 	dw 345
-	db   "うみべに　おおく　あらわれ"
-	next "よるになると　ちゅうしんが"
-	next "あかく　てんめつする。@"
+	db   "tdべに vvy rらわれ"
+	next "vるにüるö Ö<PK>tしんが"
+	next "rwy äんmÜする.@"
 
 StarmieDexEntry:
-	db "なぞの@"
+	db "üぞの@"
 	db 11
 	dw 800
-	db   "きかがくてきな　ボディーから"
-	next "うちゅうせいぶつ　ではないかと"
-	next "じもとでは　うたがわれている。@"
+	db   "xwがyäxü ボデq-wら"
+	next "tÖ<PK>tせsぶÜ ではüswö"
+	next "じröでは tÄがわれäsる.@"
 
 MrMimeDexEntry:
-	db "バりアー@"
+	db "バりA-@"
 	db 13
 	dw 545
-	db   "ひとを　しんじこませるのが　うまい。"
-	next "パントマイムで　つくったカべが"
-	next "ほんとうに　あらわれるという。@"
+	db   "ひöを しんじこませるのが tまs."
+	next "パlT;B]で Üy←ÄFべが"
+	next "ほんötに rらわれるöst.@"
 
 ScytherDexEntry:
-	db "かまきり@"
+	db "wまxり@"
 	db 15
 	dw 560
-	db   "するどいカマで　えものを　きりさき"
-	next "いきのねを　とめる。ごくまれに"
-	next "ハネをつかって　とぶことがある。@"
+	db   "するどsF;で urのを xりさx"
+	next "sxのねを ömる.ごyまれに"
+	next "ZXをÜw←ä öぶこöがrる.@"
 
 JynxDexEntry:
-	db "ひとがた@"
+	db "ひöがÄ@"
 	db 14
 	dw 406
-	db   "こしを　ふるように　あるいている。"
-	next "ゆだんをすると　おもわず　つられて"
-	next "おどってしまうという。@"
+	db   "こしを ふるvtに rるsäsる."
+	next "tだんをするö vrわず Üられä"
+	next "vど←äしまtöst.@"
 
 ElectabuzzDexEntry:
-	db "でんげき@"
+	db "でんげx@"
 	db 11
 	dw 300
-	db   "つよい　でんきが　だいこうぶつで"
-	next "おおきな　はつでんしょ　などに　"
-	next "しばしば　あらわれる。@"
+	db   "Üvs でんxが だsこtぶÜで"
+	next "vvxü はÜでんし<MN> üどに "
+	next "しばしば rらわれる.@"
 
 MagmarDexEntry:
-	db "ひふき@"
+	db "ひふx@"
 	db 13
 	dw 445
-	db   "かざんの　かこうちかくで"
-	next "みつかった。くちから　ほのおをはく。"
-	next "たいおんは　１２００ど　もある。@"
+	db   "wざんの wこtÖwyで"
+	next "dÜw←Ä.yÖwら ほのvをはy."
+	next "Äsvんは 1200ど rrる.@"
 
 PinsirDexEntry:
-	db "くわがた@"
+	db "yわがÄ@"
 	db 15
 	dw 550
-	db   "２ほんの　ながいツノに"
-	next "はさまれたら　ちぎれるまで"
-	next "はなさないという。@"
+	db   "2ほんの üがsRYに"
+	next "はさまれÄら Öぎれるまで"
+	next "はüさüsöst.@"
 
 TaurosDexEntry:
-	db "あばれうし@"
+	db "rばれtし@"
 	db 14
 	dw 884
-	db   "えものに　ねらいを　つけると"
-	next "しっぽで　からだを　たたきながら"
-	next "まっすぐ　つっこんでくる。@"
+	db   "urのに ねらsを Üzるö"
+	next "し←ぽで wらだを ÄÄxüがら"
+	next "ま←すぐ Ü←こんでyる.@"
 
 MagikarpDexEntry:
-	db "さかな@"
+	db "さwü@"
 	db 9
 	dw 100
-	db   "ちからも　スピードも　ほとんどダメ。"
-	next "せかいで　いちばん　よわくて"
-	next "なさけない　ポケモンだ。@"
+	db   "Öwらr Mピ-ドr ほöんどダa."
+	next "せwsで sÖばん vわyä"
+	next "üさzüs ポIblだ.@"
 
 GyaradosDexEntry:
-	db "きょうあく@"
+	db "x<MN>try@"
 	db 65
 	dw 2350
-	db   "ひじょうに　きょうぼうで"
-	next "くちからだす　はかいこうせんは"
-	next "すべてのものを　やきつくす。@"
+	db   "ひじ<MN>tに x<MN>tぼtで"
+	next "yÖwらだす はwsこtせんは"
+	next "すべäのrのを sxÜyす.@"
 
 LaprasDexEntry:
-	db "のりもの@"
+	db "のりrの@"
 	db 25
 	dw 2200
-	db   "かつて　たくさん　つかまえたため"
-	next "ぜつめつ　すんぜんに　なっている。"
-	next "ひとをのせて　すすむ。@"
+	db   "wÜä Äyさん ÜwまuÄÄm"
+	next "ぜÜmÜ すんぜんに ü←äsる."
+	next "ひöをのせä すすl.@"
 
 DittoDexEntry:
 	db "へんしん@"
 	db 3
 	dw 40
-	db   "さいぼうそしきを　いっしゅんで"
-	next "コピーして　あいて　そっくりに"
-	next "へんしんする　のうりょくがある。@"
+	db   "さsぼtそしxを s←し<PK>んで"
+	next "Jピ-しä rsä そ←yりに"
+	next "へんしんする のtり<MN>yがrる.@"
 
 EeveeDexEntry:
-	db "しんか@"
+	db "しんw@"
 	db 3
 	dw 65
-	db   "ふきそくな　いでんしを　もつ。"
-	next "いしからでる　ほうしゃせんによって"
-	next "からだが　とつぜんへんいを　おこす。@"
+	db   "ふxそyü sでんしを rÜ."
+	next "sしwらでる ほtしせんにv←ä"
+	next "wらだが öÜぜんへんsを vこす.@"
 
 VaporeonDexEntry:
-	db "あわはき@"
+	db "rわはx@"
 	db 10
 	dw 290
-	db   "みずべに　すむが　しっぽには"
-	next "さかなのような　ひれが　のこっていて"
-	next "にんぎょと　まちがう　ひともいる。@"
+	db   "dずべに すlが し←ぽには"
+	next "さwüのvtü ひれが のこ←äsä"
+	next "にんぎ<MN>ö まÖがt ひörsる.@"
 
 JolteonDexEntry:
-	db "かみなり@"
+	db "wdüり@"
 	db 8
 	dw 245
-	db   "くうきちゅうの　マイナスイオンを"
-	next "すいこんで　やく１００００ボルトの"
-	next "でんきを　はきだすことができる。@"
+	db   "ytxÖ<PK>tの ;BUMBElを"
+	next "すsこんで sy10000ボgTの"
+	next "でんxを はxだすこöがでxる.@"
 
 FlareonDexEntry:
-	db "ほのお@"
+	db "ほのv@"
 	db 9
 	dw 250
-	db   "からだに　ほのおを　ためてるとき"
-	next "たいおんが　１０００ど　いじょうに"
-	next "あがるので　ひじょうに　きけん。@"
+	db   "wらだに ほのvを Ämäるöx"
+	next "Äsvんが 1000ど sじ<MN>tに"
+	next "rがるので ひじ<MN>tに xzん.@"
 
 PorygonDexEntry:
-	db "バーチャル@"
+	db "バ-Qng@"
 	db 8
 	dw 365
-	db   "さいこうの　かがくりょくを　あつめ"
-	next "ついに　じんこうの　ポケモンを"
-	next "つくることに　せいこうした。@"
+	db   "さsこtの wがyり<MN>yを rÜm"
+	next "Üsに じんこtの ポIblを"
+	next "Üyるこöに せsこtしÄ.@"
 
 OmanyteDexEntry:
-	db "うずまき@"
+	db "tずまx@"
 	db 4
 	dw 75
-	db   "ぜつめつした　ポケモンだが　まれに"
-	next "かせきが　はっけんされ　そこから"
-	next "いきかえらせることが　できる。@"
+	db   "ぜÜmÜしÄ ポIblだが まれに"
+	next "wせxが は←zんされ そこwら"
+	next "sxwuらせるこöが でxる.@"
 
 OmastarDexEntry:
-	db "うずまき@"
+	db "tずまx@"
 	db 10
 	dw 350
-	db   "するどい　キバと　しょくしゅで"
-	next "えものに　かみついたら　さいご。"
-	next "たいえきを　すいだしてしまう。@"
+	db   "するどs Gバö し<MN>yし<PK>で"
+	next "urのに wdÜsÄら さsご."
+	next "Äsuxを すsだしäしまt.@"
 
 KabutoDexEntry:
-	db "こうら@"
+	db "こtら@"
 	db 5
 	dw 115
-	db   "こだい　せいぶつの　かせきから"
-	next "さいせいしたポケモン。"
-	next "かたい　カラで　みを　まもっている。@"
+	db   "こだs せsぶÜの wせxwら"
+	next "さsせsしÄポIbl."
+	next "wÄs Ffで dを まr←äsる.@"
 
 KabutopsDexEntry:
-	db "こうら@"
+	db "こtら@"
 	db 13
 	dw 405
-	db   "すいちゅうを　じゆうに　およぎ"
-	next "するどい　カマで　えものを　とらえ"
-	next "たいえきを　すいとってしまう。@"
+	db   "すsÖ<PK>tを じttに vvぎ"
+	next "するどs F;で urのを öらu"
+	next "Äsuxを すsö←äしまt.@"
 
 AerodactylDexEntry:
-	db "かせき@"
+	db "wせx@"
 	db 18
 	dw 590
-	db   "こはくに　のこされた　きょうりゅうの"
-	next "いでんしから　ふっかつさせた。"
-	next "たかいこえで　なきながら　とぶ。@"
+	db   "こはyに のこされÄ x<MN>tり<PK>tの"
+	next "sでんしwら ふ←wÜさせÄ."
+	next "Äwsこuで üxüがら öぶ.@"
 
 SnorlaxDexEntry:
-	db "いねむり@"
+	db "sねlり@"
 	db 21
 	dw 4600
-	db   "１にちに　たべものを　４００キロ"
-	next "たべないと　きが　すまない。"
-	next "たべおわると　ねむってしまう。@"
+	db   "1にÖに Äべrのを 400Gi"
+	next "Äべüsö xが すまüs."
+	next "Äべvわるö ねl←äしまt.@"
 
 ArticunoDexEntry:
-	db "れいとう@"
+	db "れsöt@"
 	db 17
 	dw 554
-	db   "ゆきやまで　さむくて　しにそうなとき"
-	next "めのまえに　あらわれるといわれる"
-	next "でんせつの　れいとうポケモン。@"
+	db   "txsまで さlyä しにそtüöx"
+	next "mのまuに rらわれるösわれる"
+	next "でんせÜの れsötポIbl.@"
 
 ZapdosDexEntry:
-	db "でんげき@"
+	db "でんげx@"
 	db 16
 	dw 526
-	db   "くもの　うえから　きょだいな"
-	next "いなづまを　おとしながら　あらわれる"
-	next "でんせつの　とりポケモンである。@"
+	db   "yrの tuwら x<MN>だsü"
+	next "süづまを vöしüがら rらわれる"
+	next "でんせÜの öりポIblでrる.@"
 
 MoltresDexEntry:
-	db "かえん@"
+	db "wuん@"
 	db 20
 	dw 600
-	db   "むかしから　ひのとりでんせつとして"
-	next "しられる。　はばたくたびに　はねが"
-	next "あかるく　もえあがり　うつくしい。@"
+	db   "lwしwら ひのöりでんせÜöしä"
+	next "しられる. はばÄyÄびに はねが"
+	next "rwるy rurがり tÜyしs.@"
 
 DratiniDexEntry:
-	db "ドラゴン@"
+	db "ドfゴl@"
 	db 18
 	dw 33
-	db   "ながいあいだ　まぼろしの　ポケモンと"
-	next "よばれた。わずかだが　すいちゅうに"
-	next "すんでいることが　わかった。@"
+	db   "üがsrsだ まぼろしの ポIblö"
+	next "vばれÄ.わずwだが すsÖ<PK>tに"
+	next "すんでsるこöが わw←Ä.@"
 
 DragonairDexEntry:
-	db "ドラゴン@"
+	db "ドfゴl@"
 	db 40
 	dw 165
-	db   "ハネは　ないが　そらを　とべる。"
-	next "とぶとき　からだを　しなやかに"
-	next "くねらせて　とても　うつくしい。@"
+	db   "ZXは üsが そらを öべる."
+	next "öぶöx wらだを しüswに"
+	next "yねらせä öär tÜyしs.@"
 
 DragoniteDexEntry:
-	db "ドラゴン@"
+	db "ドfゴl@"
 	db 22
 	dw 2100
-	db   "すがたを　みたひとは　すくないが"
-	next "じつざいする　うみのけしん。ちのうも"
-	next "にんげんに　ひってき　するらしい。@"
+	db   "すがÄを dÄひöは すyüsが"
+	next "じÜざsする tdのzしん.Öのtr"
+	next "にんげんに ひ←äx するらしs.@"
 
 MewtwoDexEntry:
-	db "いでんし@"
+	db "sでんし@"
 	db 20
 	dw 1220
-	db   "けんきゅうの　ために　いでんしを"
-	next "どんどん　くみかえていった　けっか"
-	next "きょうぼうな　ポケモンに　なった。@"
+	db   "zんx<PK>tの Ämに sでんしを"
+	next "どんどん ydwuäs←Ä z←w"
+	next "x<MN>tぼtü ポIblに ü←Ä.@"
 
 MewDexEntry:
-	db "しんしゅ@"
+	db "しんし<PK>@"
 	db 4
 	dw 40
-	db   "いまでも　まぼろしの　ポケモンと"
-	next "いわれる。そのすがたを　みたものは"
-	next "ぜんこくでも　ほとんど　いない。@"
+	db   "sまでr まぼろしの ポIblö"
+	next "sわれる.そのすがÄを dÄrのは"
+	next "ぜんこyでr ほöんど süs.@"
 
 HappaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 HanamoguraDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 HanaryuDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 HonogumaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 VolbearDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 DynabearDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 KurusuDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 AquaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 AquariaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 HohoDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 BoboDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 PachimeeDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 MokokoDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 DenryuDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 MikonDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 MonjaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 JaranraDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 HaneeiDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 PukuDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 ShibirefuguDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 PichuDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 PyDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 PupurinDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 MizuuoDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 NatyDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 NatioDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 GyopinDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 MarilDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 Manbo1DexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 IkariDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 GrotessDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 EksingDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 ParaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 KokumoDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 TwoheadDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 YoroidoriDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 AnimonDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 HinazuDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 SunnyDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 PaonDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 DonphanDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 TwinzDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 KirinrikiDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 PainterDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 KounyaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 RinrinDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 BerurunDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 NyorotonoDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 YadokingDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 AnnonDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 RedibaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 MitsuboshiDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 PuchicornDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 EifieDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 BlackyDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 TurbanDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 BetbabyDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 TeppouoDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 OkutankDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 GonguDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 KapoererDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 PudieDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 HanekoDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 PoponekoDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 WatanekoDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 BaririnaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 LipDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 ElebabyDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 BoobyDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 KireihanaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 TsubomittoDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 MiltankDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 BombseekerDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 GiftDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 KotoraDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 RaitoraDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 MadameDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 NorowaraDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 KyonpanDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 YamikarasuDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 HappiDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 ScissorsDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 PurakkusuDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 DevilDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 HelgaaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 WolfmanDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 WarwolfDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 Porygon2DexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 NameilDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 HaganeilDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 KingdraDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 RaiDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 EnDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 SuiDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 NyulaDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 HououDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 TogepyDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 BuluDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 TailDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"
 
 LeafyDexEntry:
-	db "？？？@"
+	db "???@"
 	db 0
 	dw 0
-	db   "はっけんされた　ばかりの　ポケモン"
-	next "げんざい　ちょうさちゅう。@"
+	db   "は←zんされÄ ばwりの ポIbl"
+	next "げんざs Ö<MN>tさÖ<PK>t.@"

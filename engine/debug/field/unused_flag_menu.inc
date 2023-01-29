@@ -14,10 +14,10 @@ FieldDebug_UnusedFlagMenu: ; unused?
 .MenuData:
 	db STATICMENU_CURSOR
 	db 4
-	db "フラグ１@"
-	db "フラグ２@"
-	db "フラグ３@"
-	db "フラグ４@"
+	db ")fグ1@"
+	db ")fグ2@"
+	db ")fグ3@"
+	db ")fグ4@"
 
 	call LoadStandardMenuHeader
 	bccoord 0, 14
@@ -65,9 +65,9 @@ ENDM
 	ret
 
 .CheckBit:
-	ld a, "０"
+	ld a, "0"
 	jr z, .not_set
-	ld a, "１"
+	ld a, "1"
 .not_set
 	ld [bc], a
 	inc bc

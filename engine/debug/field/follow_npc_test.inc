@@ -62,12 +62,12 @@ FieldDebug_FollowNPCTest:
 .MenuData:
 	db STATICMENU_CURSOR
 	db 2
-	db "はじめる@"
-	db "おわる@"
+	db "はじmる@"
+	db "vわる@"
 
 .CannotUseWithPokemonText:
-	text "ポケモンを　つれているときは"
-	next "だめです"
+	text "ポIblを Üれäsるöxは"
+	next "だmです"
 	prompt
 
 .MovementData:
@@ -95,8 +95,8 @@ MenuHeaderfca01:	; unreferenced?
 .MenuData:
 	db STATICMENU_WRAP | STATICMENU_CURSOR
 	db 4
-	db "ポケモンつれあるき@"
-	db "つれあるかれデモ@"
-	db "ライバルおねえさん@"
-	db "さくせいちゅう@"
+	db "ポIblÜれrるx@"
+	db "Üれrるwれデb@"
+	db "fBバgvねuさん@"
+	db "さyせsÖ<PK>t@"
 

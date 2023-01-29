@@ -111,30 +111,30 @@ asm_2d3ad:
 	ret
 
 text_2d3bf:
-	text "<TM>を　きどうした！"
+	text "<TM>を xどtしÄ!"
 	prompt
-	text "ひでんマシンを　きどうした！"
+	text "ひでん;Llを xどtしÄ!"
 
 text_2d3d9:
-	text "なかには　@"
+	text "üwには @"
 	text_from_ram wStringBuffer2
 	text "が"
-	line "きろくされていた！"
+	line "xろyされäsÄ!"
 	para "@"
 	text_from_ram wStringBuffer2
 	text "を"
-	line "#に　おぼえさせますか？"
+	line "#に vぼuさせますw?"
 	done
 
 text_2d404:
 	text_from_ram wStringBuffer1
-	text "と　@"
+	text "ö @"
 	text_from_ram wStringBuffer2
 	text "は"
-	line "あいしょうが　わるかった！"
+	line "rsし<MN>tが わるw←Ä!"
 	para "@"
 	text_from_ram wStringBuffer2
-	text "は　おぼえられない！"
+	text "は vぼuられüs!"
 	prompt
 	db $02, $04, $00, $01
 	db $0c, $20
@@ -303,13 +303,13 @@ asm_2d550:
 	jp asm_2d4a3
 
 string_2d568:
-	db "いりょく／@"
+	db "sり<MN>y/@"
 
 string_2d56e:
-	db "ーーー@"
+	db "---@"
 
 string_2d572:
-	db "タイプ／@"
+	db "PBプ/@"
 
 sub_2d577:
 	ld hl, $c2a3
@@ -419,13 +419,13 @@ asm_2d618:
 
 text_2d61b:
 	text_from_ram wStringBuffer1
-	text "は　これいじょう"
-	line "もてません！"
+	text "は これsじ<MN>t"
+	line "räません!"
 	prompt
 
 text_2d62f:
 	text_from_ram wStringBuffer1
-	text "を　てにいれた！"
+	text "を äにsれÄ!"
 	prompt
 
 sub_2d63c:

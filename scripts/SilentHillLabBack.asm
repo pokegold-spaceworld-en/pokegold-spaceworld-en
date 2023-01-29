@@ -153,51 +153,57 @@ SilentHillLabBackText1:
 	ret
 
 SilentHillLabBackTextString1:
-	text "オーキド『ほれ　そこに　３びき"
-	cont "ポケモンが　いる　じゃろう！"
-	cont "ほっほ！"
+	text "OAK: Look over"
+	line "there! Do you see"
+	cont "those 3 #MON?"
+	cont "Hohoho!"	
 
-	para "こいつらを　きみたちに"
-	cont "いっぴき　づつ　やろう！"
-	cont "⋯⋯　さあ　えらべ！"
+	para "You can each have"
+	cont "one! Choose!"
 	done
 
 SilentHillLabBackTextString2:
-	text "オーキド『まあ"
-	line "あわてるな　<RIVAL>！"
-	cont "おまえも　すきなものを　とれ！"
+	text "OAK: Now now,"
+	line "<RIVAL>, there's"
+	cont "no need to rush."
+	cont "Take whichever one"
+	cont "you'd like!"	
 	done
 
 SilentHillLabBackTextString3:
-	text "オーキド『さあ　<PLAYER>"
-	line "どの　ポケモンに　するかね？"
+	text "OAK: Now, <PLAYER>,"
+	line "which #MON"
+	cont "do you want?"	
 	done
 
 SilentHillLabBackTextString4:
-	text "オーキド『ほう！　ほのおのポケモン"
-	line "@"
+	text "OAK: So! You want"
+	line "the fire #MON,"	
+	cont "@"
 	ld bc, wStringBuffer1
-	text "に　するんじゃな？@"
+	text "?@"
 	db 08
 	call ConfirmPokemonSelection
 	call Function3036
 	ret
 
 SilentHillLabBackTextString5:
-	text "オーキド『ふむ　みずのポケモン"
-	line "@"
+	text "OAK: So! You want"
+	line "the water #MON,"	
+	cont "@"
 	ld bc, wStringBuffer1
-	text "に　きめるのじゃな？@"
+	text "?@"
 	db 08
 	call ConfirmPokemonSelection
 	call Function3036
 	ret
 
 SilentHillLabBackTextString6:
-	text "オーキド『おお！　くさのポケモン"
-	line "@"
+	text "OAK: So! You want"
+	line "the grass #MON,"	
+	cont "@"
 	ld bc, wStringBuffer1
-	text "が　いいんじゃな？@"
+	text "?@"
 	db 08
 	call ConfirmPokemonSelection
 	call Function3036
@@ -234,24 +240,25 @@ ConfirmPokemonSelection:
 	ret
 
 SilentHillLabBackTextString7:
-	text "では"
-	line "どれに　するのじゃ？"
+	text "Very well."
+	line "Which one would"
+	cont "you like?"	
 	done
 
 SilentHillLabBackTextString8:
-	text "オーキド『この　ポケモンは"
-	line "ほんとに　げんきが　いいぞ！"
+	text "This #MON is"
+	line "really energetic!"
 
-	para "<PLAYER>は　オーキドはかせから"
-	line "@"
+	para "<PLAYER> received"
+	line "a @"
 	ld bc, wStringBuffer1
-	text "を　もらった！<PROMPT>"
+	text "!<PROMPT>"
 
 SilentHillLabBackTextString9:
-	text "オーキド『そうじゃ！"
-	line "やせいの　ポケモンが　でて　きても"
-	cont "そいつを　たたかわせて　いけば"
-	cont "となりまちへ　いける！"
+	text "OAK: If a wild"
+	line "#MON appears,"
+	cont "your #MON can"
+	cont "fight against it!"
 	done
 
 SilentHillLabBackFunc3:
@@ -265,32 +272,37 @@ SilentHillLabBackFunc3:
 	ret
 
 SilentHillLabBackTextString10:
-	text "<RIVAL>『あッ！　おれにも！"
-	line "じいさん　おれにもくれよう！"
+	text "<RIVAL>: Me too!"
+	line "C'mon, gramps,"
+	cont "gimme one too!"	
 	done
 
 SilentHillLabBackTextString11:
-	text "<RIVAL>『いいぜ　<PLAYER>！"
-	line "さきに　えらんで！"
-	cont "おれは　こころが　ひろいからな"
+	text "<RIVAL>: I'll let"
+	line "you choose first,"
+	cont "<PLAYER>, 'cause"
+	cont "I'm a generous"
+	cont "kind of guy!"	
 	done
 
 SilentHillLabBackTextString12:
-	text "<RIVAL>『じゃ　おれは　これ！"
+	text "<RIVAL>: I'll take"
+	cont "this one, then!"		
 	done
 
 SilentHillLabBackTextString13:
-	text "<RIVAL>は　オーキドから"
-	line "@"
+	text "<RIVAL> received"
+	line "a@"
 	ld bc, wStringBuffer1
-	text "を　もらった！"
+	text "!"
 	done
 
 SilentHillLabBackTextString14:
-	text "<RIVAL>『<PLAYER>の#"
-	line "いいなあ！"
-	cont "でも　おれのポケモンも"
-	cont "ちょっと　いいだろ？"
+	text "<RIVAL>: Your"
+	line "#MON is really"
+	cont "cool, <PLAYER>!"
+	cont "But mine's pretty"
+	cont "nice too, right?"	
 	done
 
 SilentHillLabBackFunc4:
@@ -346,8 +358,8 @@ SilentHillLabBackStarterData:
 	db DEX_HONOGUMA
 
 SilentHillLabBackTextString15:
-	text "オーキド『これ！"
-	line "よくばっちゃ　いかん！"
+	text "OAK: Hey now!"
+	line "Don't be greedy!"
 	done
 
 SilentHillLabBackTextPointers2:

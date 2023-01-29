@@ -171,7 +171,7 @@ GetMachineName::
 ; now get the machine number and convert it to text
 	ld a, [wNamedObjectIndexBuffer]
 	sub ITEM_TM01_RED - 1
-	ld b, "０"
+	ld b, "0"
 .first_digit
 	sub 10
 	jr c, .second_digit
@@ -184,7 +184,7 @@ GetMachineName::
 	ld [de], a
 	inc de
 	pop af
-	ld b, "０"
+	ld b, "0"
 	add b
 	ld [de], a
 	inc de
@@ -198,12 +198,12 @@ GetMachineName::
 	ret
 
 .TMText:
-	db "わざマシン"
+	db "わざ;Ll"
 .TMTextEnd:
 	db "@"
 
 .HMText:
-	db "ひでんマシン"
+	db "ひでん;Ll"
 .HMTextEnd:
 	db "@"
 

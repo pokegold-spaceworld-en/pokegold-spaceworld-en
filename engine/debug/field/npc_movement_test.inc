@@ -50,6 +50,6 @@ FieldDebug_NPCMovementTest:
 	ret
 
 .NotHereText:
-	text "ここではだめです！"
+	text "ここではだmです!"
 	done
 

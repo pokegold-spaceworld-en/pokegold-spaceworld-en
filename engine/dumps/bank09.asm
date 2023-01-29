@@ -120,8 +120,8 @@ Function24090:
 	jr .asm_24099
 
 .text_2409c:
-	text "ウィンドウセーブエりアが"
-	next "オーバーしました"
+	text "CqlドCN-ブDりAが"
+	next "E-バ-しましÄ"
 	done
 
 asm_240b3:
@@ -260,8 +260,8 @@ Function24164:
 	jr .loop
 
 .text_2416f:
-	text "ポップできる　ウィンドウが"
-	next "ありません！"
+	text "ポmプでxる CqlドCが"
+	next "rりません!"
 	done
 
 Function24185::
@@ -732,7 +732,7 @@ asm_244c8:
 	ret
 
 .text_244d6:
-	db "やめる@"
+	db "smる@"
 
 asm_244da:
 	ld d, h
@@ -1148,7 +1148,7 @@ Function2473b::
 	ret
 
 .text_2476b:
-	db "　ーーやめるーー@"
+	db " --smる--@"
 
 PlaceMenuItemName::
 	push de
@@ -1272,7 +1272,7 @@ asm_4831:
 
 .data_24856:
 	db $40, $01
-	db "　　　　　　円@"
+	db "      ¥@"
 
 asm_24860:
 	ld hl, MenuHeader24888
@@ -1315,28 +1315,28 @@ asm_24890:
 	db 1
 
 .text_248a2:
-	db "たエ゛うる@"
-	db "かう@"
-	db "やめる@"
-	db "くさかり@"
-	db "とんでけ@"
+	db "ÄD゛tる@"
+	db "wt@"
+	db "smる@"
+	db "yさwり@"
+	db "öんでz@"
 	db "どんぶらこ@"
-	db "フルパワー@"
-	db "ひかりゴケ@"
-	db "うずしお@"
-	db "とびはねる@"
-	db "あなをほる@"
-	db "テレポート@"
-	db "タマゴうみ@"
+	db ")gパj-@"
+	db "ひwりゴI@"
+	db "tずしv@"
+	db "öびはねる@"
+	db "rüをほる@"
+	db "Shポ-T@"
+	db "P;ゴtd@"
 
 Text248e7:
-	db "つよさをみる@"
-	db "ならびかえ@"
-	db "そうび@"
-	db "キャンセル@"
-	db "もちわざ@"
-	db "メール@"
-	db "エラー！@"
+	db "STATS"
+	db "SWITCH"
+	db "ITEM"
+	db "CANCEL"
+	db "MOVE"
+	db "MAIL"
+	db "ERROR!"
 
 Data2490c:
 	db $f5, $01
@@ -1628,9 +1628,9 @@ asm_24aa9:
 	db 1
 
 .text_24af1:
-	db "たエ゛とりかえる@"
-	db "つよさをみる@"
-	db "キャンセル@"
+	db "ÄD゛öりwuる@"
+	db "Üvさをdる@"
+	db "GnlNg@"
 
 asm_24b06:
 	ld hl, MenuHeader24b24
@@ -1655,8 +1655,8 @@ MenuHeader24b24:
 	db 1
 
 .text_24b2c:
-	db "ア<TA!>ガたたかう@"
-	db "どうぐ@"
+	db "A<TA!>ガÄÄwt@"
+	db "どtぐ@"
 	db "#@"
 	db "にげる@"
 
@@ -1667,9 +1667,9 @@ MenuHeader24b3e:
 	db 1
 
 .text_24b46:
-	db "ア<TA!>ジサファりボール×　　　@"
-	db "エサをなげる@"
-	db "いしをなげる@"
+	db "A<TA!>ジK)&りボ-g×   @"
+	db "DKをüげる@"
+	db "sしをüげる@"
 	db "にげる@"
 
 asm_24b67:

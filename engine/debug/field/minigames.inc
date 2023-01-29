@@ -69,9 +69,9 @@ FieldDebug_Minigames:
 .MenuData:
 	db STATICMENU_CURSOR
 	db 3
-	db "スロットマシン@"
-	db "ポーカーゲーム@"
-	db "ぺアゲーム@"
+	db "MimT;Ll@"
+	db "ポ-F-ゲ-]@"
+	db "ぺAゲ-]@"
 
 .MinigamePointers:
 	dba SlotMachineGame
@@ -80,7 +80,7 @@ FieldDebug_Minigames:
 
 .MinigameConfirmationText:
 	text_from_ram wStringBuffer2
-	text "で　"
-	line "あそびますか？"
+	text "で "
+	line "rそびますw?"
 	done
 

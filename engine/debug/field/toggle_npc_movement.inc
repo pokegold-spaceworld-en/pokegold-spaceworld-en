@@ -34,6 +34,6 @@ FieldDebug_ToggleNPCMovement:
 .MenuData:
 	db STATICMENU_CURSOR
 	db 2
-	db "とめる@"
-	db "うごかす@"
+	db "ömる@"
+	db "tごwす@"
 

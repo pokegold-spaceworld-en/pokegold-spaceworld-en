@@ -29,8 +29,8 @@ LoadToolgearGraphicsDebug::
 	bit 0, [hl]
 	jr z, .loadToolgearGraphics
 	ld hl, $9660
-	ld de, FontGFX + (("０" - "ア") * $08)
-	lb bc, BANK(FontGFX), ("９" - "０" + 1)
+	ld de, FontGFX + (("0" - "A") * $08)
+	lb bc, BANK(FontGFX), ("9" - "0" + 1)
 	call Get1bpp
 	ld hl, $9700
 	ld de, FontExtraAB_GFX
@@ -39,8 +39,8 @@ LoadToolgearGraphicsDebug::
 	ret
 .loadToolgearGraphics::
 	ld hl, $9660
-	ld de, FontGFX + (("０" - "ア") * $08)
-	lb bc, BANK(FontGFX), ("９" - "０" + 1)
+	ld de, FontGFX + (("0" - "A") * $08)
+	lb bc, BANK(FontGFX), ("9" - "0" + 1)
 	call Get1bpp
 	ld hl, $9700
 	ld de, TrainerCardColonGFX

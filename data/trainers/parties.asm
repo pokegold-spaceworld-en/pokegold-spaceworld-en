@@ -36,12 +36,12 @@ HayatoGroup::
 AkaneGroup::
 BugCatcherBoyGroup::
 	; BUG_CATCHER_BOY_JUNICHI
-	db "じゅんいち@", TRAINERTYPE_ITEM_MOVES
+	db "じ<PK>んsÖ@", TRAINERTYPE_ITEM_MOVES
 	db  7, DEX_PARAS, ITEM_NONE, MOVE_STUN_SPORE, MOVE_LEECH_LIFE, MOVE_NONE, MOVE_NONE
 	db -1 ; end
 
 	; BUG_CATCHER_BOY_SOUSUKE
-	db "そうすけ@", TRAINERTYPE_ITEM_MOVES
+	db "そtすz@", TRAINERTYPE_ITEM_MOVES
 	db  9, DEX_REDIBA, ITEM_NONE, MOVE_SCRATCH, MOVE_QUICK_ATTACK, MOVE_NONE, MOVE_NONE
 	db -1 ; end
 
@@ -64,7 +64,7 @@ BugCatcherBoyGroup::
 TsukishiGroup::
 LassGroup::
 	; LASS_ATSUKO
-	db "あつこ@", TRAINERTYPE_ITEM_MOVES
+	db "rÜこ@", TRAINERTYPE_ITEM_MOVES
 	db  8, DEX_ODDISH, ITEM_NONE
 	; No moves?
 	db -1 ; end
@@ -284,7 +284,7 @@ GerugeMemberMGroup::
 Trio1Group::
 BeautyGroup::
 	; BEAUTY_MEGUMI
-	db "めぐみ@", TRAINERTYPE_ITEM_MOVES
+	db "mぐd@", TRAINERTYPE_ITEM_MOVES
 	db 10, DEX_MEOWTH, ITEM_NONE, MOVE_PAY_DAY, MOVE_GROWL, MOVE_NONE, MOVE_NONE
 	db -1 ; end
 ; Leftover Beauty data from Red/Blue
@@ -594,30 +594,30 @@ TwinsGroup::
 
 SchoolboyGroup::
 	; SCHOOLBOY_TETSUYA
-	db "てつや@", TRAINERTYPE_ITEM_MOVES
+	db "äÜs@", TRAINERTYPE_ITEM_MOVES
 	db  9, DEX_YADOKING, ITEM_NONE, MOVE_DISABLE, MOVE_CONFUSION, MOVE_NONE, MOVE_NONE
 	db -1 ; end
 
 FirebreatherGroup::
 	; MOLTRESBREATHER_AKITO
-	db "あきと@", TRAINERTYPE_ITEM_MOVES
+	db "rxö@", TRAINERTYPE_ITEM_MOVES
 	db 10, DEX_BOOBY, ITEM_NONE, MOVE_SCRATCH, MOVE_SMOG, MOVE_NONE, MOVE_NONE
 	db -1 ; end
 
 SportsmanGroup::
 	; SPORTSMAN_SHIGEKI
-	db "しげき@", TRAINERTYPE_ITEM
+	db "しげx@", TRAINERTYPE_ITEM
 	db  8, DEX_DONPHAN, ITEM_NONE
 	db -1 ; end
 
 KimonoGirlGroup::
 	; KIMONO_GIRL_TAMAO
-	db "たまお@", TRAINERTYPE_ITEM_MOVES
+	db "Äまv@", TRAINERTYPE_ITEM_MOVES
 	db 12, DEX_JIGGLYPUFF, ITEM_NONE, MOVE_CHARM, MOVE_ENCORE, MOVE_POUND, MOVE_NONE
 	db -1 ; end
 
 	; KIMONO_GIRL_KOUME
-	db "こうめ@", TRAINERTYPE_ITEM_MOVES
+	db "こtm@", TRAINERTYPE_ITEM_MOVES
 	db 10, DEX_CLEFAIRY, ITEM_NONE, MOVE_CHARM, MOVE_SWEET_KISS, MOVE_POUND, MOVE_NONE
 	db -1 ; end
 
@@ -627,12 +627,12 @@ SECTION "data/trainers/parties.asm@Trainer Parties 1 TEMPORARY", ROMX
 AkaneGroup::
 BugCatcherBoyGroup::
 	; BUG_CATCHER_BOY_KENJI
-	db "けんじ@", TRAINERTYPE_ITEM_MOVES
+	db "zんじ@", TRAINERTYPE_ITEM_MOVES
 	db  9, DEX_REDIBA, ITEM_NONE, MOVE_SCRATCH, MOVE_QUICK_ATTACK, MOVE_NONE, MOVE_NONE
 	db -1 ; end
 
 	; BUG_CATCHER_BOY_KEN
-	db "けん@", TRAINERTYPE_ITEM_MOVES
+	db "zん@", TRAINERTYPE_ITEM_MOVES
 	db  7, DEX_VENONAT, ITEM_NONE, MOVE_STUN_SPORE, MOVE_LEECH_LIFE, MOVE_NONE, MOVE_NONE
 	db -1 ; end
 
@@ -679,12 +679,12 @@ HikerGroup::
 SECTION "data/trainers/parties.asm@Trainer Parties 15 TEMPORARY", ROMX
 KimonoGirlGroup::
 	; KIMONO_GIRL_KOUME
-	db "こうめ@", TRAINERTYPE_ITEM_MOVES
+	db "こtm@", TRAINERTYPE_ITEM_MOVES
 	db  9, DEX_DONPHAN, ITEM_NONE, MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_NONE, MOVE_NONE
 	db -1 ; end
 
 	; KIMONO_GIRL_TAMAO
-	db "たまお@", TRAINERTYPE_ITEM_MOVES
+	db "Äまv@", TRAINERTYPE_ITEM_MOVES
 	db 10, DEX_JIGGLYPUFF, ITEM_NONE, MOVE_CHARM, MOVE_POUND, MOVE_ENCORE, MOVE_NONE
 	db -1 ; end
 
@@ -732,14 +732,14 @@ TwinsGroup::
 SECTION "data/trainers/parties.asm@Trainer Parties 29 TEMPORARY", ROMX
 SchoolboyGroup::
 	; SCHOOLBOY_TETSUYA
-	db "てつや@", TRAINERTYPE_ITEM
+	db "äÜs@", TRAINERTYPE_ITEM
 	db  8, DEX_YADOKING, ITEM_NONE
 	db -1 ; end
 
 SECTION "data/trainers/parties.asm@Trainer Parties 30 TEMPORARY", ROMX
 FirebreatherGroup::
 	; MOLTRESBREATHER_AKITO
-	db "あきと@", TRAINERTYPE_ITEM
+	db "rxö@", TRAINERTYPE_ITEM
 	db  8, DEX_BOOBY, ITEM_NONE
 	db -1 ; end
 
@@ -806,7 +806,7 @@ GerugeMemberFGroup::
 SECTION "data/trainers/parties.asm@Trainer Parties 48 TEMPORARY", ROMX
 SportsmanGroup::
 	; SPORTSMAN_SHIGEKI
-	db "てつじ@", TRAINERTYPE_ITEM_MOVES
+	db "äÜじ@", TRAINERTYPE_ITEM_MOVES
 	db  9, DEX_DONPHAN, ITEM_NONE, MOVE_TACKLE, MOVE_DEFENSE_CURL, MOVE_NONE, MOVE_NONE
 	db -1 ; end
 

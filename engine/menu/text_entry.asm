@@ -99,7 +99,7 @@ GetNamingScreenSetup:
 	ret
 
 .NicknameText
-	db "のニックネームは？@"
+	db "のVmHX-]は?@"
 
 .Player:
 	ld de, GoldSpriteGFX
@@ -111,7 +111,7 @@ GetNamingScreenSetup:
 	ret
 
 .NameText:
-	db "あなた　の　なまえは？@"
+	db "rüÄ の üまuは?@"
 
 .Rival:
 	ld de, SilverSpriteGFX
@@ -124,7 +124,7 @@ GetNamingScreenSetup:
 
 .RivalText:
 ; the ret just preceeding this would make the first word Rival.
-	db "ライバル　の　なまえは？@"
+	db "fBバg の üまuは?@"
 
 .Mom:
 	ld de, MomSpriteGFX
@@ -136,7 +136,7 @@ GetNamingScreenSetup:
 	ret
 
 .MomText:
-	db "ははおや　の　なまえは？@"
+	db "ははvs の üまuは?@"
 
 .Box:
 	ld de, PokeBallSpriteGFX
@@ -160,7 +160,7 @@ GetNamingScreenSetup:
 	ret
 
 .BoxText:
-	db "バンク　の　なまえは？@"
+	db "バlH の üまuは?@"
 
 .LoadSprite:
 ; copies the sprite at de into the top of VRAM, as well as the sprite $C0 after de
@@ -493,19 +493,19 @@ NamingScreenTryAddCharacter:
 	ret
 
 Dakutens:
-	db "かがきぎくぐけげこご"
+	db "wがxぎyぐzげこご"
 	db "さざしじすずせぜそぞ"
-	db "ただちぢつづてでとど"
+	db "ÄだÖぢÜづäでöど"
 	db "はばひびふぶへべほぼ"
-	db "カガキギクグケゲコゴ"
-	db "サザシジスズセゼソゾ"
-	db "タダチヂツヅテデトド"
-	db "ハバヒビフブへべホボ"
+	db "FガGギHグIゲJゴ"
+	db "KザLジMズNゼOゾ"
+	db "PダQヂRヅSデTド"
+	db "Zバ(ビ)ブへべ:ボ"
 	db $FF
 
 Handakutens:
 	db "はぱひぴふぷへぺほぽ"
-	db "ハパヒピフプへぺホポ"
+	db "Zパ(ピ)プへぺ:ポ"
 	db $FF
 
 NamingScreenDeleteCharacter:
@@ -770,7 +770,7 @@ InitMailText:
 	ret
 
 MailPromptText:
-	db "メールを　かいてね@"
+	db "a-gを wsäね@"
 
 InitCharSet:
 	call WaitForAutoBgMapTransfer
@@ -881,7 +881,7 @@ DoMailEntry:
 
 .ajump
 	call NamingScreenGetLastCharacter
-	cp "円"
+	cp "¥"
 	jr z, .startjump
 	call NamingScreenTryAddCharacter
 	xor a
@@ -987,7 +987,7 @@ DrawMailLoadedText:
 	ret
 
 MailLoadedText:
-	db "スアケシ！！！@" ; should be "MAIL!!!" since the bold english font is loaded into vChars1
+	db "MAIL!!!@" ; should be "MAIL!!!" since the bold english font is loaded into vChars1
 
 DrawMail:
 	call WaitForAutoBgMapTransfer
@@ -1046,4 +1046,4 @@ DrawMailTextExtra:
 	ret
 
 MailTextExtra:
-	db "？！１２３４５　　６７８９０ー円"
+	db "?!12345  67890-¥"

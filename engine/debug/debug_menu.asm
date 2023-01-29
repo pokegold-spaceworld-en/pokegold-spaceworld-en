@@ -53,12 +53,12 @@ DebugMenuHeader:
 	dw .Strings
 
 .Strings
-	db "ファイト@"
-	db "フィールド@"
-	db "サウンド@"
-	db "サブゲーム@"
-	db "モンスター@"
-	db "なまえ@"
+	db ")&BT@"
+	db ")q-gド@"
+	db "KClド@"
+	db "Kブゲ-]@"
+	db "blMP-@"
+	db "üまu@"
 
 DebugMenuItems:
 	db 6 ; items
@@ -234,7 +234,7 @@ _DebugMenuSoundTest::
 	deciram hDebugMenuSoundMenuIndex, 1, 1
 	text "<LINE>@"
 	text_from_ram wStartDay
-	text "　"
+	text " "
 	done
 
 INCLUDE "data/sound_test_text_pointers.inc"
@@ -285,11 +285,11 @@ CallSubGameMenu:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_WRAP
 	db 5 ; items
-	db "ポーカー@"
-	db "１５パズル@"
-	db "しんけい@"
-	db "ピクロス@"
-	db "スロット@"
+	db "ポ-F-@"
+	db "15パズg@"
+	db "しんzs@"
+	db "ピHiM@"
+	db "MimT@"
 
 SubGameMenu_PokerGame:
 	callab PokerMinigame

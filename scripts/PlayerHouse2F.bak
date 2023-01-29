@@ -1,0 +1,260 @@
+INCLUDE "constants.asm"
+
+SECTION "scripts/PlayerHouse2F.asm", ROMX
+
+PlayerHouse2F_ScriptLoader::
+	ld hl, PlayerHouse2FScriptPointers
+	call RunMapScript
+	call WriteBackMapScriptNumber
+	ret
+
+PlayerHouse2FScriptPointers:
+	dw PlayerHouse2FScript1
+	dw PlayerHouse2FNPCIDs1
+	dw PlayerHouse2FScript2
+	dw PlayerHouse2FNPCIDs2
+
+PlayerHouse2F_TextPointers::
+	dw PlayerHouse2FText1
+	dw PlayerHouse2FDollText
+
+PlayerHouse2FNPCIDs1:
+	db 0
+	db 1
+	db $FF
+
+PlayerHouse2FNPCIDs2:
+	db 1
+	db $FF
+
+PlayerHouse2FSignPointers:
+	dw Function3899
+	dw PlayerHouse2FRadioText
+	dw PlayerHouse2FComputerText
+	dw Function3899
+	dw PlayerHouse2FN64Text
+
+PlayerHouse2FScript1:
+	call PlayerHouse2PositionCheck
+	ret z
+	ld hl, PlayerHouse2FNPCIDs1
+	ld de, PlayerHouse2FSignPointers
+	call CallMapTextSubroutine
+	ret nz
+	ret
+
+PlayerHouse2PositionCheck:
+	ld hl, wd41a
+	bit 0, [hl]
+	ret nz
+	ld a, [wYCoord]
+	cp 1
+	ret nz
+	ld a, [wXCoord]
+	cp 9
+	ret nz
+	ld hl, wJoypadFlags
+	set 6, [hl]
+	ld a, LEFT
+	ld d, 0
+	call SetObjectFacing
+	ld hl, PlayerHouse2FTextString2
+	call OpenTextbox
+	call PlayerHouse2FMovePlayer
+	call ClearAccumulator
+	ret
+
+PlayerHouse2FMovePlayer:
+	ld a, 0
+	ld hl, Movement
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, 1
+	call WriteIntod637
+	ret
+
+Movement:
+	db $08
+	db $04
+	db $32
+
+PlayerHouse2FScript2:
+	ld hl, PlayerHouse2FNPCIDs2
+	ld de, PlayerHouse2FSignPointers
+	call CallMapTextSubroutine
+	ret
+
+PlayerHouse2FText1:
+	ld hl, wd41a
+	bit 3, [hl]
+	jr nz, .jump
+	ld hl, PlayerHouse2FTextString1
+	call OpenTextbox
+	ld hl, wd41a
+	set 3, [hl]
+	ld c, 3
+	call DelayFrames
+.jump
+	ld hl, PlayerHouse2FTextString2
+	call OpenTextbox
+	ret
+
+PlayerHouse2FDollText:
+	ld hl, PlayerHouse2FTextString3
+	call OpenTextbox
+	ret
+
+PlayerHouse2FRadioText:
+	ld hl, PlayerHouse2FTextString9
+	call OpenTextbox
+	ret
+
+PlayerHouse2FComputerText:
+	ld hl, wd41a
+	bit 0, [hl]
+	jr nz, .jump
+	ld hl, PlayerHouse2FTextString5
+	call OpenTextbox
+	ret
+
+.jump
+	call RefreshScreen
+	callab PokemonCenterPC
+	call Function1fea
+	ret
+
+PlayerHouse2FCheckEmail:
+	call YesNoBox
+	jr c, .jump2
+	ld hl, wd41a
+	set 0, [hl]
+	ld hl, PlayerHouse2FTextString6
+	call PrintText
+	ret
+
+.jump2
+	ld hl, PlayerHouse2FTextString7
+	call PrintText
+	ret
+
+PlayerHouse2FN64Text:
+	ld hl, PlayerHouse2FTextString4
+	call OpenTextbox
+	ret
+
+PlayerHouse2FTextString1:
+	text "Il『v←　vまuの　tでで"
+	line "ひwりwがsy　そのözsは⋯⋯"
+	cont "<PLAYER>r　Üsに"
+	cont "Th-U-ギAを　w←Äのw!"
+
+	para "すごsじüsw!"
+	line "でr　w←Äばwりじ　じwんしw"
+	cont "わwらüsだろ?"
+	cont "röで　;mプが"
+	cont "dられるvtに　しäsるv!"
+	cont "vまu　どtせ"
+	cont "rそびに　syんだろt?"
+
+	para "ざんねんüがら　vふyろは"
+	line "wsrのに　s←äるwら"
+	cont "vこづwsを　rらvtüんä"
+	cont "x<MN>tは　lり　だぜ!"
+	done
+
+PlayerHouse2FTextString2:
+	text "そtだ　vまuの　パOJlに"
+	line "a-gが　öどsäsÄü"
+	cont "でwzるんüら"
+	cont "a-gぐらs　vんでvzv"
+	done
+
+PlayerHouse2FTextString3:
+	text "HりM;Mに　FlT-の"
+	line "しんせxに　プhゼlT"
+	cont "しärら←Ä　にんぎ<MN>tだ"
+	done
+
+PlayerHouse2FTextString4:
+	text "VlSlドC64を　しäる!"
+	cont "⋯⋯　⋯⋯　さäö!"
+	cont "そろそろ　そöに　rそびに"
+	cont "でwzるw!"
+	done
+
+PlayerHouse2FTextString5:
+	text "<PLAYER>は"
+	line "パOJlの　MBmQを　sれÄ!"
+
+	para "vs?　<PLAYER>räに"
+	line "a-gが　öどsäsる　vtだ"
+	cont "vんでdる?@"
+
+	db $08
+
+	call PlayerHouse2FCheckEmail
+	call Function3036
+	ret
+
+PlayerHouse2FTextString6:
+	text "öÜぜん　a-gを　さしrげる"
+	line "しÜれsを　vtるしrれ"
+
+	para "じÜは　xdに　どtしär"
+	line "わÄしÄs　rのが　rるのじが"
+	cont "tzö←ä　rらuんwのt"
+	cont "ポIblzんx<PK>tし　E-Gド"
+	done
+
+PlayerHouse2FTextString7:
+	text "röで"
+	line "vr←ö<⋯⋯>"
+	done
+
+PlayerHouse2FTextString8: ; (unused?)
+	text "しんはÜばs　Th-U-ギA!"
+	line "ポIblTh-U-の　Ämの"
+	cont "さsせんÄんの　özs　です"
+
+	para "じwんが　わwるのは　rÄりまu"
+	line "FNmTを　Üswすれば"
+	cont "ばし<MN>r　わwる!　"
+	cont "でんわが　wzられる!"
+
+	para "öどmは"
+	line "fジEを　xyこöがでxる!"
+
+	para "rtしこdさxは⋯⋯"
+	line "⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯"
+	cont "Lg)の　:-]ぺ-ジだ"
+	done
+
+PlayerHouse2FTextString9:
+	text "<PLAYER>は"
+	line "fジEのMBmQを　vしÄ!"
+
+	para "ジ→B　E-　ピ-　D]"
+	line "こÖらは"
+	cont "#　ほtそtx<MN>y　です"
+
+	para "#Vo-Mを　vvyりします"
+	line "<⋯⋯>　#の　せwsäxü"
+	cont "zんx<PK>tし　E-Gドはwせが"
+	cont "FlT-　wら"
+	cont "すがÄを　zしましÄ"
+	cont "rらÄü　zんx<PK>tの　ばし<MN>を"
+	cont "römä　sどtしÄ　öの"
+	cont "dwÄr　rりますが"
+	cont "üんらwの　じzんに　まxこまれÄ"
+	cont "wのtせsr　rり"
+	cont "wんzsしは　öär"
+	cont "しんぱs　しäsます"
+
+	para "<⋯⋯><⋯⋯>sじ<MN>t"
+	line "#Vo-MでしÄ"
+
+	para "<⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯>"
+	line "それでは　ひxÜづx"
+	cont "vんがyを　vÄのしd　yださs"
+	done

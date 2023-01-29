@@ -150,93 +150,123 @@ ShizukanaOkaSignpost1:
 	ret
 
 ShizukanaOkaTrainer6EncounterString:
-	text "ねえ　ねえ　みてよ"
-	para "これ　ぜったい"
-	line "しんしゅの　ポケモン　だよ！"
+	text "Look, look!"
+	
+	para "This has got to be"
+	line "a new species"
+	cont "of #MON!"	
 	done
 
-	text "まだ　ポケモンの　とくちょう"
-	line "わかってないから　しかたないよ"
+	text "I don't know the"
+	line "specifics of"
+	cont "#MON yet, so"
+	cont "cut me some slack…"	
 	done
 
 ShizukanaOkaTrainer6WonString:
-	text "あたらしい　ポケモンだけでなく"
-	line "あたらしい　タイプも"
-	cont "みつかったって　うわさだよ"
+	text "It's not just"
+	line "new #MON!"
+	cont "I heard that"
+	cont "they've even found"
+	cont "a new type!"	
 	done
 
 ShizukanaOkaTrainer5EncounterString:
-	text "いい　てんきねー"
-	line "あなた　ちょうしは　いかが？"
+	text "What beautiful"
+	line "weather we have!"
+	cont "How do you do"
+	cont "on this fine day?"	
 	done
 
-	text "なにするニャー"
-	line "⋯⋯なにいってるのかしら　あたし"
+	text "Where do you think"
+	line "you're going, meow!"
+	cont "…Oh my, what"
+	cont "am I saying?"	
 	done
 
 ShizukanaOkaTrainer5WonString:
-	text "なんで　こうなるの？"
-	line "さんぽしてた　だけなのに@@"
+	text "How could this"
+	line "happen to me?"
+	cont "I was just taking"
+	cont "a walk outside…@@"	
 
 ShizukanaOkaTrainer4EncounterString:
-	text "こんなところで"
-	line "ひを　ふく　れんしゅう！"
+	text "I picked this"
+	line "place to practice"
+	cont "my fire breathing!"	
 	done
 
-	text "あちち　しっぱいだー"
+	text "OW, HOT HOT HOT!"
+	line "I messed up…"	
 	done
 
 ShizukanaOkaTrainer4WonString:
-	text "よるになると　くらくなるから"
-	line "こどもは　はやく　かえりなさい！"
-	para "おれ？"
-	line "おれは　ひをふくから　だいじょうぶ"
+	text "It's dark at night,"
+	line "so kids should go"
+	cont "home before then!"	
+	
+	para "Oh, me? I breathe"
+	line "fire, so I'm fine."
 	done
 
 ShizukanaOkaTrainer3EncounterString:
-	text "むしポケモンの　ことなら"
-	line "だれよりも　くわしいよ"
+	text "When it comes to"
+	line "bug #MON,"
+	cont "no one knows more"
+	cont "than me!"	
 	done
 
-	text "パラパラー"
+	text "Paraparaaa!"
 	done
 
 ShizukanaOkaTrainer3WonString:
-	text "ポケモンずかんを　つくるんだって？"
-	line "ちょっと　みせてよ"
-	para "へー"
-	line "タイプべつに　ポケモン　さがせるんだ"
+	text "You're filling in"
+	line "a #DEX?"
+	cont "Let me see!"	
+	para "Whoa… You can even"
+	line "search by type!"
 	done
 
 ShizukanaOkaTrainer2EncounterString:
-	text "いっとくけど"
-	line "きみよりも　べんきょう　してるから"
-	cont "きみよりも　つよいよ　ぜったい！"
+	text "I'll have you know,"
+	line "I've studied WAY"
+	cont "more than you,"
+	cont "so I'll beat you"
+	cont "a hundred percent!"	
 	done
 
-	text "な　なぜなんだ？"
+	text "Whaddya mean,"
+	text "“why”?"	
 	done
 
 ShizukanaOkaTrainer2WonString:
-	text "おかしいよ⋯⋯"
-	line "まいにち　ポケモンの　べんきょうを"
-	cont "きちんと　してるのに　まけるなんて"
+	text "Something's fishy…"
+	line "I've been studying"
+	cont "every day, so"
+	cont "how could I lose?"	
 	done
 
 ShizukanaOkaText1String:
-	text "この　おかの　ポケモンは　よわい！"
-	line "だから　ここで　しゅぎょう　している"
-	cont "トレーナーも　おおいよ"
-	para "みんな　バトルが　すきだから"
-	line "うでだめしを　するといい"
+	text "The #MON around"
+	line "here are weak,"
+	cont "so trainers like"
+	cont "to use this place"
+	cont "for practice."
+	
+	para "Everyone loves a"
+	line "good battle,"
+	cont "so why not try"
+	cont "your luck?"	
 	done
 
 ShizukanaOkaSignpost2String:
-	text "しずかな　おか"
-	line "サイレントヒル　は　こちら"
+	text "SILENT HILLS"
+	line "This way,"
+	cont "SILENT HILL"	
 	done
 
 ShizukanaOkaSignpost1String:
-	text "しずかな　おか"
-	line "オールドシティ　は　こちら"
+	text "SILENT HILLS"
+	line "This way,"
+	cont "OLD CITY"	
 	done

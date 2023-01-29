@@ -20,8 +20,8 @@ FieldDebug_MoveToRoute1Entrance:
 	ret
 
 .CantUseText:
-	text "ここでは　できません"
-	para "ロード１でじっこうできます"
+	text "ここでは でxません"
+	para "i-ド1でじ←こtでxます"
 	done
 
 .DoMove:
@@ -40,7 +40,7 @@ FieldDebug_MoveToRoute1Entrance:
 	ret
 
 .MoveText:
-	text "とくていちてん　まで"
-	next "うごかします"
+	text "öyäsÖäん まで"
+	next "tごwします"
 	done
 

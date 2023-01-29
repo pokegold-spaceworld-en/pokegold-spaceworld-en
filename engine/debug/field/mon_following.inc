@@ -51,10 +51,10 @@ FieldDebug_PokemonFollowing:
 .MenuData:
 	db STATICMENU_CURSOR
 	db 2
-	db "つける@"
+	db "Üzる@"
 	db "はずす@"
 
 .UnableText:
-	text "だめです！！"
+	text "だmです!!"
 	done
 

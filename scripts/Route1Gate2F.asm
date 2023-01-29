@@ -51,35 +51,40 @@ Route1Gate2FTextSign2:
 	ret
 
 Route1Gate2FTextString1:
-	text "ガンテツさんって　しってる？"
+	text "Have you heard of"
+	line "a man named KURT?"	
 
-	para "ガンテツさんに"
-	line "きに　いられるように　なれば"
-	cont "トレーナーとして　たいしたもの　よ"
+	para "If KURT takes an"
+	line "interest in you,"
+	cont "that's a big deal"
+	cont "as a trainer."	
 	done
 
 Route1Gate2FTextString2:
-	text "あなた　かんこうで　きたの？"
-	line "なら　ざんねんね"
+	text "Are you a tourist?"
 
-	para "オールドシティの"
-	line "ごじゅうのとう　は"
-	cont "だれでも　はいれる　って"
-	cont "ものじゃないわ"
+	para "If so, that's too"
+	line "bad… Not just"
+	cont "anyone can enter"
+	cont "the five-story"
+	cont "tower."	
 	done
 
 Route1Gate2FTextString3:
-	text "<PLAYER>は"
-	line "ぼうえんきょうを　のぞいた！"
+	text "<PLAYER> peeked"
+	line "through the"
+	cont "telescope!"	
 
-	para "むむむ！"
-	line "たかーい　とう　が　みえる！"
+	para "Whoa! A tall, tall"
+	line "tower can be seen!"
 	done
 
 Route1Gate2FTextString4:
-	text "<PLAYER>は"
-	line "ぼうえんきょうを　のぞいた！"
+	text "<PLAYER> peeked"
+	line "through the"
+	cont "telescope!"	
 
-	para "むむ？"
-	line "ながーい　かわ　が　みえる"
+	para "Oho? A river"
+	line "stretches off into"
+	cont "the distance."	
 	done

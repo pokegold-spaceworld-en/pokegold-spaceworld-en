@@ -237,7 +237,7 @@ BlinkCursor:
 	ld a, "▼"
 	jr .save_cursor_state
 .cursor_off
-	ld a, "　"
+	ld a, " "
 .save_cursor_state
 	ldcoord_a (SCREEN_WIDTH - 2), (SCREEN_HEIGHT - 1)
 	ret

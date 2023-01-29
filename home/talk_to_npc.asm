@@ -8,7 +8,7 @@ MapDefaultText::
 	ret
 
 GameplayText::
-	text "ゲームフりーク！"
+	text "ゲ-])り-H!"
 	done
 
 Function3036::

@@ -99,8 +99,8 @@ FieldDebug_ItemTest:
 	jr .key_item_menu
 
 .CannotUsePCToolsText:
-	text "パソコンの　どうぐ　は"
-	next "つかえません"
+	text "パOJlの どtぐ は"
+	next "Üwuません"
 	prompt
 
 .restart
@@ -131,7 +131,7 @@ FieldDebug_ItemTest:
 	jp .restart
 
 .ItemPickedText:
-	text "アイテムを　えらんだ！"
+	text "ABS]を uらんだ!"
 	done
 
 .ClearMenu:
@@ -141,7 +141,7 @@ FieldDebug_ItemTest:
 	ld de, $28
 	ld a, [wMenuDataItems]
 .clear_menu_loop
-	ld [hl], "　"
+	ld [hl], " "
 	add hl, de
 	dec a
 	jr nz, .clear_menu_loop
@@ -156,8 +156,8 @@ FieldDebug_ItemTest:
 .UseOrTossMenuData:
 	db $c0
 	db 2
-	db "つかう@"
-	db "すてる@"
+	db "Üwt@"
+	db "すäる@"
 
 .toss_item
 	ld hl, wItems
@@ -217,19 +217,19 @@ FieldDebug_ItemTest:
 
 .TossConfirmText:
 	text_from_ram wStringBuffer2
-	text "を　すてます"
-	line "ほんとに　よろしいですか？"
+	text "を すäます"
+	line "ほんöに vろしsですw?"
 	prompt
 
 .ItemTossedText:
 	text_from_ram wStringBuffer1
 	text "を"
-	line "すてました！"
+	line "すäましÄ!"
 	prompt
 
 .CannotTossText:
-	text "それは　とても　たいせつなモノです"
-	line "すてることは　できません！"
+	text "それは öär ÄsせÜübYです"
+	line "すäるこöは でxません!"
 	prompt
 
 .continue

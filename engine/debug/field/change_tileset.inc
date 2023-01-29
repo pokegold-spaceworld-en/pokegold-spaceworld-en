@@ -33,7 +33,7 @@ FieldDebug_ChangeTileset:
 .MenuData:
 	db STATICMENU_CURSOR
 	db 3
-	db "セル１@"
-	db "セル２@"
-	db "セル３@"
+	db "Ng1@"
+	db "Ng2@"
+	db "Ng3@"
 

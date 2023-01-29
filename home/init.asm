@@ -134,7 +134,7 @@ ClearVRAM:
 	ret
 
 BlankBGMap:
-	ld a, "　"
+	ld a, " "
 	jr _FillBGMap
 
 FillBGMap:

@@ -138,7 +138,7 @@ MainMenu::
 
 MainMenuHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 0, 13, 7
+	menu_coords 0, 0, 14, 7
 	dw .MenuData
 	db 1 ; default option
 
@@ -150,11 +150,11 @@ MainMenuHeader:
 	dw .Strings
 
 .Strings:
-	db "つづきから　はじめる@"
-	db "さいしょから　はじめる@"
-	db "せっていを　かえる@"
-	db "#を　あそぶ@"
-	db "じかんセット@"
+	db "CONTINUE@"
+	db "NEW GAME@"
+	db "OPTION@"
+	db "PLAY #MON@"
+	db "SET TIME@"
 
 MainMenuJumptable:
 	dw MainMenuOptionContinue
@@ -281,10 +281,10 @@ PrintPlayTime::
 	jp PrintNumber
 
 PlayerInfoText:
-	db   "しゅじんこう"
-	next "もっているバッジ　　　　こ"
-	next "#ずかん　　　　ひき"
-	next "プレイじかん"
+	db   "し<PK>じんこt"
+	next "r←äsるバmジ    こ"
+	next "#ずwん    ひx"
+	next "プhBじwん"
 	text_end
 
 StartNewGame::

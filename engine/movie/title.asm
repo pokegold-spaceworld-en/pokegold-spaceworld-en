@@ -115,7 +115,7 @@ TitleSequenceInit::
 
 	ld hl, vBGMap0
 	ld bc, 128 tiles
-	ld a, "　"
+	ld a, " "
 	call ByteFill
 
 	ld b, SGB_TITLE_SCREEN
@@ -544,8 +544,8 @@ SRAMClearMenu::
 	jp Init
 
 SRAMClear_Message::
-	db "<NULL>すべての　セーブデータエりアを"
-	db "<LINE>クりア　しますか？<DONE>"
+	db "<NULL>すべäの N-ブデ-PDりAを"
+	db "<LINE>HりA しますw?<DONE>"
 
 SRAMClear_WinPOS::
 	db 0
@@ -556,8 +556,8 @@ SRAMClear_WinPOS::
 SRAMClear_TextChoice::
 	db %11000000
 	db 2
-	db "いいえ@"
-	db "はい@"
+	db "ssu@"
+	db "はs@"
 
 IntroCopyRightInfo::
 	call ClearTileMap

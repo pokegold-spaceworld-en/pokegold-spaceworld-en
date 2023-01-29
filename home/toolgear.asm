@@ -5,16 +5,16 @@ SECTION "home/toolgear.asm", ROM0
 ; local charmap, global charmap won't apply
 ; see https://github.com/gbdev/rgbds/issues/265#issuecomment-395229694
 newcharmap local
-	charmap "０", $66
-	charmap "１", $67
-	charmap "２", $68
-	charmap "３", $69
-	charmap "４", $6a
-	charmap "５", $6b
-	charmap "６", $6c
-	charmap "７", $6d
-	charmap "８", $6e
-	charmap "９", $6f
+	charmap "0", $66
+	charmap "1", $67
+	charmap "2", $68
+	charmap "3", $69
+	charmap "4", $6a
+	charmap "5", $6b
+	charmap "6", $6c
+	charmap "7", $6d
+	charmap "8", $6e
+	charmap "9", $6f
 	; if debug coords shown
 	charmap "Ａ", $70
 	charmap "Ｂ", $71
@@ -43,7 +43,7 @@ newcharmap local
 	charmap "│", $7c
 	charmap "└", $7d
 	charmap "┘", $7e
-	charmap "　", $7f
+	charmap " ", $7f
 
 EnableToolgear::
 	ld hl, wd153
@@ -75,7 +75,7 @@ InitToolgearBuffer::
 	call ByteFill
 
 	bgcoord hl, 0, 1, wToolgearBuffer
-	ld a, "　"
+	ld a, " "
 	ld bc, SCREEN_WIDTH
 	call ByteFill
 
@@ -106,7 +106,7 @@ UpdateToolgear::
 ; This function is called every frame, and loads special tiles into the $66-$7a space.
 	bgcoord hl, 0, 1, wToolgearBuffer
 	ld bc, SCREEN_WIDTH
-	ld a, "　"
+	ld a, " "
 	call ByteFill
 
 	ld hl, wd153
@@ -183,7 +183,7 @@ UpdateToolgear::
 ; .printDigit
 ; print a hexadecimal digit for value in a to de
 	and $f
-	add "０"
+	add "0"
 	ld [de], a
 	inc de
 	ret

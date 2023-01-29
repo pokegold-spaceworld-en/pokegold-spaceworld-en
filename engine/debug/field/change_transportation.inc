@@ -79,28 +79,28 @@ FieldDebug_ChangeTransportation:
 .ChangeTransportationMenuData:
 	db STATICMENU_WRAP | STATICMENU_CURSOR
 	db 4
-	db "あるき@"
-	db "じてんしゃ@"
-	db "スケボー@"
-	db "ラプラス@"
+	db "rるx@"
+	db "じäんし@"
+	db "MIボ-@"
+	db "fプfM@"
 
 .PlayerTransportationString1:
 	text "<PLAYER>は@"
 	text_low
 	text_from_ram wStringBuffer2
-	text "から　おりた"
+	text "wら vりÄ"
 	prompt
 
 .PlayerTransportationString2:
 	text "<PLAYER>は@"
 	text_low
 	text_from_ram wStringBuffer2
-	text "に　のった"
+	text "に の←Ä"
 	prompt
 
 .CannotSurfString:
-	text "ここでは　のることが"
-	next "できません"
+	text "ここでは のるこöが"
+	next "でxません"
 	prompt
 
 SetTransportation:

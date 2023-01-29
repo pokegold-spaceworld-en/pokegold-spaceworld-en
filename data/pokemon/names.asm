@@ -3,254 +3,254 @@ INCLUDE "constants.asm"
 SECTION "data/pokemon/names.asm", ROMX
 
 PokemonNames::
-	db "フシギダネ" ; BULBASAUR
-	db "フシギソウ" ; IVYSAUR
-	db "フシギバナ" ; VENUSAUR
-	db "ヒトカゲ@" ; CHARMANDER
-	db "りザード@" ; CHARMELEON
-	db "りザードン" ; CHARIZARD
-	db "ゼニガメ@" ; SQUIRTLE
-	db "カメール@" ; WARTORTLE
-	db "カメックス" ; BLASTOISE
-	db "キャタピー" ; CATERPIE
-	db "トランセル" ; METAPOD
-	db "バタフりー" ; BUTTERFREE
-	db "ビードル@" ; WEEDLE
-	db "コクーン@" ; KAKUNA
-	db "スピアー@" ; BEEDRILL
-	db "ポッポ@@" ; PIDGEY
-	db "ピジョン@" ; PIDGEOTTO
-	db "ピジョット" ; PIDGEOT
-	db "コラッタ@" ; RATTATA
-	db "ラッタ@@" ; RATICATE
-	db "オニスズメ" ; SPEAROW
-	db "オニドりル" ; FEAROW
-	db "アーボ@@" ; EKANS
-	db "アーボック" ; ARBOK
-	db "ピカチュウ" ; PIKACHU
-	db "ライチュウ" ; RAICHU
-	db "サンド@@" ; SANDSHREW
-	db "サンドパン" ; SANDSLASH
-	db "ニドラン♀" ; NIDORAN_F
-	db "ニドりーナ" ; NIDORINA
-	db "ニドクイン" ; NIDOQUEEN
-	db "ニドラン♂" ; NIDORAN_M
-	db "ニドりーノ" ; NIDORINO
-	db "ニドキング" ; NIDOKING
-	db "ピッピ@@" ; CLEFAIRY
-	db "ピクシー@" ; CLEFABLE
-	db "ロコン@@" ; VULPIX
-	db "キュウコン" ; NINETALES
-	db "プりン@@" ; JIGGLYPUFF
-	db "プクりン@" ; WIGGLYTUFF
-	db "ズバット@" ; ZUBAT
-	db "ゴルバット" ; GOLBAT
-	db "ナゾノクサ" ; ODDISH
-	db "クサイハナ" ; GLOOM
-	db "ラフレシア" ; VILEPLUME
-	db "パラス@@" ; PARAS
-	db "パラセクト" ; PARASECT
-	db "コンパン@" ; VENONAT
-	db "モルフォン" ; VENOMOTH
-	db "ディグダ@" ; DIGLETT
-	db "ダグトりオ" ; DUGTRIO
-	db "ニャース@" ; MEOWTH
-	db "ぺルシアン" ; PERSIAN
-	db "コダック@" ; PSYDUCK
-	db "ゴルダック" ; GOLDUCK
-	db "マンキー@" ; MANKEY
-	db "オコりザル" ; PRIMEAPE
-	db "ガーディ@" ; GROWLITHE
-	db "ウインディ" ; ARCANINE
-	db "ニョロモ@" ; POLIWAG
-	db "ニョロゾ@" ; POLIWHIRL
-	db "ニョロボン" ; POLIWRATH
-	db "ケーシィ@" ; ABRA
-	db "ユンゲラー" ; KADABRA
-	db "フーディン" ; ALAKAZAM
-	db "ワンりキー" ; MACHOP
-	db "ゴーりキー" ; MACHOKE
-	db "カイりキー" ; MACHAMP
-	db "マダツボミ" ; BELLSPROUT
-	db "ウツドン@" ; WEEPINBELL
-	db "ウツボット" ; VICTREEBEL
-	db "メノクラゲ" ; TENTACOOL
-	db "ドククラゲ" ; TENTACRUEL
-	db "イシツブテ" ; GEODUDE
-	db "ゴローン@" ; GRAVELER
-	db "ゴローニャ" ; GOLEM
-	db "ポニータ@" ; PONYTA
-	db "ギャロップ" ; RAPIDASH
-	db "ヤドン@@" ; SLOWPOKE
-	db "ヤドラン@" ; SLOWBRO
-	db "コイル@@" ; MAGNEMITE
-	db "レアコイル" ; MAGNETON
-	db "カモネギ@" ; FARFETCHD
-	db "ドードー@" ; DODUO
-	db "ドードりオ" ; DODRIO
-	db "パウワウ@" ; SEEL
-	db "ジュゴン@" ; DEWGONG
-	db "べトべター" ; GRIMER
-	db "べトべトン" ; MUK
-	db "シェルダー" ; SHELLDER
-	db "パルシェン" ; CLOYSTER
-	db "ゴース@@" ; GASTLY
-	db "ゴースト@" ; HAUNTER
-	db "ゲンガー@" ; GENGAR
-	db "イワーク@" ; ONIX
-	db "スりープ@" ; DROWZEE
-	db "スりーパー" ; HYPNO
-	db "クラブ@@" ; KRABBY
-	db "キングラー" ; KINGLER
-	db "ビりりダマ" ; VOLTORB
-	db "マルマイン" ; ELECTRODE
-	db "タマタマ@" ; EXEGGCUTE
-	db "ナッシー@" ; EXEGGUTOR
-	db "カラカラ@" ; CUBONE
-	db "ガラガラ@" ; MAROWAK
-	db "サワムラー" ; HITMONLEE
-	db "エビワラー" ; HITMONCHAN
-	db "べロりンガ" ; LICKITUNG
-	db "ドガース@" ; KOFFING
-	db "マタドガス" ; WEEZING
-	db "サイホーン" ; RHYHORN
-	db "サイドン@" ; RHYDON
-	db "ラッキー@" ; CHANSEY
-	db "モンジャラ" ; TANGELA
-	db "ガルーラ@" ; KANGASKHAN
-	db "タッツー@" ; HORSEA
-	db "シードラ@" ; SEADRA
-	db "トサキント" ; GOLDEEN
-	db "アズマオウ" ; SEAKING
-	db "ヒトデマン" ; STARYU
-	db "スターミー" ; STARMIE
-	db "バりヤード" ; MRMIME
-	db "ストライク" ; SCYTHER
-	db "ルージュラ" ; JYNX
-	db "エレブー@" ; ELECTABUZZ
-	db "ブーバー@" ; MAGMAR
-	db "カイロス@" ; PINSIR
-	db "ケンタロス" ; TAUROS
-	db "コイキング" ; MAGIKARP
-	db "ギャラドス" ; GYARADOS
-	db "ラプラス@" ; LAPRAS
-	db "メタモン@" ; DITTO
-	db "イーブイ@" ; EEVEE
-	db "シャワーズ" ; VAPOREON
-	db "サンダース" ; JOLTEON
-	db "ブースター" ; FLAREON
-	db "ポりゴン@" ; PORYGON
-	db "オムナイト" ; OMANYTE
-	db "オムスター" ; OMASTAR
-	db "カブト@@" ; KABUTO
-	db "カブトプス" ; KABUTOPS
-	db "プテラ@@" ; AERODACTYL
-	db "カビゴン@" ; SNORLAX
-	db "フりーザー" ; ARTICUNO
-	db "サンダー@" ; ZAPDOS
-	db "ファイヤー" ; MOLTRES
-	db "ミニりュウ" ; DRATINI
-	db "ハクりュー" ; DRAGONAIR
-	db "カイりュー" ; DRAGONITE
-	db "ミュウツー" ; MEWTWO
-	db "ミュウ@@" ; MEW
-	db "ハッパ@@" ; HAPPA
-	db "ハナモグラ" ; HANAMOGURA
-	db "ハナりュウ" ; HANARYU
-	db "ホノオグマ" ; HONOGUMA
-	db "ボルべアー" ; VOLBEAR
-	db "ダイナべア" ; DYNABEAR
-	db "クルス@@" ; KURUSU
-	db "アクア@@" ; AQUA
-	db "アクエりア" ; AQUARIA
-	db "ホーホー@" ; HOHO
-	db "ボーボー@" ; BOBO
-	db "パチメエ@" ; PACHIMEE
-	db "モココ@@" ; MOKOKO
-	db "デンりュウ" ; DENRYU
-	db "ミコン@@" ; MIKON
-	db "モンジャ@" ; MONJA
-	db "ジャランラ" ; JARANRA
-	db "ハネエイ@" ; HANEEI
-	db "プクー@@" ; PUKU
-	db "シビレフグ" ; SHIBIREFUGU
-	db "ピチュー@" ; PICHU
-	db "ピィ@@@" ; PY
-	db "ププりン@" ; PUPURIN
-	db "ミズウオ@" ; MIZUUO
-	db "ネイティ@" ; NATY
-	db "ネイティオ" ; NATIO
-	db "ギョピン@" ; GYOPIN
-	db "マりル@@" ; MARIL
-	db "マンボー１" ; MANBO1
-	db "イカり@@" ; IKARI
-	db "グロテス@" ; GROTESS
-	db "エクシング" ; EKSING
-	db "パラ@@@" ; PARA
-	db "コクモ@@" ; KOKUMO
-	db "ツーへッド" ; TWOHEAD
-	db "ヨロイドり" ; YOROIDORI
-	db "アニモン@" ; ANIMON
-	db "ヒナーズ@" ; HINAZU
-	db "サニー@@" ; SUNNY
-	db "パオン@@" ; PAON
-	db "ドンファン" ; DONPHAN
-	db "ツインズ@" ; TWINZ
-	db "キりンりキ" ; KIRINRIKI
-	db "ぺインター" ; PAINTER
-	db "コーニャ@" ; KOUNYA
-	db "りンりン@" ; RINRIN
-	db "べルルン@" ; BERURUN
-	db "ニョロトノ" ; NYOROTONO
-	db "ヤドキング" ; YADOKING
-	db "アンノーン" ; ANNON
-	db "レディバ@" ; REDIBA
-	db "ミツボシ@" ; MITSUBOSHI
-	db "プチコーン" ; PUCHICORN
-	db "エーフィ@" ; EIFIE
-	db "ブラッキー" ; BLACKY
-	db "ターバン@" ; TURBAN
-	db "べトべビー" ; BETBABY
-	db "テッポウオ" ; TEPPOUO
-	db "オクタン@" ; OKUTANK
-	db "ゴング@@" ; GONGU
-	db "カポエラー" ; KAPOERER
-	db "プディ@@" ; PUDIE
-	db "ハネコ@@" ; HANEKO
-	db "ポポネコ@" ; POPONEKO
-	db "ワタネコ@" ; WATANEKO
-	db "バりりーナ" ; BARIRINA
-	db "りップ@@" ; LIP
-	db "エレべビー" ; ELEBABY
-	db "ブビィ@@" ; BOOBY
-	db "キレイハナ" ; KIREIHANA
-	db "ツボミット" ; TSUBOMITTO
-	db "ミルタンク" ; MILTANK
-	db "ボムシカー" ; BOMBSEEKER
-	db "ギフト@@" ; GIFT
-	db "コトラ@@" ; KOTORA
-	db "ライトラ@" ; RAITORA
-	db "マダーム@" ; MADAME
-	db "ノロワラ@" ; NOROWARA
-	db "キョンパン" ; KYONPAN
-	db "ヤミカラス" ; YAMIKARASU
-	db "ハッピー@" ; HAPPI
-	db "シザース@" ; SCISSORS
-	db "プラックス" ; PURAKKUSU
-	db "デビル@@" ; DEVIL
-	db "へルガー@" ; HELGAA
-	db "ウルフマン" ; WOLFMAN
-	db "ワーウルフ" ; WARWOLF
-	db "ポりゴン２" ; PORYGON2
-	db "ナメール@" ; NAMEIL
-	db "ハガネール" ; HAGANEIL
-	db "キングドラ" ; KINGDRA
-	db "ライ@@@" ; RAI
-	db "エン@@@" ; EN
-	db "スイ@@@" ; SUI
-	db "ニューラ@" ; NYULA
-	db "ホウオウ@" ; HOUOU
-	db "トゲピー@" ; TOGEPY
-	db "ブルー@@" ; BULU
-	db "テイル@@" ; TAIL
-	db "りーフィ@" ; LEAFY
+	db "BULBASAUR@"
+	db "IVYSAUR@@@"
+	db "VENUSAUR@@"
+	db "CHARMANDER"
+	db "CHARMELEON"
+	db "CHARIZARD@"
+	db "SQUIRTLE@@"
+	db "WARTORTLE@"
+	db "BLASTOISE@"
+	db "CATERPIE@@"
+	db "METAPOD@@@"
+	db "BUTTERFREE"
+	db "WEEDLE@@@@"
+	db "KAKUNA@@@@"
+	db "BEEDRILL@@"
+	db "PIDGEY@@@@"
+	db "PIDGEOTTO@"
+	db "PIDGEOT@@@"
+	db "RATTATA@@@"
+	db "RATICATE@@"
+	db "SPEAROW@@@"
+	db "FEAROW@@@@"
+	db "EKANS@@@@@"
+	db "ARBOK@@@@@"
+	db "PIKACHU@@@"
+	db "RAICHU@@@@"
+	db "SANDSHREW@"
+	db "SANDSLASH@"
+	db "NIDORAN♀@@"
+	db "NIDORINA@@"
+	db "NIDOQUEEN@"
+	db "NIDORAN♂@@"
+	db "NIDORINO@@"
+	db "NIDOKING@@"
+	db "CLEFAIRY@@"
+	db "CLEFABLE@@"
+	db "VULPIX@@@@"
+	db "NINETALES@"
+	db "JIGGLYPUFF"
+	db "WIGGLYTUFF"
+	db "ZUBAT@@@@@"
+	db "GOLBAT@@@@"
+	db "ODDISH@@@@"
+	db "GLOOM@@@@@"
+	db "VILEPLUME@"
+	db "PARAS@@@@@"
+	db "PARASECT@@"
+	db "VENONAT@@@"
+	db "VENOMOTH@@"
+	db "DIGLETT@@@"
+	db "DUGTRIO@@@"
+	db "MEOWTH@@@@"
+	db "PERSIAN@@@"
+	db "PSYDUCK@@@"
+	db "GOLDUCK@@@"
+	db "MANKEY@@@@"
+	db "PRIMEAPE@@"
+	db "GROWLITHE@"
+	db "ARCANINE@@"
+	db "POLIWAG@@@"
+	db "POLIWHIRL@"
+	db "POLIWRATH@"
+	db "ABRA@@@@@@"
+	db "KADABRA@@@"
+	db "ALAKAZAM@@"
+	db "MACHOP@@@@"
+	db "MACHOKE@@@"
+	db "MACHAMP@@@"
+	db "BELLSPROUT"
+	db "WEEPINBELL"
+	db "VICTREEBEL"
+	db "TENTACOOL@"
+	db "TENTACRUEL"
+	db "GEODUDE@@@"
+	db "GRAVELER@@"
+	db "GOLEM@@@@@"
+	db "PONYTA@@@@"
+	db "RAPIDASH@@"
+	db "SLOWPOKE@@"
+	db "SLOWBRO@@@"
+	db "MAGNEMITE@"
+	db "MAGNETON@@"
+	db "FARFETCH'D"
+	db "DODUO@@@@@"
+	db "DODRIO@@@@"
+	db "SEEL@@@@@@"
+	db "DEWGONG@@@"
+	db "GRIMER@@@@"
+	db "MUK@@@@@@@"
+	db "SHELLDER@@"
+	db "CLOYSTER@@"
+	db "GASTLY@@@@"
+	db "HAUNTER@@@"
+	db "GENGAR@@@@"
+	db "ONIX@@@@@@"
+	db "DROWZEE@@@"
+	db "HYPNO@@@@@"
+	db "KRABBY@@@@"
+	db "KINGLER@@@"
+	db "VOLTORB@@@"
+	db "ELECTRODE@"
+	db "EXEGGCUTE@"
+	db "EXEGGUTOR@"
+	db "CUBONE@@@@"
+	db "MAROWAK@@@"
+	db "HITMONLEE@"
+	db "HITMONCHAN"
+	db "LICKITUNG@"
+	db "KOFFING@@@"
+	db "WEEZING@@@"
+	db "RHYHORN@@@"
+	db "RHYDON@@@@"
+	db "CHANSEY@@@"
+	db "TANGELA@@@"
+	db "KANGASKHAN"
+	db "HORSEA@@@@"
+	db "SEADRA@@@@"
+	db "GOLDEEN@@@"
+	db "SEAKING@@@"
+	db "STARYU@@@@"
+	db "STARMIE@@@"
+	db "MR.MIME@@@"
+	db "SCYTHER@@@"
+	db "JYNX@@@@@@"
+	db "ELECTABUZZ"
+	db "MAGMAR@@@@"
+	db "PINSIR@@@@"
+	db "TAUROS@@@@"
+	db "MAGIKARP@@"
+	db "GYARADOS@@"
+	db "LAPRAS@@@@"
+	db "DITTO@@@@@"
+	db "EEVEE@@@@@"
+	db "VAPOREON@@"
+	db "JOLTEON@@@"
+	db "FLAREON@@@"
+	db "PORYGON@@@"
+	db "OMANYTE@@@"
+	db "OMASTAR@@@"
+	db "KABUTO@@@@"
+	db "KABUTOPS@@"
+	db "AERODACTYL"
+	db "SNORLAX@@@"
+	db "ARTICUNO@@"
+	db "ZAPDOS@@@@"
+	db "MOLTRES@@@"
+	db "DRATINI@@@"
+	db "DRAGONAIR@"
+	db "DRAGONITE@"
+	db "MEWTWO@@@@"
+	db "MEW@@@@@@@"
+	db "CHIKORITA@"
+	db "BAYLEEF@@@"
+	db "MEGANIUM@@"
+	db "CUBBURN@@@"
+	db "FLAMBEAR@@"
+	db "BRUINUS@@@"
+	db "PALSSIO@@@"
+	db "PRESSIO@@@"
+	db "DONMARIN@@"
+	db "HOOTHOOT@@"
+	db "NOCTOWL@@@"
+	db "MAREEP@@@@"
+	db "FLAAFFY@@@"
+	db "AMPHRAOS@@"
+	db "VULPIII@@@"
+	db "BURGELA@@@"
+	db "TANGROWTH@"
+	db "MANTINE@@@"
+	db "QWILFISH@@"
+	db "KAZAPPELIN"
+	db "PICHU@@@@@"
+	db "CLEFFA@@@@"
+	db "IGGLYBUFF@"
+	db "QUAGSIRE@@"
+	db "NATU@@@@@@"
+	db "XATU@@@@@@"
+	db "ORFRY@@@@@"
+	db "MARILL@@@@"
+	db "MOLAMBINO@"
+	db "ANGORE@@@@"
+	db "LURREEL@@@"
+	db "CROBAT@@@@"
+	db "PARASPORE@"
+	db "SPINARAK@@"
+	db "ARIADOS@@@"
+	db "SKARMORY@@"
+	db "MIMMEO@@@@"
+	db "DODAERIE@@"
+	db "SUNFLORA@@"
+	db "PHANPY@@@@"
+	db "DONPHAN@@@"
+	db "BIPULLA@@@"
+	db "GIRAFARIG@"
+	db "SMEARGLE@@"
+	db "COINPUR@@@"
+	db "MOIBELLE@@"
+	db "BELLEDAM@@"
+	db "POLITOED@@"
+	db "SLOWKING@@"
+	db "UNOWN@@@@@"
+	db "LEDYBA@@@@"
+	db "LEDIAN@@@@"
+	db "KOLTA@@@@@"
+	db "ESPEON@@@@"
+	db "UMBREON@@@"
+	db "DISTURBAN@"
+	db "SMUJJ@@@@@"
+	db "REMORAID@@"
+	db "OCTILLERY@"
+	db "TYROGUE@@@"
+	db "HITMONTOP@"
+	db "PUPPERON@@"
+	db "HOPPIP@@@@"
+	db "SKIPLOOM@@"
+	db "JUMPLUFF@@"
+	db "MIME JR.@@"
+	db "SMOOCHUM@@"
+	db "ELEKID@@@@"
+	db "MAGBY@@@@@"
+	db "BELLOSSOM@"
+	db "BELLIGNAN@"
+	db "MILTANK@@@"
+	db "GRENMAR@@@"
+	db "DELIBIRD@@"
+	db "TYKER@@@@@"
+	db "STRAIGAR@@"
+	db "LUXWAN@@@@"
+	db "STROMEN@@@"
+	db "PHANDARIN@"
+	db "MURKROW@@@"
+	db "BLISSEY@@@"
+	db "SCIZOR@@@@"
+	db "TRICULES@@"
+	db "HOUNDOUR@@"
+	db "HOUNDOOM@@"
+	db "WARFURS@@@"
+	db "WEARLYCAN@"
+	db "PORYGON2@@"
+	db "LICKILICKY"
+	db "STEELIX@@@"
+	db "KINGDRA@@@"
+	db "RAIKOU@@@@"
+	db "ENTEI@@@@@"
+	db "SUICUNE@@@"
+	db "SNEASEL@@@"
+	db "HO-OH@@@@@"
+	db "TOGEPI@@@@"
+	db "SNUBBULL@@"
+	db "AIPOM@@@@@"
+	db "LEAFEON@@@"

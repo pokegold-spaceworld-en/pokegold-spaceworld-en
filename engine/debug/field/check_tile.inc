@@ -60,5 +60,5 @@ FieldDebug_CheckTile:
 	ret
 
 .HexadecimalNumbers:
-	db "０１２３４５６７８９ＡＢＣＤＥＦ"
+	db "0123456789ＡＢＣＤＥＦ"
 

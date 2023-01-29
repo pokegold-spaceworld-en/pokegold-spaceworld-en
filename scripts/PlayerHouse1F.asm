@@ -48,12 +48,14 @@ PlayerHouse1FNPCText1:
 	ret
 
 PlayerHouse1FTextString1:
-	text "おかあさん『えっ　あなた"
-	line "オーキドはかせに"
-	cont "ポケモンずかんを　つくってくれって"
-	cont "たのまれたの？"
+	text "MOM: Oh, you were"
+	line "asked by PROF.OAK"
+	cont "to help make a new"
+	cont "#DEX?"
 
-	para "すごいじゃない！"
-	line "わたしも　ポケモン　きらいって"
-	cont "わけじゃないし　がんばるのよ！"
+	para "That's wonderful!"
+	line "I may not know too"
+	cont "much about #-"
+	cont "MON, but I'll be"
+	cont "rooting for you!"	
 	done

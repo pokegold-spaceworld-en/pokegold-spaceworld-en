@@ -1,11 +1,12 @@
 ; name lengths
 NAME_LENGTH          EQU 11 ; English
-PLAYER_NAME_LENGTH   EQU 6 ; Japanese
+PLAYER_NAME_LENGTH   EQU 6 ; Japanese ;8
 BOX_NAME_LENGTH      EQU 9 ; English
-MON_NAME_LENGTH      EQU 6
+MON_NAME_LENGTH      EQU 11 ;6
 MOVE_NAME_LENGTH     EQU 13 ; English
-ITEM_NAME_LENGTH     EQU 11
+ITEM_NAME_LENGTH     EQU 11 ;13
 TRAINER_CLASS_NAME_LENGTH EQU 13 ; English
+
 
 ; GetName types (see home/names.asm)
 	const_def 1

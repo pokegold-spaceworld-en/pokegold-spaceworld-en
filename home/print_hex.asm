@@ -38,4 +38,4 @@ GetHexDigit:
 	ret
 
 .hexDigitTable:
-	db "０１２３４５６７８９ＡＢＣＤＥＦ"
+	db "0123456789ＡＢＣＤＥＦ"

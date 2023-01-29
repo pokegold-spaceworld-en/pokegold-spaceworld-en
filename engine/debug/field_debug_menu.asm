@@ -224,8 +224,8 @@ FieldDebug_HealPokemon:
 	ret
 
 .HealedText:
-	text "#の　たいりょくを"
-	line "かいふくしました"
+	text "Your #MON are"
+	line "fully healed."
 	prompt
 
 FieldDebug_CableClub:

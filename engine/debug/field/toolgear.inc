@@ -88,10 +88,10 @@ OpenToolgearMenu:
 .MenuData:
 	db STATICMENU_CURSOR
 	db 6
-	db "とけい@"
-	db "ざひょう@"
-	db "アジャスト@"
-	db "６０びょう@"
-	db "２４じかん@"
-	db "けす@"
+	db "özs@"
+	db "ざひ<MN>t@"
+	db "AジnMT@"
+	db "60び<MN>t@"
+	db "24じwん@"
+	db "zす@"
 

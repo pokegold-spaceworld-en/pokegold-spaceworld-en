@@ -32,8 +32,8 @@ PokemonCenterPC:
 	ret
 
 .NotConnectedText:
-	text "<⋯⋯>　が　つながっていなかった"
-	line "ようだ　<⋯⋯>"
+	text "<……> が Üüが←äsüw←Ä"
+	line "vtだ <……>"
 	prompt
 
 .DisplayMenu:
@@ -54,8 +54,8 @@ PokemonCenterPC:
 	ret
 
 .TurnOnText:
-	text "コンピューターを　きどう！"
-	para "ネットワークにせつぞくした！"
+	text "Jlピo-P-を xどt!"
+	para "XmTj-HにせÜぞyしÄ!"
 	prompt
 
 .TopMenu:
@@ -72,11 +72,11 @@ PokemonCenterPC:
 	dw .MenuStrings
 
 .MenuStrings:
-	db "<PLAYER>の　パソコン@"
-	db "？？？の　パソコン@"
-	db "オーキドの　パソコン@"
-	db "でんどういり@"
-	db "せつぞくをきる@"
+	db "<PLAYER>の パOJl@"
+	db "???の パOJl@"
+	db "E-Gドの パOJl@"
+	db "でんどtsり@"
+	db "せÜぞyをxる@"
 
 .Jumptable:
 	dw PlayersPC
@@ -110,9 +110,9 @@ PC_PlayBootSound:
 	ret
 
 .NoPokemonText:
-	text "ピーッ！"
-	line "ポケモンを　もっていない"
-	cont "ひとは　つかうことが　できません！"
+	text "ピ-m!"
+	line "ポIblを r←äsüs"
+	cont "ひöは Üwtこöが でxません!"
 	text_end
 	text_end
 
@@ -125,17 +125,17 @@ PC_Demo:
 	ret
 
 .SkarmoryText:
-	text "ポケモン　ジャーナル　ホームぺージ"
-	line "<⋯⋯>　<⋯⋯>　<⋯⋯>　<⋯⋯>　<⋯⋯>　<⋯⋯>"
-	para "しんポケモン　はっけん！！"
-	line "めいめい　ヨロイドり"
-	cont "はがねの　ように"
-	cont "かたい　つばさが　とくちょう"
-	para "ひこうタイプ　だけではなく"
-	line "あたらしく　メタルタイプ　としても"
-	cont "ぶんるい　されることが　けってい"
-	cont "これからの　けんきゅうが　またれる"
-	cont "<⋯⋯>　<⋯⋯>　<⋯⋯>　<⋯⋯>　<⋯⋯>　<⋯⋯>"
+	text "ポIbl ジn-Ug :-]ぺ-ジ"
+	line "<……> <……> <……> <……> <……> <……>"
+	para "しんポIbl は←zん!!"
+	line "msms eiBドり"
+	cont "はがねの vtに"
+	cont "wÄs Üばさが öyÖ<MN>t"
+	para "ひこtPBプ だzではüy"
+	line "rÄらしy aPgPBプ öしär"
+	cont "ぶんるs されるこöが z←äs"
+	cont "これwらの zんx<PK>tが まÄれる"
+	cont "<……> <……> <……> <……> <……> <……>"
 	done
 
 BillsPC:
@@ -155,8 +155,8 @@ OaksPC:
 	ret
 
 .TooManyConnectionsText:
-	text "かいせん　が　こみあっていて"
-	line "せつぞくできません"
+	text "wsせん が こdr←äsä"
+	line "せÜぞyでxません"
 	prompt
 
 TurnOffPC:
@@ -166,8 +166,8 @@ TurnOffPC:
 	ret
 
 .ClosedPCText:
-	text "ネットワークへの　せつぞくを"
-	line "やめました"
+	text "XmTj-Hへの せÜぞyを"
+	line "smましÄ"
 	prompt
 
 
@@ -202,10 +202,10 @@ _PlayersPC:
 .MenuStrings:
 	db STATICMENU_CURSOR
 	db 4
-	db "ひきだす@"
-	db "あずける@"
-	db "すてる@"
-	db "せつぞくをきる@"
+	db "ひxだす@"
+	db "rずzる@"
+	db "すäる@"
+	db "せÜぞyをxる@"
 
 .Jumptable:
 	dw PlayerWithdrawItemMenu
@@ -214,15 +214,15 @@ _PlayersPC:
 	dw PlayerLogOffMenu
 
 .TurnOnText:
-	text "<PLAYER>は　じぶんのパソコンに"
-	line "つないだ"
-	para "どうぐあずかりシステムを"
-	line "よびだした！"
+	text "<PLAYER>は じぶんのパOJlに"
+	line "Üüsだ"
+	para "どtぐrずwりLMS]を"
+	line "vびだしÄ!"
 	prompt
 
 .ShutDownText:
-	text "<PLAYER>は　じぶんのパソコンとの"
-	line "せつぞくをきった"
+	text "<PLAYER>は じぶんのパOJlöの"
+	line "せÜぞyをx←Ä"
 	para ""
 	done
 
@@ -280,20 +280,20 @@ PlayerWithdrawItemMenu:
 	ret
 
 .HowManyToWithdrawText:
-	text "いくつひきだしますか？"
+	text "syÜひxだしますw?"
 	done
 
 .WithdrewItemsText:
 	text_from_ram wStringBuffer2
-	text "を　@"
+	text "を @"
 	deciram wItemQuantity, 1, 2
-	text "こ　"
-	line "ひきだしました"
+	text "こ "
+	line "ひxだしましÄ"
 	prompt
 
 .NoRoomWithdrawText:
-	text "もちものが　いっぱいなので"
-	line "ひきだせません！"
+	text "rÖrのが s←ぱsüので"
+	line "ひxだせません!"
 	prompt
 
 PlayerTossItemMenu:
@@ -350,8 +350,8 @@ PlayerDepositItemMenu:
 	ret
 
 .NoItemsText:
-	text "どうぐを　ひとつも"
-	line "もっていない！"
+	text "どtぐを ひöÜr"
+	line "r←äsüs!"
 	prompt
 
 .TryDepositItem:
@@ -375,8 +375,8 @@ PlayerDepositItemMenu:
 	ret
 
 .CantDepositText:
-	text "わざマシンは　"
-	line "あずけられない！"
+	text "わざ;Llは "
+	line "rずzられüs!"
 	prompt
 
 .BallNotDepositable:
@@ -385,8 +385,8 @@ PlayerDepositItemMenu:
 	ret
 
 .CantDepositBallText:
-	text "ボールホルダは"
-	line "あずけられない！"
+	text "ボ-g:gダは"
+	line "rずzられüs!"
 	prompt
 
 .SwapPockets:
@@ -442,20 +442,20 @@ PlayerDepositItemMenu:
 	ret
 
 .HowManyDepositText:
-	text "いくつあずけますか？"
+	text "syÜrずzますw?"
 	done
 
 .DepositItemsText:
 	text_from_ram wStringBuffer2
-	text "を　@"
+	text "を @"
 	deciram wItemQuantity, 1, 2
-	text "こ　"
-	line "あずけました"
+	text "こ "
+	line "rずzましÄ"
 	prompt
 
 .NoRoomDepositText:
-	text "どうぐが　いっぱいです"
-	line "もう　あずけられません！"
+	text "どtぐが s←ぱsです"
+	line "rt rずzられません!"
 	prompt
 
 PCItemsJoypad:

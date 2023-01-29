@@ -40,9 +40,9 @@ FieldDebug_PokemartMenu:
 .MenuData:
 	db STATICMENU_CURSOR
 	db 3 ; items
-	db "どうぐを　かう@"
-	db "どうぐを　うる@"
-	db "さようなら@"
+	db "どtぐを wt@"
+	db "どtぐを tる@"
+	db "さvtüら@"
 
 .MenuJumptable:
 	dw DebugMart_Buy
@@ -78,21 +78,21 @@ DebugMart_BuyMenuHeader:
 	pop hl
 	ld c, $83
 	call PrintBCDNumber
-	ld [hl], "円"
+	ld [hl], "¥"
 	ret
 
 DebugMart_WelcomeText:
-	text "フレンドりーショップへ　"
-	line "ようこそ！"
+	text ")hlドり-Lpmプへ "
+	line "vtこそ!"
 	prompt
 
 DebugMart_PokemartMenuText:
-	text "なんになさいますか？"
+	text "üんにüさsますw?"
 	done
 
 DebugMart_GoodbyeText:
-	text "またのごりようを"
-	line "おまちしています"
+	text "まÄのごりvtを"
+	line "vまÖしäsます"
 	prompt
 
 DebugMart_Buy:
@@ -141,27 +141,27 @@ DebugMart_Buy:
 	ret
 
 .BuyPromptText: ; unreferenced?
-	text "なにを　おかいあげに"
-	line "なりますか"
+	text "üにを vwsrげに"
+	line "üりますw"
 	done
 
 .HowManyText:
-	text "いくつ　おかいあげになりますか"
+	text "syÜ vwsrげにüりますw"
 	done
 
 .ConfirmPurchaseText:
 	text_from_ram wStringBuffer2
-	text "を　@"
+	text "を @"
 	deciram wItemQuantity, 1, $2
 	text "こで"
 	line "@"
 	deciram hFFCD, 3, $6
-	text "円　おかいあげですか？"
+	text "¥ vwsrげですw?"
 	done
 
 .UnderDevelopmentText:
-	text "ごめんね"
-	line "かいはつちゅうなんだ"
+	text "ごmんね"
+	line "wsはÜÖ<PK>tüんだ"
 	prompt
 
 INCLUDE "data/debug/field_debug_pokemart_items.inc"
@@ -219,7 +219,7 @@ DebugMart_Sell:
 	ret
 
 .CannotSellText:
-	text "つかえないのだ！"
+	text "Üwuüsのだ!"
 	prompt
 
 .BallPocket:
@@ -242,8 +242,8 @@ DebugMart_Sell:
 	ret
 
 .ImportantItemText:
-	text "それは　だいじなものです"
-	line "うることは　できません！"
+	text "それは だsじürのです"
+	line "tるこöは でxません!"
 	prompt
 
 .no_items
@@ -253,8 +253,8 @@ DebugMart_Sell:
 	ret
 
 .NoItemsText:
-	text "どうぐを　ひとつも"
-	next "もっていません！"
+	text "どtぐを ひöÜr"
+	next "r←äsません!"
 	prompt
 
 .ItemQuantityPrompt:
@@ -269,7 +269,7 @@ DebugMart_Sell:
 	ret
 
 .HowManyItemsText:
-	text "いくつ　うりますか？"
+	text "syÜ tりますw?"
 	done
 
 DebugMart_LoadItems:
@@ -324,11 +324,11 @@ DebugMart_LoadItems:
 .PrintPaddedDigits:
 	ld a, [de]
 	inc de
-	cp "　"
+	cp " "
 	jr nz, .to_digit
-	ld a, "０"
+	ld a, "0"
 .to_digit
-	sub "０"
+	sub "0"
 	ret
 
 DebugMart_ShowPlaceholderText:
@@ -338,6 +338,6 @@ DebugMart_ShowPlaceholderText:
 	ret
 
 .PlaceholderText:
-	text "かいはつちゅうです"
+	text "wsはÜÖ<PK>tです"
 	next "<PROMPT>"
 

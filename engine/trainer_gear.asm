@@ -607,10 +607,10 @@ TrainerGear_Phone:
 	ret
 
 .OutOfRangeText:
-	db "けんがい@"
+	db "zんがs@"
 
 .DarnText:
-	text "ちぇっ⋯⋯⋯⋯"
+	text "Öぇ←…………"
 	done
 
 TrainerGear_PhoneJoypad:
@@ -722,5 +722,5 @@ TrainerGear_DrawBox:
 SECTION "engine/trainer_gear.asm@TrainerGear_RadioText", ROMX
 
 TrainerGear_RadioText:
-	text "エーボタンで　チューニング！"
+	text "D-ボPlで Qo-Vlグ!"
 	done

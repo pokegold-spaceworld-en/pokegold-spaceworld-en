@@ -1013,7 +1013,7 @@ Function8747:
 	ret
 
 Text8776:
-	db "とびさき　を　えらんでください@"
+	db "öびさx を uらんでyださs@"
 
 Function8786:
 	ld a, [wFlyDestination]
@@ -1058,7 +1058,7 @@ Function8786:
 	ret
 
 Text87e4:
-	db "の　すみか@"
+	db "の すdw@"
 
 Function87ea:
 	ld a, [wFlyDestination]

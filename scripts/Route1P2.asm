@@ -81,37 +81,51 @@ Route1P2TextSign1:
 	ret
 
 Route1P2TextString1:
-	text "まあ　かわいらしい　トレーナーやこと"
-	line "うちと　ポケモン　しはります？"
+	text "What a lovely"
+	line "trainer you are!"
+	cont "Won't you partake"	
+	cont "in a battle?"	
 	done
 
 Route1P2TextString2: ; (unused?)
-	text "いやあ　かんにんやわあ"
+	text "Oh, my apologies…"
 	done
 
 Route1P2TextString3:
-	text "かわいい　かおして　つよおすなあ"
-	line "その　ちょうしで　おきばりやす"
+	text "You look cute, but"
+	line "you truly don't"
+	cont "hold back! You'll"
+	cont "strain yourself"
+	cont "like that."	
 	done
 
 Route1P2TextString4:
-	text "シゲル『おっ　サトシじゃないか！"
+	text "GARY: Oh! If it"
+	line "isn't <PLAYER>!"	
 
-	para "なんとか　ここまで　これた"
-	line "って　かんじだな"
+	para "Guess you actually"
+	line "made it all the"
+	cont "way here."	
+	cont "Even though you're"	
+	cont "a wimp! Don't push"	
+	cont "yourself, huh?"	
 
-	para "じつりょくが　ないのに"
-	line "むり　するなよな"
+	para "You've got your"
+	line "work cut out for"
+	cont "you, don'tcha?"
 
-	para "もっと　ポケモン　あつめるとか"
-	line "いろんな　ポケモン　そだてるとか"
-	cont "やること　あるだろ？"
+	para "Like catching more"
+	line "#MON, or"	
+	cont "raising losta"	
+	cont "different types"
+	cont "of #MON."	
 
-	para "ここで　ひきかえしたほうが　いいぜ！"
-	line "じゃあな"
+	para "You should turn"
+	line "back here! See ya!"
 	done
 
 Route1P2TextString5:
-	text "ここは　１ばん　どうろ"
-	line "サイレントヒル　⋯⋯　オールドシティ"
+	text "ROUTE 1"
+	line "SILENT HILL -"
+	cont "OLD CITY"	
 	done

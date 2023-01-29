@@ -1,0 +1,85 @@
+INCLUDE "constants.asm"
+
+SECTION "scripts/Route1Gate2F.asm", ROMX
+
+Route1Gate2F_ScriptLoader::
+	ld hl, Route1Gate2FScriptPointers
+	call RunMapScript
+	call WriteBackMapScriptNumber
+	ret
+
+Route1Gate2FScriptPointers:
+	dw Route1Gate2FScript
+	dw Route1Gate2FNPCIDs
+
+Route1Gate2FNPCIDs:
+	db 0
+	db 1
+	db $FF
+
+Route1Gate2FSignPointers:
+	dw Route1Gate2FTextSign1
+	dw Route1Gate2FTextSign2
+Route1Gate2F_TextPointers::
+	dw Route1Gate2FTextNPC1
+	dw Route1Gate2FTextNPC2
+
+Route1Gate2FScript::
+	ld hl, Route1Gate2FNPCIDs
+	ld de, Route1Gate2FSignPointers
+	call CallMapTextSubroutine
+	ret
+
+Route1Gate2FTextNPC1:
+	ld hl, Route1Gate2FTextString1
+	call OpenTextbox
+	ret
+
+Route1Gate2FTextNPC2:
+	ld hl, Route1Gate2FTextString2
+	call OpenTextbox
+	ret
+
+Route1Gate2FTextSign1:
+	ld hl, Route1Gate2FTextString3
+	call OpenTextbox
+	ret
+
+Route1Gate2FTextSign2:
+	ld hl, Route1Gate2FTextString4
+	call OpenTextbox
+	ret
+
+Route1Gate2FTextString1:
+	text "ガlSRさん←ä　し←äる?"
+
+	para "ガlSRさんに"
+	line "xに　sられるvtに　üれば"
+	cont "Th-U-öしä　ÄsしÄrの　v"
+	done
+
+Route1Gate2FTextString2:
+	text "rüÄ　wんこtで　xÄの?"
+	line "üら　ざんねんね"
+
+	para "E-gドLSqの"
+	line "ごじ<PK>tのöt　は"
+	cont "だれでr　はsれる　←ä"
+	cont "rのじüsわ"
+	done
+
+Route1Gate2FTextString3:
+	text "<PLAYER>は"
+	line "ぼtuんx<MN>tを　のぞsÄ!"
+
+	para "lll!"
+	line "Äw-s　öt　が　duる!"
+	done
+
+Route1Gate2FTextString4:
+	text "<PLAYER>は"
+	line "ぼtuんx<MN>tを　のぞsÄ!"
+
+	para "ll?"
+	line "üが-s　wわ　が　duる"
+	done

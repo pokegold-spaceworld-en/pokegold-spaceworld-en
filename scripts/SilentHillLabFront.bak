@@ -1,0 +1,1106 @@
+INCLUDE "constants.asm"
+
+SECTION "scripts/SilentHillLabFront.asm", ROMX
+
+SilentHillLabFront_ScriptLoader::
+	ld hl, SilentHillLabFrontScriptPointers
+	call RunMapScript
+	call WriteBackMapScriptNumber
+	ret
+
+SilentHillLabFrontScriptPointers:
+	dw SilentHillLabFrontScript1
+	dw SilentHillLabFrontNPCIDs1
+
+	dw SilentHillLabFrontScript2
+	dw SilentHillLabFrontNPCIDs2
+
+	dw SilentHillLabFrontScript3
+	dw SilentHillLabFrontNPCIDs2
+
+	dw SilentHillLabFrontScript4
+	dw SilentHillLabFrontNPCIDs2
+
+	dw SilentHillLabFrontConversation1
+	dw SilentHillLabFrontNPCIDs2
+
+	dw SilentHillLabFrontScript6
+	dw SilentHillLabFrontNPCIDs3
+
+	dw SilentHillLabFrontScript7
+	dw SilentHillLabFrontNPCIDs4
+
+	dw SilentHillLabFrontScript8
+	dw SilentHillLabFrontNPCIDs5
+
+	dw SilentHillLabFrontScript9
+	dw SilentHillLabFrontNPCIDs5
+
+	dw SilentHillLabFrontScript10
+	dw SilentHillLabFrontNPCIDs5
+
+	dw SilentHillLabFrontScript11
+	dw SilentHillLabFrontNPCIDs5
+
+	dw SilentHillLabFrontScript12
+	dw SilentHillLabFrontNPCIDs6
+
+	dw SilentHillLabFrontScript13
+	dw SilentHillLabFrontNPCIDs6
+
+	dw SilentHillLabFrontScript14
+	dw SilentHillLabFrontNPCIDs6
+
+	dw SilentHillLabFrontScript15
+	dw SilentHillLabFrontNPCIDs7
+
+	dw SilentHillLabFrontScript16
+	dw SilentHillLabFrontNPCIDs7
+
+	dw SilentHillLabFrontScript17
+	dw SilentHillLabFrontNPCIDs7
+
+	dw SilentHillLabFrontScript18
+	dw SilentHillLabFrontNPCIDs7
+
+	dw SilentHillLabFrontScript19
+	dw SilentHillLabFrontNPCIDs9
+
+SilentHillLabFrontNPCIDs1:
+	db $02
+	db $09
+	db $0A
+	db $FF
+SilentHillLabFrontNPCIDs2:
+	db $00
+	db $02
+	db $04
+	db $09
+	db $0A
+	db $FF
+SilentHillLabFrontNPCIDs3:
+	db $02
+	db $04
+	db $09
+	db $0A
+	db $FF
+SilentHillLabFrontNPCIDs4:
+	db $04
+	db $09
+	db $0A
+	db $FF
+SilentHillLabFrontNPCIDs5:
+	db $01
+	db $03
+	db $05
+	db $06
+	db $07
+	db $08
+	db $09
+	db $0A
+	db $FF
+SilentHillLabFrontNPCIDs6:
+	db $01
+	db $03
+	db $05
+	db $06
+	db $07
+	db $08
+	db $FF
+SilentHillLabFrontNPCIDs7:
+	db $00
+	db $05
+	db $06
+	db $07
+	db $08
+	db $FF
+SilentHillLabFrontNPCIDs8: ; (unused?)
+	db $00
+	db $03
+	db $05
+	db $06
+	db $07
+	db $08
+	db $09
+	db $0A
+	db $FF
+SilentHillLabFrontNPCIDs9:
+	db $00
+	db $07
+	db $08
+	db $FF
+
+SilentHillLabFront_TextPointers::
+	dw SilentHillLabFrontText4
+	dw SilentHillLabFrontText7
+	dw SilentHillLabFrontText10
+	dw SilentHillLabFrontText11
+	dw SilentHillLabFrontTextString20
+	dw SilentHillLabFrontText12
+	dw SilentHillLabFrontText13
+	dw SilentHillLabFrontText14
+	dw SilentHillLabFrontText15
+	dw SilentHillLabFrontText16
+	dw SilentHillLabFrontText16
+
+SilentHillLabFrontScript1:
+	call SilentHillLabFrontMoveDown
+	ret z
+	ld hl, SilentHillLabFrontNPCIDs1
+	ld de, SilentHillLabFrontTextPointers2
+	call CallMapTextSubroutine
+	ret
+
+SilentHillLabFrontMoveDown:
+	ld a, [wXCoord]
+	cp 4
+	ret nz
+	ld a, [wYCoord]
+	cp 1
+	ret nz
+	ldh a, [hJoyState]
+	bit 6, a
+	jp z, SetFFInAccumulator
+	call SilentHillLabFrontText3
+	ld hl, wJoypadFlags
+	set 4, [hl]
+	ld a, 0
+	call Function17f9
+	ld a, 0
+	ld hl, SilentHillLabFrontMovement1
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, 1
+	call WriteIntod637
+	call ClearAccumulator
+	ret
+
+SilentHillLabFrontMovement1:
+	db $06, $32
+
+SilentHillLabFrontScript2:
+	ld a, 2
+	ld [wMapScriptNumber], a
+	ret
+
+SilentHillLabFrontScript3:
+	ld a, 6
+	call Function17f9
+	ld a, 0
+	call Function186a
+	ld b, 6
+	ld c, 0
+	call StartFollow
+	ld hl, SilentHillLabFrontMovement2
+	ld a, 6
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, 3
+	ld [wMapScriptNumber], a
+	ld a, 1
+	call WriteIntod637
+	ret
+
+SilentHillLabFrontMovement2:
+	db 09, 09, 09, 09, 09, 09, 09, 09, 09, 05, 07, 01, $32
+
+SilentHillLabFrontScript4:
+	call Function1828
+	ld a, 4
+	ld [wMapScriptNumber], a
+	ret
+
+SilentHillLabFrontConversation1:
+	ld a, 4
+	ld d, RIGHT
+	call SetObjectFacing
+	ld hl, SilentHillLabFrontTextString20
+	call OpenTextbox
+	ld hl, SilentHillLabFrontTextString4
+	call OpenTextbox
+	ld a, 4
+	ld d, UP
+	call SetObjectFacing
+	ld hl, SilentHillLabFrontTextString28
+	call OpenTextbox
+	ld hl, SilentHillLabFrontTextString5
+	call OpenTextbox
+	ld a, 4
+	ld d, RIGHT
+	call SetObjectFacing
+	ld hl, SilentHillLabFrontTextString29
+	call OpenTextbox
+	ld hl, SilentHillLabFrontTextString7
+	call OpenTextbox
+	call SilentHillLabFrontScript5
+	ret
+
+SilentHillLabFrontScript5:
+	ld hl, wJoypadFlags
+	set 4, [hl]
+	ld a, 2
+	call Function17f9
+	ld a, 2
+	ld hl, SilentHillLabFrontMovement3
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, 5
+	ld [wMapScriptNumber], a
+	ld a, 1
+	call WriteIntod637
+	ret
+
+SilentHillLabFrontMovement3:
+	db 9, 5, $33
+
+SilentHillLabFrontScript6:
+	ld hl, wJoypadFlags
+	set 4, [hl]
+	ld a, 4
+	call Function17f9
+	ld a, 4
+	ld hl, SilentHillLabFrontMovement4
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, 6
+	ld [wMapScriptNumber], a
+	ld a, 1
+	call WriteIntod637
+	ret
+
+SilentHillLabFrontMovement4:
+	db $0D, $0D, $0F, $0D, $0D, $33
+
+SilentHillLabFrontScript7:
+	ld hl, wJoypadFlags
+	set 4, [hl]
+	ld a, 0
+	call Function17f9
+	ld a, 0
+	ld hl, SilentHillLabFrontMovement5
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, 7
+	ld [wMapScriptNumber], a
+	ld a, 1
+	call WriteIntod637
+	ret
+
+SilentHillLabFrontMovement5:
+	db 09, 09, 09, 05, $32
+
+SilentHillLabFrontScript8:
+	ld a, 3
+	call Function1989
+	ld a, 5
+	call Function1989
+	ld hl, wJoypadFlags
+	set 4, [hl]
+	ld a, 0
+	call Function17f9
+	ld a, 0
+	ld hl, SilentHillLabFrontMovement6
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, 8
+	ld [wMapScriptNumber], a
+	ld a, 1
+	call WriteIntod637
+	ret
+
+SilentHillLabFrontMovement6:
+	db 8, 8, 8, $0A, 6, $32
+
+SilentHillLabFrontScript9:
+	ld hl, wJoypadFlags
+	set 4, [hl]
+	ld a, 5
+	call Function17f9
+	ld a, 5
+	call Function197e
+	ld a, 5
+	ld hl, SilentHillLabFrontMovement7
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, 9
+	ld [wMapScriptNumber], a
+	ld a, 1
+	call WriteIntod637
+	ret
+
+SilentHillLabFrontMovement7:
+	db $08, $08, $08, $08, $0A, $06, $32
+
+SilentHillLabFrontScript10:
+	ld a, 5
+	ld d, RIGHT
+	call SetObjectFacing
+	ld hl, SilentHillLabFrontTextString21
+	call OpenTextbox
+	ld hl, wJoypadFlags
+	set 4, [hl]
+	ld a, 0
+	ld d, RIGHT
+	call SetObjectFacing
+	ld a, 5
+	ld d, RIGHT
+	call SetObjectFacing
+	ld a, 3
+	call Function17f9
+	ld a, 3
+	call Function197e
+	ld a, 3
+	ld hl, SilentHillLabFrontMovement8
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, $0A
+	ld [wMapScriptNumber], a
+	ld a, 1
+	call WriteIntod637
+	ret
+
+SilentHillLabFrontMovement8:
+	db $08, $04, $32
+
+SilentHillLabFrontScript11:
+	ld hl, SilentHillLabFrontTextString8
+	call OpenTextbox
+	ld hl, SilentHillLabFrontTextString9
+	call OpenTextbox
+	ld a, $0B
+	call Function1617
+	ld a, $0C
+	call Function1617
+	ld hl, SilentHillLabFrontTextString10
+	call OpenTextbox
+	ld hl, SilentHillLabFrontTextString15
+	call OpenTextbox
+	ld hl, wd41c
+	set 4, [hl]
+	call Function20f8
+	ld a, $0B
+	ld [wMapScriptNumber], a
+	call InitUnknownBuffercc9e
+	ret
+
+SilentHillLabFrontScript12:
+	call SilentHillLabFrontMoveDown
+	ret z
+	call SilentHillLabFrontRivalMovePokemon
+	ret z
+	ld hl, SilentHillLabFrontNPCIDs6
+	ld de, SilentHillLabFrontTextPointers2
+	call CallMapTextSubroutine
+	ret
+
+SilentHillLabFrontRivalMovePokemon:
+	ld a, [wYCoord]
+	cp 8
+	ret nz
+	ld hl, SilentHillLabFrontMovement9
+	ld a, [wXCoord]
+	cp 3
+	jr z, .jump
+	cp 4
+	ret nz
+	ld hl, SilentHillLabFrontMovement10
+.jump
+	push hl
+	ld hl, wJoypadFlags
+	set 4, [hl]
+	ld a, 5
+	call Function17f9
+	pop hl
+	ld a, 5
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, $0C
+	ld [wMapScriptNumber], a
+	ld a, 1
+	call WriteIntod637
+	call ClearAccumulator
+	ret
+
+SilentHillLabFrontMovement9:
+	db $08, $0B, $0B, $08, $08, $04, $32
+
+SilentHillLabFrontMovement10:
+	db $08, $0B, $08, $08, $04, $32
+
+SilentHillLabFrontScript13:
+	ld hl, SilentHillLabFrontTextString17
+	call OpenTextbox
+	call GetLabPokemon
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, 8
+	ld [wd637], a
+	ld a, $0D
+	ld [wMapScriptNumber], a
+	call InitUnknownBuffercc9e
+	ret
+
+GetLabPokemon:
+	ld hl, LabPokemon
+	ld a, [wd266]
+	ld b, a
+.loop
+	ld a, [hl+]
+	cp b
+	jr nz, .jump
+	ld a, [hl]
+	ld [wce05], a
+	ld a, 9
+	ld [wce02], a
+	ret
+.jump
+	inc hl
+	jr .loop
+
+LabPokemon:
+	db DEX_KURUSU
+	db 1
+	db DEX_HAPPA
+	db 2
+	db DEX_HONOGUMA
+	db 3
+
+SilentHillLabFrontScript14:
+	ld hl, SilentHillLabFrontTextString19
+	ld a, [wcd5d]
+	and a
+	jr nz, .skip
+	ld hl, SilentHillLabFrontTextString18
+.skip
+	call OpenTextbox
+	ld hl, wJoypadFlags
+	set 4, [hl]
+	ld a, 5
+	call Function17f9
+	ld a, 5
+	ld hl, SilentHillLabFrontMovement11
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, $0E
+	ld [wMapScriptNumber], a
+	ld a, 1
+	call WriteIntod637
+	ret
+
+SilentHillLabFrontMovement11:
+	db $04, $08, $08, $08, $33
+
+SilentHillLabFrontScript15:
+	call Function20f8
+	ld a, $0F
+	ld [wMapScriptNumber], a
+	call InitUnknownBuffercc9e
+	ret
+
+SilentHillLabFrontScript16:
+	call SilentHillLabFrontMoveDown
+	ret z
+	call SilentHillLabFrontMoveRivalLeave
+	ret z
+	ld hl, SilentHillLabFrontNPCIDs7
+	ld de, SilentHillLabFrontTextPointers2
+	call CallMapTextSubroutine
+	ret
+
+SilentHillLabFrontMoveRivalLeave:
+	ld a, [wYCoord]
+	cp $0B
+	ret nz
+	ld hl, Movememt12+1
+	ld a, [wXCoord]
+	cp 3
+	jr z, .jump
+	cp 4
+	ret nz
+	ld hl, Movememt12
+.jump
+	push hl
+	ld hl, wJoypadFlags
+	set 4, [hl]
+	ld a, 8
+	call Function17f9
+	pop hl
+	ld a, 8
+	call LoadMovementDataPointer
+	ld hl, wc5ed
+	set 7, [hl]
+	ld a, $10
+	ld [wMapScriptNumber], a
+	ld a, 1
+	call WriteIntod637
+	call ClearAccumulator
+	ret
+
+Movememt12:
+	db $07, $07, $07, $05, $32
+
+SilentHillLabFrontScript17:
+	ld hl, SilentHillLabFrontTextString23
+	call OpenTextbox
+	ld hl, wd41d
+	set 2, [hl]
+	ld hl, wNumBagItems
+	ld a, 5
+	ld [wCurItem], a
+	ld a, 6
+	ld [wItemQuantity], a
+	call ReceiveItem
+	call Function20f8
+	ld a, $11
+	ld [wMapScriptNumber], a
+	ret
+
+SilentHillLabFrontScript18:
+	call SilentHillLabFrontMoveDown
+	ret z
+	ld hl, SilentHillLabFrontNPCIDs7
+	ld de, SilentHillLabFrontTextPointers2
+	call CallMapTextSubroutine
+	ret
+
+SilentHillLabFrontScript19:
+	call SilentHillLabFrontMoveDown
+	ret z
+	ld hl, SilentHillLabFrontNPCIDs9
+	ld de, SilentHillLabFrontTextPointers2
+	call CallMapTextSubroutine
+	ret
+
+SilentHillLabFrontTextPointers2:
+	dw SilentHillLabFrontText1
+	dw SilentHillLabFrontText2
+	dw Function3899
+	dw Function3899
+	dw Function3899
+	dw Function3899
+	dw Function3899
+	dw Function3899
+	dw Function3899
+	dw Function3899
+	dw Function3899
+	dw Function3899
+	dw Function3899
+	dw Function3899
+	dw SilentHillLabFrontText3
+
+SilentHillLabFrontText1:
+	ld hl, SilentHillLabFrontTextString1
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString1:
+	text "パOJlを　dるö"
+	line "üんö　a-gが　xäsÄ!"
+
+	para "<⋯⋯>　<⋯⋯>　<⋯⋯>"
+	line "E-Gドはwせ!"
+	cont "rüÄが　tyuふmsに"
+	cont "ü←äsるö　せzんは"
+	cont "vvさわぎ　です!"
+
+	para "それは　そtö"
+	line "はwせ　wら　dÜzるvtに"
+	cont "ÄのまれÄ　れsの#"
+	cont "dÜzるどころw"
+	cont "まだ　äがwりr"
+	cont "Üwlこöが　でxません"
+
+	para "sはり　rsÜは"
+	line "wytの　#üのでは"
+	cont "üsでし<MN>tw<⋯⋯>"
+	cont "<⋯⋯>　<⋯⋯>　<⋯⋯>じ<MN>し<PK>vり"
+	done
+
+SilentHillLabFrontText2:
+	ld hl, wd39d
+	bit 0, [hl]
+	set 0, [hl]
+	jr z, .jump
+	res 0, [hl]
+	ld hl, SilentHillLabFrontTextString2A
+	jr .skip
+.jump
+	ld hl, SilentHillLabFrontTextString2B
+.skip
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString2A:
+	text "MP-T　ボPlを　プLo!"
+	line "vすö　aVo-が　ひらyüり"
+	done
+
+SilentHillLabFrontTextString2B:
+	text "N-ブするには　#　hポ-T"
+	line "こまmに　wyö　ssüり"
+	done
+
+SilentHillLabFrontText3:
+	ld hl, SilentHillLabFrontTextString3
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString3:
+	text "Fギが　ww←äsる"
+	done
+
+SilentHillLabFrontText4:
+	ld a, [wMapScriptNumber]
+	cp $0E
+	jp nc, SilentHillLabFrontText7
+	ld hl, SilentHillLabFrontTextString4
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString4:
+	text "E-Gド『ごyろtさん!"
+	done
+
+SilentHillLabFrontTextString5:
+	text "E-Gド『そtör!"
+	line "わしが　E-Gドじ!"
+	cont "じじsで　わるw←Äü!"
+
+	para "vまuÄÖ　ふÄりは"
+	line "この　E-Gドが　vんだのじ!"
+
+	para "すこし　わしの　はüしを"
+	line "xsäは　yれんw?@"
+	db $08
+
+SilentHillLabFrontText6:
+	call YesNoBox
+	jr c, .jump
+.loop
+	ld hl, SilentHillLabFrontTextString6A
+	call PrintText
+	call Function3036
+	ret
+
+.jump
+	ld hl, SilentHillLabFrontTextString6B
+	call PrintText
+	call YesNoBox
+	jr c, .jump
+	jr .loop
+
+SilentHillLabFrontTextString6A:
+	text "E-Gド『sまwら　1ねんまu"
+	line "わしは　FlT-で"
+	cont "xdÄÖの　vtü　し<MN>tねんに"
+	cont "#の　zんx<PK>tの　Äm"
+	cont "#ö　ずwんを　わÄしÄ"
+
+	para "そしä　wれらは"
+	line "じÜに　vys←äyれÄ!"
+
+	para "150し<PK>るsの"
+	line "#を　dÜzるこöに"
+	cont "せsこt　しÄのじ!"
+	cont "が　<⋯⋯>　<⋯⋯>　<⋯⋯>"
+	cont "しwし　<⋯⋯>　<⋯⋯>"
+
+	para "せwsは　ひろsrのじ"
+	line "そのご　ぜんこy　wyÖで"
+	cont "rÄらしs　#が　ぞyぞyö"
+	cont "dÜw←ävる!"
+
+	para "そこで　わしは　FlT-wら"
+	line "ここ　KBhlT(gに"
+	cont "zんx<PK>tの　ばし<MN>を　tÜしÄ"
+
+	para "ばし<MN>が　wわれば"
+	line "rÄらしs　#にr"
+	cont "でrtこöが　でxるwらü"
+	cont "<⋯⋯>　<⋯⋯>　<⋯⋯>　<⋯⋯>"
+
+	para "これwらr　どんどんö"
+	line "zんx<PK>tを　すすmるが"
+	cont "わしr　ごらんのövりの　vsぼれ"
+	cont "まごs　じ<MN>し<PK>ÄÖr　vるが"
+	cont "それでr　sはり　wずが　Äらん!"
+
+	para "<PLAYER>!　<RIVAL>!"
+	line "#zんx<PK>tの　Ämに"
+	cont "Öwらを　wしä　yれんw!"
+	done
+
+SilentHillLabFrontTextString6B:
+	text "E-Gド『そtw<⋯⋯>"
+	line "わしに　ひöを　dるmが"
+	cont "üw←Äö　stこöじü<⋯⋯>"
+
+	para "ss!"
+	line "わしの　ひöを　dるmは"
+	cont "まÖが←äは　vらんはず!"
+
+	para "ü?"
+	cont "わしの　はüしを　xsäyれるü?"
+	done
+
+SilentHillLabFrontTextString7:
+	text "E-Gド『ふÄりör!"
+	line "Ö<MN>←ö　わしに　Üsäこs!"
+	done
+
+SilentHillLabFrontText7:
+	ld a, [wMapScriptNumber]
+	cp $12
+	jr z, .jump
+	ld hl, SilentHillLabFrontTextString11A
+	call OpenTextbox
+	ret
+
+.jump
+	ld hl, SilentHillLabFrontTextString11B
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString8:
+	text "E-Gド『<PLAYER>!<RIVAL>!"
+	line "このずwんを"
+	cont "vまuÄÖに　rずzる!"
+	done
+
+SilentHillLabFrontTextString9:
+	text "<PLAYER>は　E-Gドwら"
+	line "#ずwんを　rら←Ä!"
+	done
+
+SilentHillLabFrontTextString10:
+	text "E-Gド『この　せwsの　すべäの"
+	line "#を　xろyしÄ"
+	cont "wんぺxü　ずwんを　Üyるこö!"
+	cont "それが　わしの　tm　だ←Ä!"
+
+	para "しwし　しんし<PK>の　#は"
+	cont "ぞyぞyö　dÜw←äsる!"
+
+	para "わしに　のこされÄ"
+	line "じwんは　すyüs!"
+
+	para "そこで　vまu　ÄÖには"
+	line "わしの　wわりに"
+	cont "tmを　はÄしä　ほしsのじ!"
+
+	para "さr　ふÄりör"
+	line "さ←そy　し<PK>←ぱÜ　しäyれs!"
+	cont "これは　#の　れxしに　のこる"
+	cont "sだsü　しごöじ-!"
+	done
+
+SilentHillLabFrontTextString11A:
+	text "E-Gド『せws　じ<PK>tの"
+	line "#ÄÖが"
+	cont "<PLAYER>を　ま←ä　vるぞ-"
+	done
+
+SilentHillLabFrontTextString11B:
+	text "E-Gド『vt!　<PLAYER>"
+	line "どtだ?"
+	cont "わしの　rげÄ　#は<⋯⋯>?"
+
+	para "ほt!"
+	cont "だsぶ　üÜsÄ　dÄsだü"
+
+	para "vまuには　#Th-U-の"
+	line "さsのtが　rるwrしれん"
+	cont "これwらr　öxどxは"
+	cont "わしのöころへ　wvを　だせ!"
+
+	para "#ずwんの　ぺ-ジが"
+	line "xに　üるwらü"
+	done
+
+SilentHillLabFrontText8:
+	ld hl, SilentHillLabFrontTextString12
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString12:
+	text "E-Gド『vy　xÄü!"
+	line "#ずwんの"
+	cont "Ö<MN>tしは　どtwü?"
+
+	para "どれ<⋯⋯>　Ö<MN>←ö"
+	cont "dä　rげvtw!"
+	done
+
+SilentHillLabFrontText9:
+	ld hl, SilentHillLabFrontTextString13
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString13:
+	text "E-Gド『<⋯⋯>　v←ほんm!"
+	line "vys←Äü　<PLAYER>!"
+
+	para "Ö<MN>←ö"
+	line "わしに　Üsä　xüさs!"
+
+	para "<RIVAL>は　すまんが"
+	line "そこで　ま←äsüさs!"
+
+	para "<RIVAL>『u-!"
+	line "üんだv　IQ-!"
+
+	para "E-Gド『<RIVAL>は"
+	line "でんせÜの　#が"
+	cont "ほしw←Ä　だzじüsのw?"
+	cont "<RIVAL>『ギHm!"
+	done
+
+SilentHillLabFrontText10:
+	ld hl, SilentHillLabFrontTextString14
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString14:
+	text "<RIVAL>『üんだ"
+	line "<PLAYER>じüsw!"
+	cont "vれr　ここが"
+	cont "rsしsö　vr←ä　xÄんだzど"
+	cont "だれr　süsdÄsだü<⋯⋯>"
+	done
+
+SilentHillLabFrontText11:
+	ld hl, SilentHillLabFrontTextString16
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString15:
+	text "<RIVAL>『v←しr!"
+	line "じsさん!　vれにまwせü!"
+	done
+
+SilentHillLabFrontTextString16:
+	text "<RIVAL>『vれが　uらんだ"
+	line "#のほtが　Üvそtだぜ!"
+	cont "こ←Öに　しÄw←Äんじüsの?"
+	done
+
+SilentHillLabFrontTextString17:
+	text "<RIVAL>『<PLAYER>!"
+	line "せ←wy　じsさんに"
+	cont "#　rら←Äんだwら"
+	cont "<⋯⋯>　Ö<MN>←ö"
+	cont "ÄÄwわせä　dvtぜ!"
+	done
+
+SilentHillLabFrontTextString18:
+	text "<RIVAL>『y←そ-!"
+	line "こんどは　ぜ←Äs　まzüsぞ!"
+	done
+
+SilentHillLabFrontTextString19:
+	text "<RIVAL>『v-し!"
+	line "ほwの　#ö　ÄÄwわせä"
+	cont "r←ö　r←ö　Üvyしvt!"
+
+	para "そんじ　ばsばs!"
+	done
+
+SilentHillLabFrontTextString20:
+	text "じsÖん!"
+	line "ÜれäxÄv-!"
+	done
+
+SilentHillLabFrontTextString21:
+	text "ぼyは　wÜä"
+	line "#Th-U-の　Ö<MN>täんを"
+	cont "mざしÄこöが　rるんだ"
+	cont "そのöx　ssxに　ü←äsÄ"
+	cont "ぼyの　äんぐのはüを"
+	cont "へしv←Ä　sÜに"
+	cont "xdは　どこöüy　にäsる"
+
+	para "rsÜの　vwげで　ぼyは"
+	line "こころを　sれwuä"
+	cont "じsさんの　zんx<PK>tを"
+	cont "äÜだtvtに　ü←Äのさ"
+	cont "<⋯⋯>　<⋯⋯>　<⋯⋯>　<⋯⋯>　<⋯⋯>"
+
+	para "さr!"
+	line "これが　#ずwんだ!"
+
+	para "dÜzÄ　#の　デ-Pが"
+	line "じどtäxに　wxこまれä"
+	cont "ぺ-ジが　ふuä　sy　öst"
+	cont "öär　ZBSHü　ずwん　だv!"
+	done
+
+SilentHillLabFrontText12:
+	ld hl, SilentHillLabFrontTextString22
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString22:
+	text "ぼyr　lwし　s←Äzど"
+	line "üwüw　Äsへんだv<⋯⋯>"
+	cont "がんば←äね!"
+	done
+
+SilentHillLabFrontText13:
+	ld hl, SilentHillLabFrontTextString24
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString23:
+	text "UU[『さ←x　rüÄを　"
+	line "ÜれäxÄ　わws　vöこのこ<⋯⋯>"
+	cont "rれは　わÄしの　vötöüの"
+	cont "<⋯⋯>östこöは　Üまり"
+
+	para "そt!"
+	line "わÄしr　E-Gドの　まご　üの!"
+
+	para "vじsÖんは　り←ぱü"
+	cont "#zんx<PK>tしv"
+	cont "わÄしは　väÜだs　でxるこöが"
+	cont "ö←är　tれしsの!"
+	cont "r←　こんüこö　しられÄら"
+	cont "vじsÖん　Ö<MN>tしに　のるwら"
+	cont "üsし<MN>に　しävsäね!"
+
+	para "<⋯⋯>vじsÖん　す←wり"
+	line "わすれäsる　dÄsだwら"
+
+	para "わÄしが　wわりに　これを　rげる!"
+	line "さsしんがÄ　#りomHv"
+
+	para "<PLAYER>は"
+	line "#りomHを　rら←Ä!"
+
+	para "UU[『この　りomHには"
+	line "blMP-ボ-gを"
+	cont "まömä　sれられる"
+	cont "ボ-g:gダö"
+	cont "わざ;Llを　まömä　sれられる"
+	cont "わざ;Ll:gダが　Üsäsるの"
+
+	para "blMP-ボ-g　6こö　"
+	line "わざ;LlひöÜは　E;Iしävyわ"
+	cont ":gダに　üんにr　はs←äüsö"
+	cont "さびしsrんね!"
+
+	para "ねu　<PLAYER>yl"
+	line "rüÄの　vwrさんが"
+	cont "しんぱsするö　szüswら"
+	cont "このまÖを　でるまuに"
+	cont "wvを　dせに　s←ärげäね"
+
+	para "<⋯⋯>rüÄの　wÜsy"
+	line "sの←äsるわ"
+	done
+
+SilentHillLabFrontTextString24:
+	text "<⋯⋯>rüÄの　wÜsy"
+	line "sの←äるわ"
+	done
+
+SilentHillLabFrontText14:
+	ld hl, SilentHillLabFrontTextString25
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString25:
+	text "わÄしは"
+	line "はwせの　じ<MN>し<PK>　です"
+
+	para "わÄしは　rÖろん"
+	line "はwせを　OlI-　しävります"
+
+	para "rüÄ　öは　まÄ　どこwで"
+	line "vrs　するこöに"
+	cont "üるvtü　xがします"
+	done
+
+SilentHillLabFrontText15:
+	ld hl, SilentHillLabFrontTextString26
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString26:
+	text "わÄしは"
+	line "はwせの　じ<MN>し<PK>　です"
+
+	para "わÄしは　rÖろん"
+	line "はwせを　OlI-　しävります"
+
+	para "rüÄ　öは　まÄ　どこwで"
+	line "vrs　するこöに"
+	cont "üるvtü　xがします"
+	done
+
+SilentHillLabFrontText16:
+	ld hl, SilentHillLabFrontTextString27
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString27:
+	text "üんだろt?"
+	line "でんし　äÖ<MN>t　wü?"
+	done
+
+SilentHillLabFrontText17:
+	ld hl, SilentHillLabFrontTextString28
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString28:
+	text "<RIVAL>『rのa-gを　yれÄ"
+	line "E-Gド←ä　こんü　じじs<⋯⋯>"
+
+	para "r←　ゴal"
+	line "こんü　じsさん　üのw?"
+	cont "ほんrの　はじmä　dÄv!"
+	done
+
+SilentHillLabFrontTextString29:
+	text "<RIVAL>『<PLAYER>!"
+	line "üんだw"
+	cont "vrしろy　ü←äxÄü!"
+	done
+
+SilentHillLabFrontText18:
+	ld hl, SilentHillLabFrontTextString30
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString30:
+	text "わÄしは"
+	line "はwせの　じ<MN>し<PK>　です"
+
+	para "rüÄ　öは　まÄ　どこwで"
+	line "vrs　するこöに"
+	cont "üるvtü　xがします"
+	done
+
+SilentHillLabFrontText19:
+	ld hl, SilentHillLabFrontTextString31
+	call OpenTextbox
+	ret
+
+SilentHillLabFrontTextString31:
+	text "わÄしは"
+	line "はwせの　じ<MN>し<PK>　です"
+
+	para "rüÄ　öは　まÄ　どこwで"
+	line "vrs　するこöに"
+	cont "üるvtü　xがします"
+	done

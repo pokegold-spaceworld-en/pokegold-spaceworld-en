@@ -66,9 +66,11 @@ SilentHillHouseNPCText1:
 	ret
 
 SilentHillHouseTextString1:
-	text "おや？　<RIVAL>あてに　メールが"
-	line "とどいている　ようだ"
-	cont "よんでみる？@"
+	text "What's this? There"
+	line "seems to be a new"
+	cont "e-mail addressed"
+	cont "to <RIVAL>."
+	cont "Read it?@"	
 	db $08
 
 SilentHillHouseNPCText2: ; (unused due to typo in the text pointers?)
@@ -87,18 +89,22 @@ SilentHillHouseNPCText2: ; (unused due to typo in the text pointers?)
 	ret
 
 SilentHillHouseTextString2:
-	text "とつぜん　メールを　さしあげる"
-	line "しつれいを　おゆるしあれ"
-
-	para "じつは　きみに　どうしても"
-	line "わたしたい　ものが　あるのじゃが"
-	cont "うけとって　もらえんかのう"
-	cont "ポケモンけんきゅうしゃ　オーキド"
+	text "I hope you'll"
+	line "excuse the sudden"
+	cont "e-mail, but there's"
+	cont "something that I"
+	cont "would like to"
+	cont "entrust you with."
+	cont "Won't you come by"	
+	cont "and collect it?"
+	
+	para "#MON researcher"
+	line "OAK"
 	done
 
 SilentHillHouseTextString3:
-	text "ひとのメールは"
-	line "みちゃ　いけないよな<⋯⋯>"
+	text "Right. I shouldn't"
+	line "read others' mail."
 	done
 
 SilentHillHouse_TextPointers::
@@ -111,8 +117,9 @@ SilentHillHouseNPCText3:
 	ret
 
 SilentHillHouseTextString4:
-	text "このまえ　かわったいろの"
-	line "ポッポを　みかけたわ"
+	text "The other day I"
+	line "saw a strange-"
+	cont "colored PIDGEY!"	
 	done
 
 SilentHillHouseNPCText4:
@@ -133,36 +140,46 @@ SilentHillHouseNPCText4:
 	ret
 
 SilentHillHouseTextString5:
-	text "ケン『ななな"
-	line "なんだ　<PLAYER>　じゃないか！"
+	text "KEN: Wh- wha-… If"
+	line "it isn't <PLAYER>!"
 
-	para "おれは　ちょっと　あのー"
-	line"がっこうの　しゅくだいを"
-	cont "おしえに　きてるんだ！"
+	para "I'm, uh… I'm here"
+	line "to help out with"
+	cont "homework! Yeah!"
 
-	para "えっ　マップ？"
-	line "そうか　そんな　やくそくも　してたな"
-	cont "わかった"
-	cont "トレーナーギアを　かしてみな"
+	para "Huh? A map? Right,"
+	line "I promised to help"
+	cont "with that, didn't"
+	cont "I? Hand me your"
+	cont "TRAINER GEAR for"
+	cont "a second."	
 
-	para "スロットに　マップの　カセットを　"
-	line "さしこんでっと⋯⋯"
-	cont "よし　これで　マップが　みれるぞ！"
+	para "By putting the map"
+	line "cartridge into"
+	cont "this slot here…"
+	cont "There we go!"
+	cont "Now you can use"
+	cont "the map."	
 	done
 
 SilentHillHouseTextString6:
-	text "もし　オールドにいくなら"
-	line "マサキって　やつに　あうといい"
+	text "KEN: If you're"
+	line "going to OLD CITY,"
+	cont "you should look"
+	cont "for a guy called"
+	cont "BILL!"	
 
-	para "おれの　ともだちで"
-	line "すごい　ポケモン　マニアだ！"
-	cont "きっと　おまえの"
-	cont "てだすけを　してくれるぜ"
+	para "He's a friend of"
+	line "mine who knows a"
+	cont "lot about #MON."
+	cont "I'm sure he'll"
+	cont "help you out!"	
 	done
 
 SilentHillHouseTextString7:
-	text "ケン『<PLAYER>"
-	line "オーキドはかせに　みこまれて"
-	cont "ポケモンずかんを　つくるんだって？"
-	cont "すごいじゃないか　がんばれよ"
+	text "KEN: You were"
+	line "invited by PROF."
+	cont "OAK to help make a"
+	cont "new #DEX? Whoa!"
+	cont "Good luck!"	
 	done

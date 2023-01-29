@@ -1,0 +1,168 @@
+INCLUDE "constants.asm"
+
+SECTION "scripts/SilentHillHouse.asm", ROMX
+
+SilentHillHouse_ScriptLoader::
+	ld hl, SilentHillHouseScriptPointers
+	call RunMapScript
+	call WriteBackMapScriptNumber
+	ret
+
+SilentHillHouseScriptPointers:
+	dw SilentHillHouseScript1
+	dw SilentHillHouseNPCIDs1
+	dw SilentHillHouseScript2
+	dw SilentHillHouseNPCIDs2
+	dw SilentHillHouseScript3
+	dw SilentHillHouseNPCIDs1
+
+SilentHillHouseScript1:
+	ld hl, SilentHillHouseNPCIDs1
+	ld de, SilentHillHouseTextPointers2
+	call CallMapTextSubroutine
+	ret
+
+SilentHillHouseScript2:
+	ld hl, SilentHillHouseNPCIDs2
+	ld de, SilentHillHouseTextPointers2
+	call CallMapTextSubroutine
+	ret
+
+SilentHillHouseScript3:
+	ld hl, SilentHillHouseNPCIDs1
+	ld de, SilentHillHouseTextPointers2
+	call CallMapTextSubroutine
+	ret
+
+SilentHillHouseNPCIDs1:
+	db 0
+	db $FF
+
+SilentHillHouseNPCIDs2:
+	db 0
+	db 1
+	db $FF
+
+SilentHillHouseTextPointers2::
+	dw SilentHillHouseNPCText1
+	dw Function38bd
+	dw Function3899
+	dw Function38b4
+	dw Function38ab
+	dw Function38cf
+
+SilentHillHouseNPCText1:
+	ld hl, wd41a
+	bit 6, [hl]
+	jr nz, .jump
+	ld hl, SilentHillHouseTextString1
+	call OpenTextbox
+	ret
+
+.jump
+	call RefreshScreen
+	callab PokemonCenterPC
+	call Function1fea
+	ret
+
+SilentHillHouseTextString1:
+	text "vs?　<RIVAL>räに　a-gが"
+	line "öどsäsる　vtだ"
+	cont "vんでdる?@"
+	db $08
+
+SilentHillHouseNPCText2: ; (unused due to typo in the text pointers?)
+	call YesNoBox
+	jr c, .jump
+	ld hl, wd41a
+	set 6, [hl]
+	ld hl, SilentHillHouseTextString2
+	call PrintText
+	call Function3036
+	ret
+.jump
+	ld hl, SilentHillHouseTextString3
+	call PrintText
+	call Function3036
+	ret
+
+SilentHillHouseTextString2:
+	text "öÜぜん　a-gを　さしrげる"
+	line "しÜれsを　vtるしrれ"
+
+	para "じÜは　xdに　どtしär"
+	line "わÄしÄs　rのが　rるのじが"
+	cont "tzö←ä　rらuんwのt"
+	cont "ポIblzんx<PK>tし　E-Gド"
+	done
+
+SilentHillHouseTextString3:
+	text "ひöのa-gは"
+	line "dÖ　szüsvü<⋯⋯>"
+	done
+
+SilentHillHouse_TextPointers::
+	dw SilentHillHouseNPCText3
+	dw SilentHillHouseNPCText4
+
+SilentHillHouseNPCText3:
+	ld hl, SilentHillHouseTextString4
+	call OpenTextbox
+	ret
+
+SilentHillHouseTextString4:
+	text "このまu　wわ←Äsろの"
+	line "ポmポを　dwzÄわ"
+	done
+
+SilentHillHouseNPCText4:
+	ld hl, wd41e
+	bit 2, [hl]
+	jr nz, .jump
+	ld hl, wd41e
+	set 2, [hl]
+	ld hl, SilentHillHouseTextString5
+	call OpenTextbox
+	call WaitBGMap
+	ld hl, SilentHillHouseTextString6
+	jr .skip
+.jump
+	ld hl, SilentHillHouseTextString7
+.skip
+	call OpenTextbox
+	ret
+
+SilentHillHouseTextString5:
+	text "Il『üüü"
+	line "üんだ　<PLAYER>　じüsw!"
+
+	para "vれは　Ö<MN>←ö　rの-"
+	line"が←こtの　し<PK>yだsを"
+	cont "vしuに　xäるんだ!"
+
+	para "u←　;mプ?"
+	line "そtw　そんü　syそyr　しäÄü"
+	cont "わw←Ä"
+	cont "Th-U-ギAを　wしädü"
+
+	para "MimTに　;mプの　FNmTを　"
+	line "さしこんで←ö⋯⋯"
+	cont "vし　これで　;mプが　dれるぞ!"
+	done
+
+SilentHillHouseTextString6:
+	text "rし　E-gドにsyüら"
+	line ";KG←ä　sÜに　rtöss"
+
+	para "vれの　örだÖで"
+	line "すごs　ポIbl　;VAだ!"
+	cont "x←ö　vまuの"
+	cont "äだすzを　しäyれるぜ"
+	done
+
+SilentHillHouseTextString7:
+	text "Il『<PLAYER>"
+	line "E-Gドはwせに　dこまれä"
+	cont "ポIblずwんを　Üyるんだ←ä?"
+	cont "すごsじüsw　がんばれv"
+	done

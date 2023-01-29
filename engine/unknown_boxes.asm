@@ -60,24 +60,24 @@ RecievePokemonText:
 
 	db $01, $26, $CD
 
-	text "を　てにいれた！@"
+	text "を äにsれÄ!@"
 
 	db $0B, "@"
 
 BoxCantHoldText:
-	text "#を　もちきれないので"
-	line "<PC>の　ボックス@"
+	text "#を rÖxれüsので"
+	line "<PC>の ボmHM@"
 	db $01, $31, $CD
-	text "　に"
+	text " に"
 	cont "@"
 	db $01, $17, $DF
-	text "を　てんそうした！"
+	text "を äんそtしÄ!"
 	done
 
 BoxFullText:
-	text "#を　もちきれません！"
-	para "ボックスも　いっぱいで"
-	line "てんそうできません！"
-	para "#センターなどで"
-	line "ボックスを　かえてきて　ください"
+	text "#を rÖxれません!"
+	para "ボmHMr s←ぱsで"
+	line "äんそtでxません!"
+	para "#NlP-üどで"
+	line "ボmHMを wuäxä yださs"
 	done

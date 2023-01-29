@@ -92,5 +92,5 @@ Function3920::
 	jp Init
 
 .text:
-	text "つぎは　がんばるぞ！！"
+	text "Üぎは がんばるぞ!!"
 	done

@@ -85,7 +85,7 @@ SetClockDialog_PrintUpDownArrows:
 	ret
 
 .clear_arrows
-	ld a, "　"
+	ld a, " "
 	hlcoord 18, 14
 	ld [hl], a
 	hlcoord 18, 16
@@ -115,7 +115,7 @@ SetClockDialog_AskDay:
 	ret
 
 .DayString:
-	db "ようび@"
+	db "vtび@"
 
 SetClockDialog_ChooseDayOfWeek:
 	hlcoord 9, 15
@@ -330,19 +330,19 @@ SetClockDialog_PrintNumber:
 	ret
 
 SetClockDialog_WhatDayIsIt:
-	text "きょうは　なんようび　だったかの？"
+	text "x<MN>tは üんvtび だ←Äwの?"
 	done
 
 SetClockDialog_HowManyHours:
-	text "いまは　なんじ　じゃ？"
+	text "sまは üんじ じ?"
 	done
 
 SetClockDialog_HowManyMinutes:
 	deciram wStartHour, 1, 2
-	text "じ　なんふん　かな？"
+	text "じ üんふん wü?"
 	done
 
 SetClockDialog_ConfirmTimeDate:
-	text "　　　ようび　　　じ　　　ふん"
-	line "ほんとうに　あっているかの？"
+	text "   vtび   じ   ふん"
+	line "ほんötに r←äsるwの?"
 	done

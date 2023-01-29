@@ -3185,13 +3185,13 @@ Function6445:
 
 Text658c:
 	text_from_ram wcd11
-	text "は　あたらしく"
+	text "は rÄらしy"
 	line ""
 	text_end
 
 Text6599:
 	text_from_ram wStringBuffer2
-	text "を　おぼえた！"
+	text "を vぼuÄ!"
 	text_end
 
 Text65a5:
@@ -3200,58 +3200,59 @@ Text65a5:
 	text_end
 
 Text65a8:
-	text "どの　わざを"
-	next "わすれさせたい？"
+	text "Which move should"
+	next "be forgotten?"
 	done
 
 Text65b9:
-	text "それでは<⋯⋯>　"
+	text "それでは<……> "
 	text_end
 
 Text65c1:
+	text "Stop learning"
+	line "@"
 	text_from_ram wStringBuffer2
-	text "を"
-	line "おぼえるのを　あきらめますか？"
+	text "?"
 	done
 
 Text65d7:
 	text_from_ram wcd11
-	text "は　"
+	text "は "
 	text_end
 
 Text65de:
 	text_from_ram wStringBuffer2
 	text "を"
-	line "おぼえずに　おわった！"
+	line "vぼuずに vわ←Ä!"
 	prompt
 
 Text65f0:
 	text_from_ram wcd11
-	text "は　あたらしく"
+	text "は rÄらしy"
 	line ""
 	text_end
 
 Text65fd:
 	text_from_ram wStringBuffer2
-	text "を　おぼえたい<⋯⋯>！"
-	para "しかし　"
+	text "を vぼuÄs<……>!"
+	para "しwし "
 	text_end
 
 Text6610:
 	text_from_ram wcd11
-	text "は　わざを　４つ"
-	line "おぼえるので　せいいっぱいだ！"
+	text "は わざを 4Ü"
+	line "vぼuるので せss←ぱsだ!"
 	para ""
 	text_end
 
 Text662e:
 	text_from_ram wStringBuffer2
-	text "の　かわりに"
-	line "ほかの　わざを　わすれさせますか？"
+	text "の wわりに"
+	line "ほwの わざを わすれさせますw?"
 	done
 
 Text664b:
-	text "１　２の　<⋯⋯>"
+	text "1, 2 and…@"
 	text_end
 
 Text6653:
@@ -3265,7 +3266,7 @@ Text6653:
 	ret
 
 Text6661: 
-	text "　ポカン！"
+	text " ポFl!"
 	text_end
 
 Text6668:
@@ -3276,19 +3277,19 @@ Text6668:
 
 Text666c:
 	text_from_ram wcd11
-	text "は　"
+	text "は "
 	text_end
 
 Text6673:
 	text_from_ram wStringBuffer1
 	text "の"
-	line "つかいかたを　きれいに　わすれた！"
-	para "そして<⋯⋯>！"
+	line "ÜwswÄを xれsに わすれÄ!"
+	para "そしä<……>!"
 	prompt
 
 Text6691:
-	text "それは　たいせつなわざです"
-	line "わすれさせることは　できません！"
+	text "それは ÄsせÜüわざです"
+	line "わすれさせるこöは でxません!"
 	prompt
 
 Function66b1:
@@ -3411,7 +3412,7 @@ Function6713:
 Text6788:
 	text_from_ram wStringBuffer1
 	text "に"
-	line "ニックネームを　つけますか？"
+	line "VmHX-]を Üzますw?"
 	done
 
 Function679d:
@@ -3981,7 +3982,7 @@ Function7a93:
 	ld [wc40e], a
 	coord hl, 1, 16
 	ld [hl], $ec
-	coord hl, 7, 16
+	coord hl, 10, 16
 	ld [hl], $ec
 	ld a, [wc40a]
 	ld [wTileMapBackup], a
@@ -4038,7 +4039,7 @@ Function7a93:
 	ld b, $01
 	ld c, $0b
 	call DrawTextBox
-	coord hl, 7, 16
+	coord hl, 10, 16
 	ld de, Text7c17
 	call PlaceString
 	ld a, [wActiveFrame]
@@ -4048,30 +4049,30 @@ Function7a93:
 	ret
 
 Text7bad:
-	db "はなしの　はやさ"
-	next "　はやい　　　　ふつう　　　　おそい"
+	db "TEXT SPEED"
+	next " FAST   MID   SLOW"
 	text_end
 
 Text7bc9:
-	db "せんとう　アニメーション"
-	next "　じっくり　みる　　とばして　みる"
+	db "BATTLE SCENE"
+	next " ON       OFF    "
 	text_end
 
 Text7be8:
-	db "しあいの　ルール"
-	next "　いれかえタイプ　　かちぬきタイプ"
+	db "BATTLE STYLE"
+	next " SHIFT    SET    "
 	text_end
 
 Text7c03:
-	db "　モノラル　　　　　ステレオ"
+	db " MONO     STEREO"
 	text_end
 
 Text7c12:
-	db "　おわり"
+	db " CANCEL"
 	text_end
 
 Text7c17:
-	db "　わく　を　かえる　"
+	db " FRAME"
 	text_end
 
 Table7c22:

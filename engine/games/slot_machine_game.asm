@@ -248,7 +248,7 @@ Slots_DisplayBiasValue:
 
 ; print second digit
 	and $f
-	add "０"
+	add "0"
 	hlcoord 1, 0
 	ld [hl], a
 
@@ -256,7 +256,7 @@ Slots_DisplayBiasValue:
 	ld a, e
 	swap a
 	and $F
-	add "０"
+	add "0"
 	hlcoord 0, 0
 	ld [hl], a
 	ret
@@ -1808,16 +1808,16 @@ Slots_AskBet:
 	ret
 
 .BetHowManyCoinsText:
-	text "コインを"
-	line "なんまい　かけますか？"
+	text "JBlを"
+	line "üんまs wzますw?"
 	done
 
 .SlotsStartText:
-	text "スタート！"
+	text "MP-T!"
 	done
 
 .NotEnoughCoinsText:
-	text "コインが　たりません！"
+	text "JBlが Äりません!"
 	prompt
 
 .MenuHeader:
@@ -1829,9 +1829,9 @@ Slots_AskBet:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "３まい@"
-	db "２まい@"
-	db "１まい@"
+	db "3まs@"
+	db "2まs@"
+	db "1まs@"
 
 Slots_AskPlayAgain:
 	ld hl, wCoins
@@ -1857,13 +1857,13 @@ Slots_AskPlayAgain:
 	ret
 
 .RanOutOfCoinsText:
-	text "コインが"
-	line "なくなっちゃった<⋯⋯>"
+	text "JBlが"
+	line "üyü←Ö←Ä<……>"
 	done
 
 .PlayAgainText:
-	text "もう　１かい"
-	line "あそびますか？"
+	text "rt 1ws"
+	line "rそびますw?"
 	done
 
 Slots_GetPayout:
@@ -1933,12 +1933,12 @@ Slots_PayoutText:
 	ret
 
 .PayoutStrings:
-	dbw "３００@", .ClearBias
-	dbw "５０@@", .Blank
-	dbw "６@@@", .Blank
-	dbw "８@@@", .Blank
-	dbw "１０@@", .Blank
-	dbw "１５@@", .Blank
+	dbw "300@", .ClearBias
+	dbw "50@@", .Blank
+	dbw "6@@@", .Blank
+	dbw "8@@@", .Blank
+	dbw "10@@", .Blank
+	dbw "15@@", .Blank
 
 .Text_PrintPayout:
 	start_asm
@@ -1960,14 +1960,14 @@ endr
 	ret
 
 .LinedUpText:
-	text "が　そろった！"
-	line "コイン　@"
+	text "が そろ←Ä!"
+	line "JBl @"
 	text_from_ram wStringBuffer2
-	text "まい　いただき！"
+	text "まs sÄだx!"
 	done
 
 .DarnText:
-	text "はずれー"
+	text "はずれ-"
 	done
 
 .ClearBias:

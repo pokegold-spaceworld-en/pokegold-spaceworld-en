@@ -14,10 +14,10 @@ SetTime:
 
 Textdbaf4:
 	deciram wStartHour, 1, 2
-	text "　じ"
+	text " じ"
 	line "@"
 	deciram wStartMinute, 1, 2
-	text "　ふん？@"
+	text " ふん?@"
 	start_asm
 .loop
 	call ClearJoypad
@@ -74,8 +74,8 @@ Textdbaf4:
 
 Textdbb6c:
 	deciram wStartHour, 1, 2
-	text "　じ"
+	text " じ"
 	line "@"
 	deciram wStartMinute, 1, 2
-	text "　ふん？"
+	text " ふん?"
 	done
